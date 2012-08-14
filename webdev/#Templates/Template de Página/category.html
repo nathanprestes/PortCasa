@@ -1,0 +1,71 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:vtex="http://www.vtex.com.br/2009/vtex-common" xmlns:vtex.cmc="http://www.vtex.com.br/2009/vtex-commerce">
+<head>
+<title>Loja Modelo</title>
+<vtex:metaTags/>
+<link rel="stylesheet" type="text/css" href="~/arquivos/general.css" />
+
+<vtex:template id="scripts" />
+
+<script type="text/javascript">
+		
+	$(document).ready(function(){
+		$('#banner1').cycle({ 
+			fx:     'fade', 
+			speed:   1000, 
+			timeout: 3000, 
+			pause:   1,
+			next:   '#nextBanner1', 
+			prev:   '#prevBanner1' 
+		});
+	});
+	
+</script>
+<!--  SubTemplate: pngIeFix -->
+<vtex:template id="pngIeFix" />
+<!-- /SubTemplate: pngIeFix -->
+</head>
+
+<body>
+
+<!--  SubTemplate: header -->
+<vtex:template id="header" />
+<!-- /SubTemplate: header -->
+
+<div id="all">
+
+	<div id="sideBar">
+		<div id="departmentNavigator" class="navigator">
+			<!--  Controle: navegador de departamento -->
+			<h3>Categorias</h3>
+			<vtex.cmc:departmentNavigator />
+			<!-- /Controle: navegador de departamento -->
+		</div>
+
+		<!--  SubTemplate: hotsites -->
+		<vtex:template id="hotsites" />
+		<!-- /SubTemplate: hotsites -->
+	</div>
+	<div id="content">
+		<div id="topBanners">
+			<!--  placeholder -->
+			<vtex:contentPlaceHolder id="PHbanner1" />
+			<!-- /placeholder -->
+		</div>
+
+		<div id="collections">
+			<div class="collectionWrap">
+				<!--  Controle: Resultado da busca / Lista de produtos -->
+				<vtex.cmc:searchResult layout="85e23371-f0a2-43c2-a6ac-e5464c462fb3" itemCount="12" columnCount="3" />
+				<!--  /Controle: Resultado da busca / Lista de produtos -->
+			</div>
+		</div>
+	</div>
+</div>
+
+<!--  SubTemplate: footer -->
+<vtex:template id="footer" />
+<!-- /SubTemplate: footer -->
+
+</body>
+</html>

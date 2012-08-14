@@ -1,0 +1,1321 @@
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td, legend {
+    margin: 0;
+    padding: 0;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+fieldset-img {
+    border: 0 none;
+}
+address, caption, cite, code, dfn, th, var {
+    font-style: normal;
+    font-weight: normal;
+}
+ol, ul {
+    list-style: none outside none;
+}
+caption, th {
+    text-align: left;
+}
+q:before, q:after {
+    content: "";
+}
+abbr, acronym {
+    border: 0 none;
+}
+hr {
+    display: none;
+}
+img {
+    border: medium none;
+}
+em {
+    font-style: normal;
+}
+fieldset {
+    border: medium none;
+}
+body {
+    font-size: 11px;
+    /*line-height: 1.5em;*/
+}
+body, input, select, textarea {
+    color: #333333;
+    font-family: "Trebuchet MS",Verdana,Geneva,sans-serif;
+}
+input, select, textarea {
+    border: 1px solid #999999;
+    font-size: 10px;
+    padding: 1px 2px;
+}
+select {
+    padding: 0;
+}
+a {
+    color: #333333;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+#textContent h3 {
+    font-weight: 700;
+    margin-bottom: 17px;
+}
+#all, #topBar div {
+    margin: 0 auto;
+    width: 986px;
+}
+#content {
+    float: right;
+    padding-bottom: 34px;
+    position: relative;
+    width: 780px;
+}
+#sideBar {
+    float: left;
+    margin-left: 8px;
+    width: 178px;
+}
+.home #sideBar {
+    float: left;
+    margin: 0 10px 0 8px;
+}
+.home #sideBar h3 {
+    background: url("/arquivos/sprite_menu.png") no-repeat scroll 0 0 transparent;
+    border: 1px solid black;
+    height: 25px;
+    text-indent: -9999px;
+    width: 176px;
+}
+.home #sideBar .menu_home {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    width: 176px;
+}
+.home #sideBar .menu_home li {
+    border-bottom: 1px solid;
+    font-size: 15px;
+    margin-left: 4px;
+    width: 167px;
+}
+.home #sideBar .menu_home li a {
+    background: url("/arquivos/sprite_menu.png") no-repeat scroll 0 0 transparent;
+    display: block;
+    padding: 16px 10px 16px 45px;
+    width: 118px;
+}
+.home #sideBar .menu_home li.travesseiros a {
+    background-position: -5px -25px;
+}
+.home #sideBar .menu_home li.travesseiros a:hover {
+    background-position: -190px -25px;
+}
+.home #sideBar .menu_home li.toalhas_de_banho a {
+    background-position: -5px -73px;
+}
+.home #sideBar .menu_home li.toalhas_de_banho a:hover {
+    background-position: -190px -73px;
+}
+.home #sideBar .menu_home li.toalhas_de_mesa a {
+    background-position: -5px -121px;
+}
+.home #sideBar .menu_home li.toalhas_de_mesa a:hover {
+    background-position: -190px -121px;
+}
+.home #sideBar .menu_home li.lencois a {
+    background-position: -5px -171px;
+}
+.home #sideBar .menu_home li.lencois a:hover {
+    background-position: -190px -171px;
+}
+.home #sideBar .menu_home li.edredons a {
+    background-position: -5px -218px;
+}
+.home #sideBar .menu_home li.edredons a:hover {
+    background-position: -190px -218px;
+}
+.home #sideBar .menu_home li.tapetes a {
+    background-position: -5px -268px;
+}
+.home #sideBar .menu_home li.tapetes a:hover {
+    background-position: -190px -268px;
+}
+.home #sideBar .menu_home li.roupoes a {
+    background-position: -5px -315px;
+}
+.home #sideBar .menu_home li.roupoes a:hover {
+    background-position: -190px -315px;
+}
+.home #sideBar .menu_home li.utilidades_d a {
+    background-position: -5px -363px;
+}
+.home #sideBar .menu_home li.utilidades_d a:hover {
+    background-position: -190px -363px;
+}
+.home #sideBar .menu_home li.copos_e_tacas a {
+    background-position: -5px -417px;
+}
+.home #sideBar .menu_home li.copos_e_tacas a:hover {
+    background-position: -190px -417px;
+}
+#sideBar #sideInstitucional a, #sideBar #sideServicos a {
+    font-size: 12px;
+    line-height: 1.7;
+}
+#textContent {
+    margin: 0 18px 0 4px;
+}
+#textContent p {
+    margin-bottom: 17px;
+}
+#topBar p a, #cart, #cart a, #topNewsletter p, #sideBar h2, .navigator h3 a, .navigator h5, .vitrine .newPrice, #collectionNavigation .selected a, #footer h2, .pager, .flag.lancamento, #pnlNaoSeguro em a, #lnkLimparHistorico, #history h3 {
+    color: #195073;
+}
+#topNewsletter p, #sideBar h2, .navigator h3, .navigator h5, .flag.lancamento, .vitrine h2 {
+    font-size: 13px;
+    font-weight: 700;
+}
+.imgRp {
+    display: block;
+    text-indent: -999em;
+}
+#ajaxBusy {
+    position: absolute;
+}
+#title a, #network a, .vitrine .quickView a, #breadCrumbs li, .vitrine .category a, .vitrine .brand a, #footer h2, #history h3 {
+    background-image: url("/arquivos/sprite-general.gif");
+    background-repeat: no-repeat;
+}
+#topBar {
+    background: none repeat scroll 0 0 #EFEFEF;
+    font-size: 10px;
+}
+#topBar div {
+    overflow: auto;
+    padding-top: 2px;
+}
+#topBar .ajax-content-loader, #topBar .ajax-content-loader div {
+    color: #999999;
+    float: left;
+    padding-top: 0;
+    width: auto;
+}
+#topBar p {
+    color: #999999;
+    float: left;
+}
+#topBar p, #topBar .ajax-content-loader div {
+    margin-left: 12px;
+}
+#topBar p a, #topBar .ajax-content-loader a {
+    margin-left: 4px;
+    text-decoration: underline;
+}
+#topBar strong {
+    font-weight: normal;
+}
+#topBar ul {
+    float: right;
+    margin-right: 5px;
+}
+#topBar ul li {
+    float: left;
+}
+#topBar ul li a {
+    background: url("/arquivos/tabs-bg.gif") no-repeat scroll right 2px transparent;
+    color: #666666;
+    padding: 0 7px;
+}
+#topBar ul li.last a {
+    background: none repeat scroll 0 0 transparent;
+}
+#pnlNaoSeguro a#lnkLogOut {
+    color: #999999;
+    margin: 0;
+}
+#bg_header {
+    background: url("/arquivos/bg_header.jpg") repeat-x scroll 0 0 transparent;
+    width: 100%;
+}
+#contact_bar p {
+    background: url("/arquivos/sep_contactBar.png") no-repeat scroll 100% center transparent;
+    float: left;
+    font-weight: bold;
+    padding: 0 20px;
+    text-align: right;
+}
+#contact_bar p.first {
+    padding-left: 0;
+}
+#contact_bar p.last {
+    background: none repeat scroll 0 0 transparent;
+    border-right: medium none;
+}
+#contact_bar p.menu_topbar {
+    background: url("http://develop-portcasa.vtexcommerce.com.br/arquivos/bullet_arrow.png") no-repeat scroll 0 50% transparent;
+    border: medium none;
+    padding: 0 15px 0 10px;
+}
+#header {
+    height: 97px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    width: 980px;
+}
+h1.title {
+    float: left;
+    height: 51px;
+    padding-top: 20px;
+    width: 215px;
+}
+#contact_bar {
+    color: #FFFFFF;
+    position: absolute;
+    right: 0;
+    top: 10px;
+}
+#title a {
+    background-position: 8px 5px;
+    color: #000000;
+    float: left;
+    font: italic 22px "Times New Roman",Times,serif;
+    height: 51px;
+    margin: 3px 0 2px;
+    padding: 22px 0 0 232px;
+    width: 352px;
+}
+#title a:hover {
+    text-decoration: none;
+}
+#title a span {
+    display: none;
+}
+#cart .title {
+}
+#cart .title, #cart li {
+    display: none;
+}
+#cart li.amount-items, #cart a {
+    background-position: right -200px;
+    margin-top: 6px;
+    padding-right: 43px;
+    position: absolute;
+    right: 0;
+    text-align: right;
+}
+#cart li.amount-items {
+    clear: both;
+    color: #FFFFFF;
+    display: block;
+    float: left;
+    margin: 0;
+    padding: 15px 0 0 30px;
+    position: static;
+    text-transform: uppercase;
+    width: 80px;
+}
+#cart a {
+    color: #FFFFFF;
+    font-weight: 700;
+    height: 40px;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 114px;
+}
+#menu {
+    background: url("/arquivos/bg_menu.jpg") repeat scroll 0 0 transparent;
+    border-radius: 3px 3px 3px 3px;
+    clear: both;
+    height: 42px;
+    margin: -5px auto 0;
+    overflow: hidden;
+    width: 980px;
+}
+#menu a {
+    color: #FFFFFF;
+    font-size: 13px;
+}
+#menu h3 {
+    background: url("/arquivos/sprite_icons.png") no-repeat scroll -134px -179px transparent;
+    float: left;
+}
+#menu h3 a, #menu h3 a, #linkVipClub {
+    color: #FFFFFF;
+    float: left;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 12px 14px 13px 10px;
+}
+#menu h3 a:hover {
+    text-decoration: none;
+}
+#menu ul {
+    -moz-border-bottom-colors: none;
+    -moz-border-image: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: none repeat scroll 0 0 white;
+    border-color: -moz-use-text-color #565554 #565554;
+    border-right: 1px solid #565554;
+    border-style: none solid solid;
+    border-width: medium 1px 1px;
+    display: none;
+    font-weight: bold;
+    margin: 42px 0 0 8px;
+    padding: 5px;
+    position: absolute;
+}
+#menu ul a {
+    color: #790A11;
+    display: block;
+    padding: 1px 4px 0;
+    position: relative;
+}
+#menu ul li {
+    list-style: disc inside none;
+}
+#menu ul .lista-completa {
+    border-top: 1px dashed #FFFFFF;
+    margin-top: 8px;
+    padding-top: 2px;
+}
+#menu #linkVipClub {
+    color: #EDEDED;
+    float: right;
+    padding-left: 8px;
+    padding-right: 11px;
+}
+#search {
+    float: left;
+    left: 25px;
+    position: relative;
+    top: 45px;
+}
+#diferenciaisHeader {
+    margin: 10px auto;
+    padding-left: 5px;
+    width: 980px;
+}
+#diferenciaisHeader a {
+    padding: 0 13px;
+}
+.search legend, .search label, .search select {
+    display: none;
+}
+.search .fulltext-search-box {
+    background: url("/arquivos/bg_search.png") no-repeat scroll center top transparent;
+    border: medium none;
+    font-size: 14px;
+    height: 25px;
+    outline: medium none;
+    padding: 5px 40px 6px 5px;
+    width: 450px;
+}
+.search .btn-buscar {
+    background: none repeat scroll 0 0 transparent;
+    border: medium none;
+    cursor: pointer;
+    height: 33px;
+    left: -32px;
+    position: relative;
+    text-indent: -99999px;
+    top: -2px;
+    width: 30px;
+}
+#chat_online {
+    background: url("/arquivos/sprite_icons.png") no-repeat scroll -10px -5px transparent;
+    float: left;
+    height: 29px;
+    left: 30px;
+    position: relative;
+    top: 50px;
+    width: 66px;
+}
+#cart {
+    background: url("/arquivos/sprite_icons.png") no-repeat scroll -117px -143px transparent;
+    float: left;
+    height: 35px;
+    left: 45px;
+    position: relative;
+    top: 50px;
+    width: 145px;
+}
+.ui-autocomplete {
+    background: none repeat scroll 0 0 white;
+    padding: 5px;
+    position: absolute !important;
+    top: 75px !important;
+    width: 300px;
+}
+.ui-autocomplete li {
+    margin-bottom: 3px;
+}
+.ui-autocomplete img {
+    margin-right: 5px;
+    vertical-align: middle;
+}
+#prevBanner1 {
+    background: url("/arquivos/sprite_icons.png") no-repeat scroll -234px -294px transparent;
+    cursor: pointer;
+    height: 59px;
+    left: 4px;
+    position: absolute;
+    text-indent: -9999px;
+    top: 210px;
+    width: 49px;
+    z-index: 100;
+}
+#nextBanner1 {
+    background: url("/arquivos/sprite_icons.png") no-repeat scroll -234px -354px transparent;
+    cursor: pointer;
+    height: 59px;
+    position: absolute;
+    right: 189px;
+    text-indent: -9999px;
+    top: 210px;
+    width: 49px;
+    z-index: 100;
+}
+.home #topBanners {
+    float: left;
+    margin: 0 0 8px 8px;
+    position: relative;
+    width: 775px;
+}
+#bottomBanners {
+    margin-top: 18px;
+    overflow: auto;
+}
+.home #bottomBanners {
+    margin-left: 8px;
+}
+.box-banner img {
+    display: block;
+}
+#banner2, #banner3, #topNewsletter {
+    float: right;
+}
+#banner1 {
+    float: left;
+}
+#banner2 {
+    margin-bottom: 8px;
+}
+#banner3 {
+    margin-bottom: 7px;
+}
+#bannerBottom1 {
+    float: left;
+}
+#bannerBottom2 {
+    float: right;
+    margin-top: 11px;
+}
+#banner6 {
+    padding: 6px 0 2px;
+}
+#banner6 img {
+    margin: 0 auto;
+}
+#topNewsletter div {
+    border: 1px solid #999999;
+}
+#topNewsletter fieldset {
+    background: none repeat scroll 0 0 #EAE9E8;
+    height: 100px;
+    margin: 3px;
+    overflow: hidden;
+    padding: 0 5px 0 7px;
+}
+#topNewsletter h3 {
+    display: none;
+}
+#topNewsletter p {
+    margin: 9px 0 5px;
+}
+#topNewsletter p:after {
+    content: ".";
+}
+#topNewsletter input {
+    display: block;
+    float: left;
+    margin: 4px 5px 0 0;
+}
+#topNewsletter .newsletter-client-name {
+    width: 164px;
+}
+#topNewsletter .newsletter-client-email {
+    width: 237px;
+}
+#brands {
+    float: left;
+    width: 986px;
+}
+#brands li {
+    display: block;
+    float: left;
+    height: 47px;
+    list-style: none outside none;
+    margin: 0 5px;
+    width: 120px;
+}
+#brands .box-banner {
+    float: left;
+    padding: 14px;
+}
+.jcarousel-container.jcarousel-container-horizontal {
+    margin: 0 auto;
+    padding: 0 20px;
+    width: 900px;
+}
+.jcarousel-clip.jcarousel-clip-horizontal {
+    overflow: hidden;
+}
+.jcarousel-prev {
+    background: url("/arquivos/sprite_icons.png") no-repeat scroll -312px -304px transparent;
+    height: 43px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 23px;
+}
+.jcarousel-next {
+    background: url("/arquivos/sprite_icons.png") no-repeat scroll -312px -361px transparent;
+    height: 43px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 25px;
+}
+.prateleira .prateleira {
+    border: medium none;
+}
+#collections {
+    position: relative;
+    width: 100%;
+}
+.searchResultsTime, .filterBy, .compare {
+    display: none;
+}
+.vitrine {
+    clear: both;
+    position: relative;
+}
+.prateleira .vitrine {
+    left: 0;
+    margin-top: 6px;
+}
+.vitrine .vitrine li {
+    float: left;
+    margin-right: 25px;
+    padding: 34px 10px 0 0;
+    position: relative;
+    width: 200px;
+}
+.vitrine .vitrine li.last {
+    margin-right: 0;
+}
+.vitrine li .data {
+    margin: 8px 0 15px;
+}
+.vitrine li .data h3 {
+    margin-bottom: 10px;
+}
+.vitrine li .data h3 a {
+    color: #4E4E4E;
+    font-size: 12px;
+    font-weight: bold;
+}
+.vitrine li .price a span {
+    color: #666666;
+    font-size: 12px;
+    font-weight: bold;
+}
+.vitrine li .price a .installment {
+    color: #C70A00;
+    font-size: 18px;
+}
+.vitrine li .price a .qtd_parcelas {
+    color: #C70A00;
+}
+.vitrine li {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #C0C0C0;
+    float: left;
+    margin: 15px;
+    text-align: center;
+    width: 230px;
+}
+.vitrine .highlight a, .vitrine .price a {
+    text-decoration: none;
+}
+.vitrine img {
+    height: 160px;
+    width: 160px;
+}
+.vitrine .price {
+    bottom: 30px;
+    clear: both;
+    font-size: 12px;
+    height: 51px;
+    position: absolute;
+    width: 163px;
+}
+.vitrine .oldPrice {
+    text-decoration: line-through;
+}
+.vitrine .newPrice {
+    font-weight: 700;
+}
+.vitrine .quickView a {
+    background-color: #DDDDDD;
+    background-position: -200px -110px;
+    border: 1px solid #CCCCCC;
+    color: #666666;
+    font-size: 9px;
+    line-height: 1em;
+    margin: 2px 0 1px -2px;
+    padding: 1px 10px 4px 19px;
+    position: absolute;
+}
+.vitrine .quickView a:hover {
+    text-decoration: none;
+}
+.vitrine .category {
+    margin-top: 20px;
+}
+.vitrine .installment, .vitrine .category a, .vitrine .brand a {
+    display: block;
+    font-size: 10px;
+}
+.vitrine .category a, .vitrine .brand a {
+    background-position: 0 -280px;
+    line-height: 1.45em;
+    padding-left: 12px;
+}
+.discount {
+    color: #195073;
+    font: italic 700 17px "Times New Roman",Times,serif;
+    margin: 2px 0;
+    overflow: hidden;
+}
+.discount .flag {
+    float: left;
+    margin-right: 8px;
+}
+.flag.exclusivo {
+    background: url("/arquivos/flag-exclusivo.gif") repeat scroll 0 0 transparent;
+    height: 29px;
+    text-indent: -999em;
+    width: 166px;
+}
+.flag.lancamento {
+    font-size: 19px;
+}
+.vitrine .flag.vip---5- {
+    color: #0F0D0E;
+}
+.vitrine .flag.exclusivo {
+    left: 2px;
+    position: absolute;
+    top: 0;
+}
+.vitrine .flag.lancamento {
+    background: url("/arquivos/flag-lancamento.png") repeat scroll 0 0 transparent;
+    height: 96px;
+    position: absolute;
+    right: 0;
+    text-indent: -999em;
+    top: 149px;
+
+    width: 114px;
+}
+.prateleira {
+    background: none repeat scroll 0 0 #F3F3F3;
+    float: left;
+    width: 780px;
+}
+.vitrine .prateleira li {
+    background: url("/arquivos/bg_produto_vitrine.jpg") no-repeat scroll center top transparent;
+    border: medium none;
+    float: left;
+    height: 286px;
+    padding: 10px;
+    position: relative;
+    width: 164px;
+}
+#ambientes {
+    background: none repeat scroll 0 0 #F0F0F0;
+    float: left;
+    height: 903px;
+    padding: 10px;
+    width: 966px;
+}
+#ambientes_sombra {
+    background: url("/arquivos/ambientes_sombra.jpg") no-repeat scroll center top transparent;
+    float: left;
+    height: 7px;
+    margin-bottom: 15px;
+    width: 986px;
+}
+#ambientes > ul > li {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #C0C0C0;
+    float: left;
+    margin: 5px;
+    padding: 8px 0;
+    text-align: center;
+    width: 230px;
+}
+#ambientes > ul > li.ambiente_top {
+    position: relative;
+    top: -69px;
+}
+#ambientes > ul > li.last {
+    margin-right: 0;
+}
+#ambientes .title {
+    margin: 15px 0;
+    text-transform: uppercase;
+}
+#ambientes .title, #ambientes .title a {
+    color: #333333;
+    font-size: 18px;
+}
+#ambientes ul li ul li {
+    padding: 5px 0;
+}
+#ambientes ul li ul {
+    margin: 0 auto 10px;
+    width: 155px;
+}
+#ambientes ul li ul li, #ambientes ul li ul li a {
+    border-bottom: 1px solid #CCCCCC;
+    color: #999999;
+    font-size: 14px;
+}
+.pager {
+    clear: both;
+    overflow: auto;
+}
+.pager ul {
+    float: right;
+    padding: 2px 5px;
+}
+.pager li {
+    cursor: pointer;
+    float: left;
+    margin: 0 5px;
+    padding: 1px 7px 2px;
+    width: auto;
+}
+.pager .pages li {
+    background: none repeat scroll 0 0 #333333;
+    border: medium none;
+    color: #333333;
+    font-size: 14px;
+    font-weight: bold;
+    height: 20px;
+    padding: 0;
+    width: 20px;
+}
+.pager .pages li.first, .pager .pages li.previous, .pager .pages li.next, .pager .pages li.last, .pager .pages li.pgCurrent {
+    background: url("/arquivos/sprite_icons.png") no-repeat scroll 0 0 transparent;
+    text-indent: -99999px;
+}
+.pager .pages li.pgCurrent.page-number {
+    padding-top: 2px;
+}
+.pager .pages li.pgCurrent {
+    background-position: -324px -73px;
+    text-indent: 0;
+}
+.pager .pages li.first {
+    background-position: -311px -97px;
+}
+.pager .pages li.first:hover {
+    background-position: -311px -120px;
+}
+.pager .pages li.previous {
+    background-position: -311px -21px;
+}
+.pager .pages li.previous:hover {
+    background-position: -311px -47px;
+}
+.pager .pages li.next {
+    background-position: -337px -21px;
+}
+.pager .pages li.next:hover {
+    background-position: -337px -47px;
+}
+.pager .pages li.last {
+    background-position: -337px -97px;
+}
+.pager .pages li.last:hover {
+    background-position: -337px -120px;
+}
+.pager.top {
+    left: 0;
+    position: absolute;
+    top: -30px;
+}
+.pager.bottom {
+    float: left;
+    height: 30px;
+    text-align: center;
+    width: 780px;
+}
+.pager.bottom ul {
+    float: none;
+    height: 22px;
+    margin: 0 auto;
+}
+.resultado-busca-filtro {
+    margin: 8px 0;
+    overflow: hidden;
+}
+.resultado-busca-filtro fieldset, .resultado-busca-filtro fieldset, .resultado-busca-filtro p {
+    float: right;
+    margin-right: 20px;
+}
+.btn-comparar {
+    margin-left: 15px;
+}
+.resultado-busca-filtro label, .resultado-busca-filtro select {
+    color: #333333;
+    font-size: 14px;
+}
+.resultado-busca-filtro label {
+    font-weight: bold;
+}
+#collectionNavigation {
+    overflow: hidden;
+    padding-bottom: 4px;
+}
+#collectionNavigation li {
+    float: left;
+}
+#collectionNavigation a {
+    background: url("/arquivos/tabs-bg.gif") no-repeat scroll right 5px transparent;
+    display: block;
+    font-size: 15px;
+    padding: 3px 9px;
+}
+#collectionNavigation .last a {
+    background: none repeat scroll 0 0 transparent;
+}
+#sideBar h2, .navigator h3, .navigator h5 {
+    background: none repeat scroll 0 0 #EAE9E8;
+    margin-bottom: 9px;
+    padding: 5px 8px 9px;
+}
+#sideBar .linkList ul, .navigator ul, .navigator h4 {
+    margin-left: 10px;
+}
+#sideBar .linkList a {
+    font-size: 10px;
+}
+#sideBar .sideBarItem, .navigator ul, .navigator {
+    margin-bottom: 16px;
+}
+#departmentNavigator {
+    -moz-border-bottom-colors: none;
+    -moz-border-image: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: black black -moz-use-text-color;
+    border-style: solid solid none;
+    border-width: 1px 1px medium;
+}
+#sideBar #departmentNavigator > h3 {
+    background: url("/arquivos/sprite_menu.png") no-repeat scroll 0 -480px transparent;
+    border-bottom: 1px solid black;
+    height: 25px;
+    margin: 0;
+    padding: 0;
+    text-indent: -9999px;
+}
+#sideBar #departmentNavigator .menu-departamento h3 span {
+    cursor: pointer;
+    display: block;
+    height: 20px;
+    left: 0;
+    position: absolute;
+    top: 14px;
+    width: 20px;
+}
+#sideBar #departmentNavigator .menu-departamento h3 {
+    background: url("/arquivos/sprite_menu.png") no-repeat scroll -2px -516px transparent;
+    font-weight: normal;
+    margin: 0;
+    padding: 15px 10px 15px 20px;
+    position: relative;
+}
+#sideBar #departmentNavigator .menu-departamento h3 a {
+    color: black;
+    font-size: 15px;
+}
+#sideBar #departmentNavigator .menu-departamento ul {
+    margin: 0 3px;
+    padding: 0 10px 10px;
+}
+#sideBar #departmentNavigator .menu-departamento ul a {
+    color: black;
+    font-size: 13px;
+}
+#sideBar #departmentNavigator .menu-departamento ul a:hover {
+    color: #790A11;
+}
+#sideBar #departmentNavigator .menu-departamento .separator {
+    border-top: 1px solid #000000;
+    display: block;
+    margin-left: 3px;
+    width: 170px;
+}
+#history {
+    clear: both;
+    overflow: hidden;
+}
+#pLimparHistorico {
+    margin: 15px 0 0 24px;
+}
+#ulUltimosProdutos {
+    margin: 5px 0 0 24px;
+}
+#footerWrapper {
+    background: none repeat scroll 0 0 #000000;
+    clear: both;
+    float: left;
+    margin-top: 20px;
+    width: 100%;
+}
+#footer {
+    clear: both;
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 0;
+    width: 980px;
+}
+#footer a {
+    color: white;
+}
+#footer h3 {
+    font-size: 16px;
+}
+#footer .itemGroup {
+    display: inline;
+    float: left;
+    margin: 30px 0 0 24px;
+}
+#footer #footerServices {
+    margin-right: 35px;
+}
+#wrapperSelos h3 {
+    font-size: 13px;
+    font-weight: bold;
+}
+#footer #wrapperDual div {
+    margin-left: 0;
+}
+#footer .columnList a {
+    line-height: 1.8em;
+}
+#newsWrapper {
+    clear: both;
+    float: left;
+    width: 100%;
+}
+#newsWrapper .newsletter {
+    background: url("/arquivos/bg_news.png") no-repeat scroll center top transparent;
+    height: 60px;
+    margin: 0 auto;
+    position: relative;
+    width: 980px;
+}
+#newsWrapper .bt-voltar.newsletter-button-back {
+    background: url("/arquivos/btn_voltar.jpg") no-repeat scroll center top transparent;
+    border: medium none;
+    cursor: pointer;
+    height: 30px;
+    position: absolute;
+    right: 37px;
+    text-indent: -9999px;
+    top: 15px;
+    width: 111px;
+}
+#newsWrapper .newsletter fieldset.error {
+    background: none repeat scroll 0 0 white;
+    font-size: 14px;
+    left: 215px;
+    width: 610px;
+}
+#newsWrapper h3 {
+    display: none;
+}
+#newsWrapper .newsletter .newsletter-title, #newsWrapper .newsletter fieldset p {
+    display: none;
+}
+#newsWrapper .newsletter fieldset {
+    float: left;
+    height: 30px;
+    left: 281px;
+    position: relative;
+    top: 16px;
+    width: 660px;
+}
+#newsWrapper #newsletterClientName {
+    background: none repeat scroll 0 0 transparent;
+    border: medium none;
+    font-size: 14px;
+    height: 26px;
+    left: 0;
+    position: absolute;
+    width: 218px;
+}
+#newsWrapper #newsletterClientEmail {
+    background: none repeat scroll 0 0 transparent;
+
+    border: medium none;
+    font-size: 14px;
+    height: 26px;
+    left: 306px;
+    position: absolute;
+    width: 218px;
+}
+#newsWrapper #newsletterButtonOK {
+    background: none repeat scroll 0 0 transparent;
+    border: medium none;
+    cursor: pointer;
+    display: block;
+    height: 28px;
+    position: absolute;
+    right: 0;
+    text-indent: -9999px;
+    width: 107px;
+}
+#footerServices {
+    width: 153px;
+}
+#footerInstitutional {
+    width: 179px;
+}
+#wrapperDual {
+    float: left;
+}
+#footerVipClub {
+    clear: both;
+    width: 145px;
+}
+#footer #footerAtendimento {
+    clear: both;
+    margin-top: 65px;
+}
+#wrapperSelos {
+    float: left;
+    margin-left: 25px;
+    margin-top: 30px;
+    padding-top: 15px;
+    width: 580px;
+}
+#wrapperSelos div {
+    float: left;
+    margin-right: 30px;
+}
+#wrapperSelos #pagamentoParcelado {
+    background: url("/arquivos/sprite_icons.png") no-repeat scroll -5px -250px transparent;
+    padding-bottom: 30px;
+}
+#wrapperSelos #pagamentoAvista {
+    background: url("/arquivos/sprite_icons.png") no-repeat scroll -5px -310px transparent;
+    padding-bottom: 30px;
+    padding-right: 85px;
+}
+#footer #footerNews {
+    left: 35px;
+    margin-left: 0;
+    position: relative;
+    top: -13px;
+}
+#network .socialIcons {
+    height: 41px;
+    text-indent: -9999px;
+    width: 41px;
+}
+#network #ntFacebook {
+    background: url("/arquivos/sprite_icons.png") no-repeat scroll -127px -18px transparent;
+}
+#network #ntFacebook:hover {
+    background: url("/arquivos/sprite_icons.png") no-repeat scroll -127px -70px transparent;
+}
+#network #ntTwitter {
+    background: url("/arquivos/sprite_icons.png") no-repeat scroll -179px -18px transparent;
+}
+#network #ntTwitter:hover {
+    background: url("/arquivos/sprite_icons.png") no-repeat scroll -179px -70px transparent;
+}
+#network #ntFeed {
+    background: url("/arquivos/sprite_icons.png") no-repeat scroll -234px -18px transparent;
+}
+#network #ntFeed:hover {
+    background: url("/arquivos/sprite_icons.png") no-repeat scroll -234px -70px transparent;
+}
+.department #footerNewsletter {
+    display: none;
+}
+.department #footerNews {
+    width: 390px;
+}
+#network li {
+    float: left;
+}
+#network a {
+    display: block;
+    height: 31px;
+    margin-right: 5px;
+    width: 30px;
+}
+#ntBlog {
+    background-position: 0 -150px;
+}
+#ntTwitter {
+    background-position: -30px -150px;
+}
+#ntYoutube {
+    background-position: -60px -150px;
+}
+#ntFacebook {
+    background-position: -90px -150px;
+}
+#footer #footerNewsletter {
+    float: right;
+    margin-left: 0;
+    margin-right: 5px;
+    width: 159px;
+}
+#footerNewsletter input {
+    margin-top: 3px;
+    width: 155px;
+}
+#footerNewsletter p:after {
+    content: ":";
+}
+#footerNewsletter p span {
+    display: none;
+}
+#footerNewsletter p span.subTitle {
+    display: inline;
+    text-transform: capitalize;
+}
+#footerNewsletter .btn-ok {
+    float: right;
+    margin-right: 2px;
+    width: auto;
+}
+#like_box {
+    background: none repeat scroll 0 0 #FFFFFF;
+    float: right;
+    margin-bottom: 0;
+    padding: 5px;
+}
+#footerSearch {
+    padding: 15px 23px 13px 11px;
+}
+#footerCredits {
+    background: none repeat scroll 0 0 white;
+    font-size: 10px;
+    padding-top: 15px;
+    text-align: center;
+    width: 100%;
+}
+#footerCredits p {
+    clear: both;
+    margin: 0 auto;
+    padding: 10px 0 30px;
+    width: 980px;
+}
+#footerCredits ul {
+    margin: 0 auto;
+    overflow: auto;
+    width: 935px;
+}
+#footerCredits li {
+    border-right: 1px solid;
+    display: inline;
+    float: left;
+}
+#footerCredits li a {
+    font-size: 13px;
+    margin: 0 5px;
+}
+#breadCrumbs {
+    margin: 5px 0 9px;
+    overflow: hidden;
+}
+#breadCrumbs li {
+    background-position: right -260px;
+    float: left;
+    margin-right: 5px;
+    padding-right: 20px;
+}
+#breadCrumbs li.last {
+    background: none repeat scroll 0 0 transparent;
+}
+#breadCrumbs strong {
+    font-weight: normal;
+}
+#breadCrumbs a, h2.titulo-sessao {
+    color: #353535;
+}
+#breadCrumbs, h2.titulo-sessao {
+    margin-left: 4px;
+}
+h2.titulo-sessao {
+    font-size: 27px;
+    line-height: 1.5em;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+#specialStores li {
+    padding: 9px 0;
+}
+#specialStores a {
+    background: url("/arquivos/sprite-special-stores.jpg") repeat scroll 0 0 transparent;
+    display: block;
+}
+#storePrada a {
+    height: 17px;
+    width: 92px;
+}
+#storePuma a {
+    background-position: 0 -40px;
+    height: 32px;
+    width: 63px;
+}
+#storeMonte a {
+    background-position: 0 -80px;
+    height: 29px;
+    width: 51px;
+}
+#storeLouis a {
+    background-position: 0 -120px;
+    height: 11px;
+    width: 98px;
+}
+#storeYves a {
+    background-position: 0 -160px;
+    height: 20px;
+    width: 99px;
+}

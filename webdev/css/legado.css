@@ -1,0 +1,99 @@
+#bg_header {
+    background: url("/arquivos/bg_header.jpg") repeat-x scroll 0 0 transparent;
+    width: 100%;
+	position:relative;
+	overflow:hidden;
+}
+
+body{background: url('/arquivos/bg_rodape.jpg') repeat-x bottom center;}
+
+#header {
+    height: 97px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    width: 980px;
+	padding:0;
+}
+
+#contact_bar p {
+    background: url("/arquivos/sep_contactBar.png") no-repeat scroll 100% center transparent;
+    float: left;
+    font-weight: bold;
+    padding: 0 20px;
+    text-align: right;
+}
+#contact_bar p.first {
+    padding-left: 0;
+}
+#contact_bar p.last {
+    background: none repeat scroll 0 0 transparent;
+    border-right: medium none;
+}
+#contact_bar p.menu_topbar {
+    background: url("http://develop-portcasa.vtexcommerce.com.br/arquivos/bullet_arrow.png") no-repeat scroll 0 50% transparent;
+    border: medium none;
+    padding: 0 15px 0 10px;
+}
+
+#logo_portcasa{background:url("/arquivos/logo_portcasa.png") no-repeat left top;width:215px;height:51px;padding-top:0;}
+
+#chat_online {
+    background: url("/arquivos/sprite_icons.png") no-repeat scroll -10px -5px transparent;
+    float: left;
+    height: 29px;
+    /*left: 30px;*/
+    position: relative;
+    /*top: 50px;*/
+    width: 66px;
+	margin-left: 2px;
+    margin-top: 5px;
+}
+
+#diferenciaisHeader {
+    margin: 47px auto 5px;
+    padding-left: 7px;
+    width: 980px;
+}
+#diferenciaisHeader a {
+    padding: 0 12px 0 11px;
+}
+
+#ctl00_TopBar_TopBar1_lnkHome{display:none;}
+
+#ctl00_TopBar_TopBar1_pnlTopBarAssincrono{display:none;}
+
+#contact_bar{float:right;width:698px;margin-top:10px;}
+
+#header_fundo{background:url("/arquivos/bg_header.jpg") repeat-x scroll 0 0 transparent;width:100%;height:97px;position:absolute;top:0;}
+
+h1.title{padding-top:20px;}
+
+.menu li{font-size: 15px;background:url("/arquivos/sprite_icons.png") no-repeat scroll -134px -179px transparent;float:left;}
+
+#ctl00_Conteudo_pnlCarrinho{background:#f2f2f2;padding:10px;}
+
+#ctl00_Conteudo_updcarrinho{/*position:relative;top:-20px;*/}
+
+.produto{font-size:14px;color:#333333;font-weight:bold;}
+.produto h4{font-size:14px;color:#333333;font-weight:bold;}
+
+.controle-quantidade{display:block !important;position:relative;right:-90px;top:-25px;width:14px;}
+
+.adicionar-item a{
+	background: url('/arquivos/sprite_icons.png') no-repeat -254px -433px;
+	width: 14px;
+	height: 14px;
+	display:block;
+	text-indent:-9999px;
+}
+.remove-item a{
+	background: url('/arquivos/sprite_icons.png') no-repeat -254px -451px;
+	width: 14px;
+	height: 15px;
+	display:block;
+	text-indent:-9999px;
+}
+/*#rodape_fundo{width:100%;background: url('/arquivos/bg_rodape.jpg') repeat-x bottom center;}*/
+
+#linkalerta, .erro_carrinho{clear:both;color:#F00;text-align:left;}

@@ -1,0 +1,181 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:vtex="http://www.vtex.com.br/2009/vtex-common" xmlns:vtex.cmc="http://www.vtex.com.br/2009/vtex-commerce">
+<head>
+<title>Loja Modelo</title>
+<vtex:metaTags/>
+<link rel="stylesheet" type="text/css" href="~/arquivos/general.css" />
+
+<vtex:template id="scripts" />
+
+<script type="text/javascript">
+	$(document).ready(function(){
+		$('#banner1').cycle({ 
+			fx:     'fade', 
+			speed:   1000, 
+			timeout: 3000, 
+			pause:   1,
+			next:   '#nextBanner1', 
+			prev:   '#prevBanner1' 
+		});
+		
+		$('#brands .box-banner').wrap('<li></li>');
+
+		jQuery('#brands ul').jcarousel({
+			auto: 		1,
+			scroll:		1,  
+			animation:	"slow", 
+			timeout: 	5000,
+			wrap: 		'circular'
+		});
+		
+	});
+	
+</script>
+<!--  SubTemplate: pngIeFix -->
+<vtex:template id="pngIeFix" />
+<!-- /SubTemplate: pngIeFix -->
+</head>
+
+<body>
+
+<vtex:template id="header" />
+
+<div id="all">
+
+	<div id="sideBar">
+		<h3>Mais Procurados</h3>
+		<ul class="menu_home">
+			<li class="travesseiros"><a href="/">Travesseiros</a></li>
+			<li class="toalhas_de_banho"><a href="/">Toalhas de Banho</a></li>
+			<li class="toalhas_de_mesa"><a href="/">Toalhas de Mesa</a></li>
+			<li class="lencois"><a href="/">Lençois</a></li>
+			<li class="edredons"><a href="/">Edredons</a></li>
+			<li class="tapetes"><a href="/">Tapetes</a></li>
+			<li class="roupoes"><a href="/">Roupões</a></li>
+			<li class="utilidades_d"><a href="/">Utilidades D</a></li>
+			<li class="copos_e_tacas"><a href="/">Copos e Taças</a></li>
+		</ul>
+	</div>
+
+	<div id="topBanners">
+		<div id="nextBanner1">next</div>
+		<div id="prevBanner1">prev</div>
+		<div id="banner1">
+			<vtex:contentPlaceHolder id="PHbanner1" />
+			<vtex:contentPlaceHolder id="PHbanner1-2" />
+			<vtex:contentPlaceHolder id="PHbanner1-3" />
+		</div>
+		<div id="banner2"><vtex:contentPlaceHolder id="PHbanner2" /></div>
+		<div id="banner3"><vtex:contentPlaceHolder id="PHbanner3" /></div>
+	</div>
+	<div id="brands">
+		<ul>
+			<vtex:contentPlaceHolder id="brands" />
+		</ul>
+		<!-- /SubTemplate: brands -->
+	</div>
+	<!--<div id="content">
+	
+	<div id="collections">
+			<div class="collectionWrap"><vtex:contentPlaceHolder id="PHcollection1" /></div>
+		</div>
+	
+	</div>
+	--> 
+	<div id="ambientes">
+		<ul>
+			<li>
+				<img src="/arquivos/ambiente_quarto.jpg" alt=""/>
+				<p class="title">Quarto</p>
+				<ul>
+					<li>Acessórios de Cama</li>
+					<li>Edredons</li>
+					<li>Lençois</li>
+					<li>Cobertores</li>
+				</ul>
+			</li>
+			<li>
+				<img src="/arquivos/ambiente_sala.jpg" alt=""/>
+				<p class="title">Sala</p>
+				<ul>
+					<li>Acessórios de Cama</li>
+					<li>Edredons</li>
+					<li>Lençois</li>
+					<li>Cobertores</li>
+				</ul>
+			</li>
+			<li>
+				<img src="/arquivos/ambiente_banheiro.jpg" alt=""/>
+				<p class="title">Banheiro</p>
+				<ul>
+					<li>Acessórios de Cama</li>
+					<li>Edredons</li>
+					<li>Lençois</li>
+					<li>Cobertores</li>
+				</ul>
+			</li>
+			<li class="last">
+				<img src="/arquivos/ambiente_cozinha.jpg" alt=""/>
+				<p class="title">Cozinha</p>
+				<ul>
+					<li>Acessórios de Cama</li>
+					<li>Edredons</li>
+					<li>Lençois</li>
+					<li>Cobertores</li>
+				</ul>
+			</li>
+		</ul>
+		
+		<ul>
+			<li class="ambiente_top">
+				<img src="/arquivos/ambiente_lavanderia.jpg" alt=""/>
+				<p class="title">Lavanderia</p>
+				<ul>
+					<li>Acessórios de Cama</li>
+					<li>Edredons</li>
+					<li>Lençois</li>
+					<li>Cobertores</li>
+				</ul>
+			</li>
+			<li>
+				<img src="/arquivos/ambiente_presentes.jpg" alt=""/>
+				<p class="title">Presentes</p>
+				<ul>
+					<li>Acessórios de Cama</li>
+					<li>Edredons</li>
+					<li>Lençois</li>
+					<li>Cobertores</li>
+				</ul>
+			</li>
+			<li class="ambiente_top">
+				<img src="/arquivos/ambiente_outlet.jpg" alt=""/>
+				<p class="title">Outlet</p>
+				<ul>
+					<li>Acessórios de Cama</li>
+					<li>Edredons</li>
+					<li>Lençois</li>
+					<li>Cobertores</li>
+				</ul>
+			</li>
+			<li class="last">
+				<img src="/arquivos/ambiente_premium.jpg" alt=""/>
+				<p class="title">Premium</p>
+				<ul>
+					<li>Acessórios de Cama</li>
+					<li>Edredons</li>
+					<li>Lençois</li>
+					<li>Cobertores</li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+	<div id="ambientes_sombra">
+		
+	</div>
+	 
+</div>
+	<!--  SubTemplate: footer -->
+	<vtex:template id="footer" />
+	<!-- /SubTemplate: footer -->
+</body>
+</html>

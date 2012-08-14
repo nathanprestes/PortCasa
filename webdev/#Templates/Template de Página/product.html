@@ -1,0 +1,145 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:vtex="http://www.vtex.com.br/2009/vtex-common" xmlns:vtex.cmc="http://www.vtex.com.br/2009/vtex-commerce">
+<head>
+<title>Loja Modelo</title>
+<vtex:metaTags/>
+<link rel="stylesheet" type="text/css" href="~/arquivos/general.css" />
+<link rel="stylesheet" type="text/css" href="~/arquivos/product.css" />
+<link rel="stylesheet" type="text/css" href="~/arquivos/thickbox.css" />
+<vtex:template id="scripts" />
+
+<vtex:template id="pngIeFix" />
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/pt_BR/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<script type="text/javascript" src="//assets.pinterest.com/js/pinit.js"></script>
+</head>
+
+<body id="produto">
+
+
+<vtex:template id="header" />
+
+<div id="all">
+	<div id="wrapProduto">
+		<h1><vtex.cmc:productName /></h1>
+		
+		<div id="sideBar">
+			<vtex.cmc:ProductImage />
+			<div id="socialShare">
+				<h3>Compartilhe este produto:</h3>
+				<div class="cima">
+					<div id="twitter">
+						<a href="https://twitter.com/share" class="twitter-share-button">Tweet</a>
+						<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+					</div>
+					
+					<div id="facebook">
+						<div class="fb-like" data-send="false" data-layout="button_count" data-width="450" data-show-faces="false"></div>
+					</div>
+				
+				</div>
+				
+				<div class="baixo">
+						<!-- Coloque esta chamada de renderização conforme necessário -->
+						<script type="text/javascript">
+						  window.___gcfg = {lang: 'pt-BR'};
+
+						  (function() {
+							var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+							po.src = 'https://apis.google.com/js/plusone.js';
+							var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+						  })();
+						</script>
+					<div id="gplus"></div>
+					<div id="orkut">
+					<div id="orkut-button"></div>
+						<script type="text/javascript" src="http://www.google.com/jsapi"></script>
+						<script type="text/javascript">
+						  google.load('orkut.share', '1');
+						  google.setOnLoadCallback(function() {
+							new google.orkut.share.Button({
+							  lang: 'pt_BR',
+							  style: google.orkut.share.Button.STYLE_MINI
+							}).draw('orkut-button');
+						  });
+						</script>					
+					</div>
+					<div id="pinterest">
+						
+					</div>
+					
+				</div>
+			</div>
+		</div>
+		
+		<div id="productInformation">
+
+				<div id="productPrice"><vtex.cmc:skuPrice /></div>			
+			
+			<div id="wrapStepOne">
+				<span class="stepNumber">1</span>
+				<span class="stepProdImage"></span>
+				<span class="prodName"><vtex.cmc:productName /></span>
+				<div id="quantidadeProd">
+					<label for="productQuantity">Quantidade:</label>
+					<input type="text" name="productQuantity" class="productQuantity" value="1" />
+					<span class="btnsQntyMais"></span>
+					<span class="btnsQntyMenos"></span>
+				</div>			
+			</div>
+			
+			<div id="wrapStepTwo">
+				<span class="stepNumber">2</span>
+				<vtex.cmc:stockKeepingUnitSelection />
+			</div>
+			
+			<div id="wrapStepThree">
+				<span class="stepNumber">3</span>
+				
+				<vtex.cmc:BuyButton />
+				
+				<div id="listaWrap">
+					<h3 class="addLista"></h3>
+					<div id="productList"><vtex.cmc:giftListInsertSku /></div>
+				</div>
+			</div>
+						
+			
+			<vtex.cmc:stockKeepingUnitService />
+			
+			<div id="flags"><vtex.cmc:hightLight /></div>
+			
+			<div id="productTag">
+			
+			</div>
+			
+		</div>
+		
+		<div id="content">
+			<div id="productDescription">
+				<h2 class="title">Descrição do Produto</h2>
+				<vtex.cmc:ProductDescription />
+			</div>
+			<vtex.cmc:productSpecification />
+			
+			<div id="collections" class="vitrine">
+				<vtex:contentPlaceHolder id="PHrecomendamos" />
+			</div>
+		</div>
+	</div>
+	<div id="ambientes_sombra">
+		
+	</div>
+	
+</div>
+
+<vtex:template id="footer" />
+
+</body>
+</html>
