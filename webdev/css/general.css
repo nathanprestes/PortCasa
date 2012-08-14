@@ -1,8 +1,25 @@
+@font-face {
+    font-family: 'androgyneregular';
+    src: url('/arquivos/androgyne_tb-webfont1.css');/*eot*/
+    src: url('/arquivos/androgyne_tb-webfont1.css?#iefix') format('embedded-opentype'),/*eot ie*/
+         url('/arquivos/androgyne_tb-webfont2.css') format('woff'),/*woff*/
+         url('/arquivos/androgyne_tb-webfont3.css') format('truetype'),/*ttf*/
+         url('/arquivos/androgyne_tb-webfont4.css#androgyneregular') format('svg');/*svg*/
+    font-weight: lighter;
+    font-style: normal;
+}
+
+#bg_header .menu li, .content .bt, .content #ctl00_Conteudo_ctrlEndereco_BtnSalvar.bt, .cadastro-cliente #ctl00_Conteudo_ctrlCadastroCliente_bntNewUserAdd, .bt, .minha-conta .area-3-2-3 h3, .minha-conta .abas li a, .minha-conta .nav h3, .minha-conta .area-3-2-3 h4, .minha-conta .area-3-2-5 h3, .minha-conta .area-3-2-10 h3, .meus-pedidos .content-meuspedidos h2, .alterar-senha .content h2, .alterar-senha .outras-opcoes h3, .listas .abas li a, .listas #sideBar h2{font-family: 'androgyneregular';}
 
 body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td, legend {
     margin: 0;
     padding: 0;
 }
+
+body.listas{background: url('/arquivos/bg_rodape.jpg') repeat-x bottom center;}
+
+#header_fundo{background:url("/arquivos/bg_header.jpg") repeat-x scroll 0 0 transparent;width:100%;height:97px;position:absolute;top:0;}
+
 table {
     border-collapse: collapse;
     border-spacing: 0;
@@ -40,7 +57,6 @@ fieldset {
 }
 body {
     font-size: 11px;
-    /*line-height: 1.5em;*/
 }
 body, input, select, textarea {
     color: #333333;
@@ -59,7 +75,7 @@ a {
     text-decoration: none;
 }
 a:hover {
-    text-decoration: underline;
+    /*text-decoration: underline;*/
 }
 #textContent h3 {
     font-weight: 700;
@@ -68,17 +84,8 @@ a:hover {
 #all, #topBar div {
     margin: 0 auto;
     width: 986px;
-}
-#content {
-    float: right;
-    padding-bottom: 34px;
-    position: relative;
-    width: 780px;
-}
-#sideBar {
-    float: left;
-    margin-left: 8px;
-    width: 178px;
+	position:relative;
+	z-index:10;
 }
 .home #sideBar {
     float: left;
@@ -186,10 +193,10 @@ a:hover {
 #ajaxBusy {
     position: absolute;
 }
-#title a, #network a, .vitrine .quickView a, #breadCrumbs li, .vitrine .category a, .vitrine .brand a, #footer h2, #history h3 {
+/*#title a, #network a, .vitrine .quickView a, #breadCrumbs li, .vitrine .category a, .vitrine .brand a, #footer h2, #history h3 {
     background-image: url("/arquivos/sprite-general.gif");
     background-repeat: no-repeat;
-}
+}*/
 #topBar {
     background: none repeat scroll 0 0 #EFEFEF;
     font-size: 10px;
@@ -267,6 +274,14 @@ a:hover {
     position: relative;
     width: 980px;
 }
+#header #contact_bar a p {
+	/*color: #999999;*/
+	color: #FFFFFF;
+	float: left;
+}
+#header #contact_bar a p:hover {
+	text-decoration:underline;
+}
 h1.title {
     float: left;
     height: 51px;
@@ -278,6 +293,7 @@ h1.title {
     position: absolute;
     right: 0;
     top: 10px;
+	width: 712px;
 }
 #title a {
     background-position: 8px 5px;
@@ -365,7 +381,6 @@ h1.title {
     -moz-border-top-colors: none;
     background: none repeat scroll 0 0 white;
     border-color: -moz-use-text-color #565554 #565554;
-    border-right: 1px solid #565554;
     border-style: none solid solid;
     border-width: medium 1px 1px;
     display: none;
@@ -736,7 +751,6 @@ h1.title {
     right: 0;
     text-indent: -999em;
     top: 149px;
-
     width: 114px;
 }
 .prateleira {
@@ -913,12 +927,13 @@ h1.title {
 #collectionNavigation .last a {
     background: none repeat scroll 0 0 transparent;
 }
-#sideBar h2, .navigator h3, .navigator h5 {
+/*#sideBar h2, .navigator h3, .navigator h5 {
     background: none repeat scroll 0 0 #EAE9E8;
     margin-bottom: 9px;
     padding: 5px 8px 9px;
-}
-#sideBar .linkList ul, .navigator ul, .navigator h4 {
+
+}*/
+/*#sideBar .linkList ul, .navigator ul, .navigator h4 {
     margin-left: 10px;
 }
 #sideBar .linkList a {
@@ -926,7 +941,7 @@ h1.title {
 }
 #sideBar .sideBarItem, .navigator ul, .navigator {
     margin-bottom: 16px;
-}
+}*/
 #departmentNavigator {
     -moz-border-bottom-colors: none;
     -moz-border-image: none;
@@ -992,7 +1007,7 @@ h1.title {
 #ulUltimosProdutos {
     margin: 5px 0 0 24px;
 }
-#footerWrapper {
+/*#footerWrapper {
     background: none repeat scroll 0 0 #000000;
     clear: both;
     float: left;
@@ -1032,79 +1047,6 @@ h1.title {
 }
 #footer .columnList a {
     line-height: 1.8em;
-}
-#newsWrapper {
-    clear: both;
-    float: left;
-    width: 100%;
-}
-#newsWrapper .newsletter {
-    background: url("/arquivos/bg_news.png") no-repeat scroll center top transparent;
-    height: 60px;
-    margin: 0 auto;
-    position: relative;
-    width: 980px;
-}
-#newsWrapper .bt-voltar.newsletter-button-back {
-    background: url("/arquivos/btn_voltar.jpg") no-repeat scroll center top transparent;
-    border: medium none;
-    cursor: pointer;
-    height: 30px;
-    position: absolute;
-    right: 37px;
-    text-indent: -9999px;
-    top: 15px;
-    width: 111px;
-}
-#newsWrapper .newsletter fieldset.error {
-    background: none repeat scroll 0 0 white;
-    font-size: 14px;
-    left: 215px;
-    width: 610px;
-}
-#newsWrapper h3 {
-    display: none;
-}
-#newsWrapper .newsletter .newsletter-title, #newsWrapper .newsletter fieldset p {
-    display: none;
-}
-#newsWrapper .newsletter fieldset {
-    float: left;
-    height: 30px;
-    left: 281px;
-    position: relative;
-    top: 16px;
-    width: 660px;
-}
-#newsWrapper #newsletterClientName {
-    background: none repeat scroll 0 0 transparent;
-    border: medium none;
-    font-size: 14px;
-    height: 26px;
-    left: 0;
-    position: absolute;
-    width: 218px;
-}
-#newsWrapper #newsletterClientEmail {
-    background: none repeat scroll 0 0 transparent;
-
-    border: medium none;
-    font-size: 14px;
-    height: 26px;
-    left: 306px;
-    position: absolute;
-    width: 218px;
-}
-#newsWrapper #newsletterButtonOK {
-    background: none repeat scroll 0 0 transparent;
-    border: medium none;
-    cursor: pointer;
-    display: block;
-    height: 28px;
-    position: absolute;
-    right: 0;
-    text-indent: -9999px;
-    width: 107px;
 }
 #footerServices {
     width: 153px;
@@ -1260,7 +1202,7 @@ h1.title {
     font-size: 13px;
     margin: 0 5px;
 }
-#breadCrumbs {
+*/#breadCrumbs {
     margin: 5px 0 9px;
     overflow: hidden;
 }
@@ -1276,18 +1218,20 @@ h1.title {
 #breadCrumbs strong {
     font-weight: normal;
 }
-#breadCrumbs a, h2.titulo-sessao {
+#breadCrumbs a{
     color: #353535;
 }
-#breadCrumbs, h2.titulo-sessao {
+#breadCrumbs{
     margin-left: 4px;
 }
+/*h2.titulo-sessao {}
+h2.titulo-sessao {}
 h2.titulo-sessao {
     font-size: 27px;
     line-height: 1.5em;
     margin-bottom: 15px;
     text-transform: uppercase;
-}
+}*/
 #specialStores li {
     padding: 9px 0;
 }
@@ -1319,3 +1263,398 @@ h2.titulo-sessao {
     height: 20px;
     width: 99px;
 }
+
+/* ______ FOOTER ______ */
+
+.footer{height:417px;margin-top:30px;clear:both;float:left;}
+#footerWrapper {
+  clear: both;
+  float: left;
+  /*margin-top: 26px;*/
+  width: 100%;
+}
+#footer {
+  clear: both;
+  color: white;
+  font-size: 13px;
+  font-weight: bold;
+  margin: 10px auto 0;
+  overflow: hidden;
+  padding: 0;
+  width: 980px;
+}
+.home #footer {
+    padding-top: 0;
+}
+#footer h2 {
+    background-position: 0 -300px;
+    border-bottom: 1px solid #195073;
+    font-size: 15px;
+    padding: 8px 0 8px 23px;
+}
+#footer h2 span {
+    display: none;
+}
+#footer h3 {
+    font-size: 16px;
+    font-weight: 700;
+    /*margin-bottom: 17px;*/
+	color:#FFF;
+}
+#footer .itemGroup {
+    float: left;
+    margin: 5px 0 0 24px;
+}
+#footer .columnList a {
+    line-height: 1.8em;
+}
+#footerServices {
+    width: 153px;
+}
+#footerInstitutional {
+    width: 179px;
+}
+#footerVipClub {
+    width: 145px;
+}
+#footerServicesAssociate a {
+    background: none repeat scroll 0 0 #333333;
+    color: #FFFFFF;
+    float: left;
+    font-weight: 700;
+    margin-top: 18px;
+    padding: 2px 3px;
+}
+#footerNews {
+    width: 180px;
+}
+#footerNews h3 {
+    background-position: 0 -100px;
+    height: 29px;
+    margin-bottom: 0;
+    width: 144px;
+}
+#footerNews h4 {
+    font-weight: 700;
+    margin-bottom: 6px;
+    margin-top: 8px;
+}
+#footerNews p {
+    line-height: 1.1em;
+}
+#footerNews p a {
+    text-decoration: underline;
+}
+.department #footerNewsletter {
+    display: none;
+}
+.department #footerNews {
+    width: 390px;
+}
+#network li {
+    float: left;
+}
+#network a {
+    display: block;
+    height: 31px;
+    margin-right: 5px;
+    width: 30px;
+}
+#ntBlog {
+    background-position: 0 -150px;
+}
+#ntTwitter {
+    background-position: -30px -150px;
+}
+#ntYoutube {
+    background-position: -60px -150px;
+}
+#ntFacebook {
+    background-position: -90px -150px;
+}
+#network #ntFacebook{
+	background: url("/arquivos/sprite_icons.png") no-repeat scroll -127px -18px transparent;
+	height: 41px;
+    text-indent: -9999px;
+    width: 41px;
+	display: block;
+	margin-right: 5px;
+}	
+#network #ntFacebook:hover{background:url("/arquivos/sprite_icons.png") no-repeat scroll -127px -70px transparent;}
+#network #ntTwitter {
+	background: url("/arquivos/sprite_icons.png") no-repeat scroll -179px -18px transparent;
+	height: 41px;
+	text-indent: -9999px;
+	width: 41px;
+	display: block;
+	margin-right: 5px;
+}
+#network #ntTwitter:hover{background:url("/arquivos/sprite_icons.png") no-repeat scroll -179px -70px transparent}
+#network #ntFeed {
+	background: url("/arquivos/sprite_icons.png") no-repeat scroll -234px -18px transparent;
+	height: 41px;
+	text-indent: -9999px;
+	width: 41px;
+	display: block;
+	margin-right: 5px;
+}
+#network #ntFeed:hover{background:url("/arquivos/sprite_icons.png") no-repeat scroll -234px -70px transparent}
+.imgRp {
+    display: block;
+    text-indent: -999em;
+}
+#footer #footerServices {
+  margin-right: 35px;
+}
+#footer .columnList a {
+  line-height: 1.8em;
+}
+#footer a {
+  color: white;
+}
+#footer .itemGroup {
+  display: inline;
+  float: left;
+}
+#footer .itemGroup {
+  display: inline;
+  float: left;
+  margin: 30px 0 0 24px;
+}
+#footerInstitutional {
+  width: 179px;
+}
+#newsWrapper {
+    clear: both;
+    float: left;
+    width: 100%;
+}
+#newsWrapper .newsletter {
+    background: url("/arquivos/bg_news.png") no-repeat scroll center top transparent;
+    height: 60px;
+    margin: 0 auto;
+    position: relative;
+    width: 980px;
+}
+#newsWrapper .bt-voltar.newsletter-button-back {
+    background: url("/arquivos/btn_voltar.jpg") no-repeat scroll center top transparent;
+    border: medium none;
+    cursor: pointer;
+    height: 30px;
+    position: absolute;
+    right: 37px;
+    text-indent: -9999px;
+    top: 15px;
+    width: 111px;
+}
+#newsWrapper .newsletter fieldset.error {
+    background: none repeat scroll 0 0 white;
+    font-size: 14px;
+    left: 215px;
+    width: 610px;
+}
+#newsWrapper h3 {
+    display: none;
+}
+#newsWrapper .newsletter .newsletter-title, #newsWrapper .newsletter fieldset p {
+    display: none;
+}
+#newsWrapper .newsletter fieldset {
+    float: left;
+    height: 30px;
+    left: 281px;
+    position: relative;
+    top: 16px;
+    width: 660px;
+}
+#newsWrapper #newsletterClientName {
+    background: none repeat scroll 0 0 transparent;
+    border: medium none;
+    font-size: 14px;
+    height: 26px;
+    left: 0;
+    position: absolute;
+    width: 218px;
+}
+#newsWrapper #newsletterClientEmail {
+    background: none repeat scroll 0 0 transparent;
+    border: medium none;
+    font-size: 14px;
+    height: 26px;
+    left: 306px;
+    position: absolute;
+    width: 218px;
+}
+#newsWrapper #newsletterButtonOK {
+    background: none repeat scroll 0 0 transparent;
+    border: medium none;
+    cursor: pointer;
+    display: block;
+    height: 28px;
+    position: absolute;
+    right: 0;
+    text-indent: -9999px;
+    width: 107px;
+}
+#wrapperDual {
+  float: left;
+}
+#footer #wrapperDual div {
+  margin-left: 0;
+}
+#footer .itemGroup {
+  display: inline;
+  float: left;
+}
+#footerVipClub {
+  clear: both;
+  width: 145px;
+}
+#footer #wrapperDual div {
+  margin-left: 0;
+}
+#footer #footerAtendimento {
+  clear: both;
+  margin-top: 65px;
+}
+#footer #footerNews {
+  left: 35px;
+  margin-left: 0;
+  position: relative;
+  top: -13px;
+}
+#like_box {
+  background: none repeat scroll 0 0 #FFFFFF;
+  float: right;
+  margin-bottom: 0;
+  padding: 5px;
+}
+#wrapperSelos {
+  float: left;
+  margin-left: 25px;
+  margin-top: 30px;
+  padding-top: 15px;
+  width: 580px;
+  border-top:1px solid #999999;
+}
+#wrapperSelos h3{
+	font-size: 13px !important;
+}
+#wrapperSelos #pagamentoParcelado {
+  background: url("/arquivos/sprite_icons.png") no-repeat scroll -5px -250px transparent;
+  padding-bottom: 28px;
+}
+#wrapperSelos #pagamentoAvista {
+  background: url("/arquivos/sprite_icons.png") no-repeat scroll -5px -310px transparent;
+  padding-bottom: 30px;
+  padding-right: 85px;
+}
+#wrapperSelos div {
+  float: left;
+  margin-right: 30px;
+}
+#footerCredits {
+  font-size: 10px;
+  padding-top: 15px;
+  text-align: center;
+  width: 100%;
+}
+#footerCredits ul {
+  margin: 0 auto;
+  overflow: hidden;
+  /*width: 935px;*/
+  width: 976px;
+  margin:0 5px;
+}
+#footerCredits li {
+  border-right: 1px solid;
+  display: inline;
+  float: left;
+}
+#footerCredits li a {
+  font-size: 13px;
+  margin: 0 4px;
+}
+#logoBuscape {
+    width: 110px;
+}
+#logoBondFaro {
+    background-position: -120px center;
+    width: 96px;
+}
+#logoEbit {
+    background-position: -220px center;
+    width: 42px;
+}
+#logoUndefined1 {
+    background-position: -270px center;
+    width: 42px;
+}
+#logoUndefined2 {
+    background-position: -320px center;
+    width: 38px;
+}
+#logoInternet {
+    background-position: -360px center;
+    width: 68px;
+}
+#logoCamara {
+    background-position: -435px center;
+    width: 118px;
+}
+#logoWebsolve {
+    background-position: -560px center;
+    width: 84px;
+}
+#logoBlindado {
+    background-position: -655px center;
+    width: 96px;
+}
+.login .content, .cadastro-cliente .content, .manutencao-conta .content{
+    float: left;
+    width: 946px;
+	background:url("/arquivos/finaliza_compra_fundo.jpg") no-repeat bottom center #f2f2f2;
+	padding:20px 20px 32px;
+	color:#333333;
+}
+.login .content{clear:both;/*margin:20px 0;*/}
+
+.listas .abas{left: 10px;position: absolute;}
+.listas .abas li{float:left;margin-right:10px;padding:0 16px 0 0;background:url("/arquivos/abas_fundo.png") no-repeat right center;}
+/*#tabela_login .area-3-2-2, #tabela_login .pedidos{position:relative;}*/
+
+.listas .abas a{display:block;font-size:15px;padding:5px;color:#000;cursor:pointer;font-family: 'androgyneregular';}
+.listas .abas a:hover{background:url("/arquivos/btn_fundo_hover2.jpg") repeat-x bottom center #95151b;color:#FFF !important;}
+.listas .abas li.ativo{background:url("/arquivos/btn_fundo_hover2.jpg") repeat-x bottom center #95151b;color:#FFF !important;display:block;font-size:15px;padding:5px;cursor:pointer;font-family: 'androgyneregular';}
+
+.listas #tabela_login{margin-bottom:20px;}
+#tabela_login{float: left;width: 986px;background:url("/arquivos/finaliza_compra_fundo.jpg") no-repeat bottom center #f2f2f2;padding:0 0 12px;position:relative;}
+#tabela_login_conteudo{background:url("/arquivos/minha_conta_bg.jpg") repeat-x scroll center top #F2F2F2;float:left;padding:0 10px 10px;width:966px;}
+
+.listas #sideBar{
+    float: left;
+    margin-top: 47px;
+    width: 172px;
+	background:#FFF;
+	padding: 0 10px 10px;
+	min-height:403px;
+}
+
+.listas #content{
+    padding-top: 47px;
+	float:right;
+	width:754px;
+}
+
+.listas #sideBar h2{color:#92151a;font-size:15px;margin: 10px 0;font-weight:normal;}
+.listas #sideBar ul{padding-left:5px;}
+.listas #sideBar ul li{color:#000000;font-size:13px;margin: 5px 0;}
+.listas #sideBar ul li a{color:#000000;font-size:13px;margin: 5px 0;}
+.listas #sideBar ul li a:hover{text-decoration:underline;}
+
+.listas .area-3-2-3 h3{display:block !important;text-transform:capitalize;font-size:22px;color:#000;}
+
+
+/* ______ BUSCA LISTA ______ */
+
+.listas #topBar{display:none;}

@@ -53,6 +53,8 @@
 	
 	$('body.finaliza-compra').append('<div id="header_fundo"></div>');
 	
+	$('body.listas').append('<div id="header_fundo"></div>');
+	
 	$('.minha-conta').append('<div id="header_fundo"></div>');
 	$('.minha-conta .searchWrapper').first().appendTo('.minha-conta #header');
 	$('.minha-conta #chat_online').first().appendTo('.minha-conta .searchWrapper').first();
@@ -63,7 +65,11 @@
 	
 	$('.editar-conta .mainContentWrapper .content').wrap('<div id="tabela_login"></div>');
 	
+	$('.listas .abas, .listas #sideBar, .listas #content').wrapAll('<div id="tabela_login"><div id="tabela_login_conteudo"></div></div>');
+	
 	$('.minha-conta ul.abas').appendTo('#tabela_login');
+	
+	$('.editar-conta .addPhoto .lnkAddPhoto').html('Adicionar Foto');
 	
 	//Cufon.replace('.menu li, .content .bt, .content #ctl00_Conteudo_ctrlEndereco_BtnSalvar.bt, .cadastro-cliente #ctl00_Conteudo_ctrlCadastroCliente_bntNewUserAdd, .bt, .minha-conta .area-3-2-3 h3, .minha-conta .abas li a, .minha-conta .nav h3, .minha-conta .area-3-2-3 h4, .minha-conta .area-3-2-5 h3, .minha-conta .area-3-2-10 h3, .meus-pedidos .content-meuspedidos h2', { fontFamily: 'Androgyne' });
 });
