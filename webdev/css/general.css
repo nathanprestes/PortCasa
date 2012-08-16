@@ -9,14 +9,14 @@
     font-style: normal;
 }
 
-#bg_header .menu li, .content .bt, .content #ctl00_Conteudo_ctrlEndereco_BtnSalvar.bt, .cadastro-cliente #ctl00_Conteudo_ctrlCadastroCliente_bntNewUserAdd, .bt, .minha-conta .area-3-2-3 h3, .minha-conta .abas li a, .minha-conta .nav h3, .minha-conta .area-3-2-3 h4, .minha-conta .area-3-2-5 h3, .minha-conta .area-3-2-10 h3, .meus-pedidos .content-meuspedidos h2, .alterar-senha .content h2, .alterar-senha .outras-opcoes h3, .listas .abas li a, .listas #sideBar h2{font-family: 'androgyneregular';}
+#bg_header .menu li, #menu h3 a, .content .bt, .content #ctl00_Conteudo_ctrlEndereco_BtnSalvar.bt, .cadastro-cliente #ctl00_Conteudo_ctrlCadastroCliente_bntNewUserAdd, .bt, .minha-conta .area-3-2-3 h3, .minha-conta .abas li a, .minha-conta .nav h3, .minha-conta .area-3-2-3 h4, .minha-conta .area-3-2-5 h3, .minha-conta .area-3-2-10 h3, .meus-pedidos .content-meuspedidos h2, .alterar-senha .content h2, .alterar-senha .outras-opcoes h3, .listas .abas li a, .listas #sideBar h2{font-family: 'androgyneregular';}
 
 body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td, legend {
     margin: 0;
     padding: 0;
 }
 
-body.listas{background: url('/arquivos/bg_rodape.jpg') repeat-x bottom center;}
+body{background: url('/arquivos/bg_rodape.jpg') repeat-x bottom center;}
 
 #header_fundo{background:url("/arquivos/bg_header.jpg") repeat-x scroll 0 0 transparent;width:100%;height:97px;position:absolute;top:0;}
 
@@ -367,7 +367,8 @@ h1.title {
     color: #FFFFFF;
     float: left;
     font-size: 15px;
-    font-weight: 700;
+    /*font-weight: 700;*/
+	font-weight:normal;
     padding: 12px 14px 13px 10px;
 }
 #menu h3 a:hover {
