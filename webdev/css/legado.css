@@ -63,7 +63,7 @@ body{background: url('/arquivos/bg_rodape.jpg') repeat-x bottom center;}
 
 #ctl00_TopBar_TopBar1_pnlTopBarAssincrono{display:none;}
 
-#contact_bar{float:right;width:698px;margin-top:10px;}
+#contact_bar{float:right;width:712px;margin-top:10px;}
 
 #header_fundo{background:url("/arquivos/bg_header.jpg") repeat-x scroll 0 0 transparent;width:100%;height:97px;position:absolute;top:0;}
 
@@ -81,14 +81,14 @@ h1.title{padding-top:20px;}
 .controle-quantidade{display:block !important;position:relative;right:-90px;top:-25px;width:14px;}
 
 .adicionar-item a{
-	background: url('/arquivos/sprite_icons.png') no-repeat -254px -433px;
+	background: url('/arquivos/sprite_icons.png') no-repeat -235px -243px;
 	width: 14px;
 	height: 14px;
 	display:block;
 	text-indent:-9999px;
 }
 .remove-item a{
-	background: url('/arquivos/sprite_icons.png') no-repeat -254px -451px;
+	background: url('/arquivos/sprite_icons.png') no-repeat -235px -261px;
 	width: 14px;
 	height: 15px;
 	display:block;

@@ -9,7 +9,7 @@
     font-style: normal;
 }
 
-#bg_header .menu li, #menu h3 a, .content .bt, .content #ctl00_Conteudo_ctrlEndereco_BtnSalvar.bt, .cadastro-cliente #ctl00_Conteudo_ctrlCadastroCliente_bntNewUserAdd, .bt, .minha-conta .area-3-2-3 h3, .minha-conta .abas li a, .minha-conta .nav h3, .minha-conta .area-3-2-3 h4, .minha-conta .area-3-2-5 h3, .minha-conta .area-3-2-10 h3, .meus-pedidos .content-meuspedidos h2, .alterar-senha .content h2, .alterar-senha .outras-opcoes h3, .listas .abas li a, .listas #sideBar h2{font-family: 'androgyneregular';}
+#bg_header .menu li, #menu h3 a, .content .bt, .content #ctl00_Conteudo_ctrlEndereco_BtnSalvar.bt, .cadastro-cliente #ctl00_Conteudo_ctrlCadastroCliente_bntNewUserAdd, .bt, .minha-conta .area-3-2-3 h3, .minha-conta .abas li a, .minha-conta .nav h3, .minha-conta .area-3-2-3 h4, .minha-conta .area-3-2-5 h3, .minha-conta .area-3-2-10 h3, .meus-pedidos .content-meuspedidos h2, .alterar-senha .content h2, .alterar-senha .outras-opcoes h3, .listas .abas li a, .listas #sideBar h2, .produto #wrapProduto h1 div.productName{font-family: 'androgyneregular';}
 
 body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td, legend {
     margin: 0;
@@ -83,7 +83,7 @@ a:hover {
 }
 #all, #topBar div {
     margin: 0 auto;
-    width: 986px;
+    width: 980px;
 	position:relative;
 	z-index:10;
 }
@@ -112,7 +112,7 @@ a:hover {
 .home #sideBar .menu_home li a {
     background: url("/arquivos/sprite_menu.png") no-repeat scroll 0 0 transparent;
     display: block;
-    padding: 16px 10px 16px 45px;
+    padding: 14px 10px 15px 45px;
     width: 118px;
 }
 .home #sideBar .menu_home li.travesseiros a {
@@ -182,10 +182,10 @@ a:hover {
 #topBar p a, #cart, #cart a, #topNewsletter p, #sideBar h2, .navigator h3 a, .navigator h5, .vitrine .newPrice, #collectionNavigation .selected a, #footer h2, .pager, .flag.lancamento, #pnlNaoSeguro em a, #lnkLimparHistorico, #history h3 {
     color: #195073;
 }
-#topNewsletter p, #sideBar h2, .navigator h3, .navigator h5, .flag.lancamento, .vitrine h2 {
+/*#topNewsletter p, #sideBar h2, .navigator h3, .navigator h5, .flag.lancamento, .vitrine h2 {
     font-size: 13px;
     font-weight: 700;
-}
+}*/
 .imgRp {
     display: block;
     text-indent: -999em;
@@ -346,6 +346,7 @@ h1.title {
     text-transform: uppercase;
     width: 114px;
 }
+#menu .brandFilter{display:none;}
 #menu {
     background: url("/arquivos/bg_menu.jpg") repeat scroll 0 0 transparent;
     border-radius: 3px 3px 3px 3px;
@@ -369,13 +370,18 @@ h1.title {
     font-size: 15px;
     /*font-weight: 700;*/
 	font-weight:normal;
-    padding: 12px 14px 13px 10px;
+    padding: 10px 20px 11px 20px;
+	text-decoration: none;
+	margin-left:2px;
 }
 #menu h3 a:hover {
-    text-decoration: none;
+    background: url("/arquivos/menu_fundo_hover.png") repeat-x center top transparent;
+	box-shadow:inset 2px 2px 5px #490a10;
+	-moz-box-shadow:inset 2px 2px 5px #490a10;
+	-webkit-box-shadow:inset 2px 2px 5px #490a10;
 }
 #menu ul {
-    -moz-border-bottom-colors: none;
+    /*-moz-border-bottom-colors: none;
     -moz-border-image: none;
     -moz-border-left-colors: none;
     -moz-border-right-colors: none;
@@ -388,16 +394,31 @@ h1.title {
     font-weight: bold;
     margin: 42px 0 0 8px;
     padding: 5px;
-    position: absolute;
+    position: absolute;*/
+	
+	background: none repeat scroll 0 0 white;
+	border-left: 1px solid #A5A5A5;
+	border-right: 1px solid #A5A5A5;
+	border-bottom: 2px solid #A5A5A5;
+	
+	margin: 42px 0 0;
+	position: absolute;
+	display: none;
+	color:#000000;
 }
 #menu ul a {
     color: #790A11;
-    display: block;
+	font-weight: bold;
+    /*display: block;*/
     padding: 1px 4px 0;
     position: relative;
 }
+#menu ul a:hover {text-decoration:underline;}
 #menu ul li {
-    list-style: disc inside none;
+	border-left: 1px solid #4B4B4C;
+	border-right: 1px solid #4B4B4C;
+	list-style: disc inside none;
+	padding: 5px;
 }
 #menu ul .lista-completa {
     border-top: 1px dashed #FFFFFF;
@@ -615,10 +636,10 @@ h1.title {
 .prateleira .prateleira {
     border: medium none;
 }
-#collections {
+/*#collections {
     position: relative;
     width: 100%;
-}
+}*/
 .searchResultsTime, .filterBy, .compare {
     display: none;
 }
@@ -933,8 +954,8 @@ h1.title {
     margin-bottom: 9px;
     padding: 5px 8px 9px;
 
-}*/
-/*#sideBar .linkList ul, .navigator ul, .navigator h4 {
+}
+#sideBar .linkList ul, .navigator ul, .navigator h4 {
     margin-left: 10px;
 }
 #sideBar .linkList a {
@@ -942,7 +963,7 @@ h1.title {
 }
 #sideBar .sideBarItem, .navigator ul, .navigator {
     margin-bottom: 16px;
-}*/
+}
 #departmentNavigator {
     -moz-border-bottom-colors: none;
     -moz-border-image: none;
@@ -998,6 +1019,7 @@ h1.title {
     margin-left: 3px;
     width: 170px;
 }
+*/
 #history {
     clear: both;
     overflow: hidden;
@@ -1659,3 +1681,43 @@ h2.titulo-sessao {
 /* ______ BUSCA LISTA ______ */
 
 .listas #topBar{display:none;}
+
+/* ______ DEPARTAMENTO ______ */
+
+.departamento #all{width:980px;}
+
+.departamento #sideBar{float:left;width:177px;border-top:1px solid #000;border-left:1px solid #000;border-right:1px solid #000;}
+.departamento #departmentNavigator > h3{background: url("/arquivos/sprite_menu.png") no-repeat scroll 0 -480px transparent;border-bottom: 1px solid black;height: 25px;margin: 0;padding: 0;text-indent: -9999px;}
+.departamento #sideBar #departmentNavigator .menu-departamento h3 {background: url("/arquivos/sprite_menu.png") no-repeat scroll -4px -517px transparent;font-weight: normal;margin: 0;padding: 15px 10px 5px 20px;position: relative;}
+.departamento #sideBar #departmentNavigator .menu-departamento a{color:#000;text-decoration:none;font-size:13px;}
+.departamento #sideBar #departmentNavigator .menu-departamento a:hover{color:#790a11;text-decoration:underline;}
+.departamento #sideBar #departmentNavigator .menu-departamento ul{font-size: 13px;margin: 0 5px 10px;padding: 0 0 5px 20px;border-bottom:1px solid #000;}
+.departamento #sideBar #departmentNavigator .menu-departamento li{margin:5px 0;}
+
+.departamento #sideBar #departmentNavigator .menu-departamento .brandFilter ul{margin-bottom:0;}
+
+.departamento #sideBar #content #collections{float:right;}
+
+.departamento #topBanners{float:right;}
+
+.departamento #collections{float:right;}
+
+/* ______ CATEGORIA ______ */
+
+.categoria #all{width:980px;}
+
+.categoria #sideBar{float:left;width:177px;border-top:1px solid #000;border-left:1px solid #000;border-right:1px solid #000;}
+.categoria #departmentNavigator > h3{background: url("/arquivos/sprite_menu.png") no-repeat scroll 0 -480px transparent;border-bottom: 1px solid black;height: 25px;margin: 0;padding: 0;text-indent: -9999px;}
+.categoria #sideBar #departmentNavigator .menu-departamento h3 {background: url("/arquivos/sprite_menu.png") no-repeat scroll -4px -517px transparent;font-weight: normal;margin: 0;padding: 15px 10px 5px 20px;position: relative;}
+.categoria #sideBar #departmentNavigator .menu-departamento a{color:#000;text-decoration:none;font-size:13px;}
+.categoria #sideBar #departmentNavigator .menu-departamento a:hover{color:#790a11;text-decoration:underline;}
+.categoria #sideBar #departmentNavigator .menu-departamento ul{font-size: 13px;margin: 0 5px 10px;padding: 0 0 5px 20px;border-bottom:1px solid #000;}
+.categoria #sideBar #departmentNavigator .menu-departamento li{margin:5px 0;}
+
+.categoria #sideBar #departmentNavigator .menu-departamento .brandFilter ul{margin-bottom:0;}
+
+.categoria #sideBar #content #collections{float:right;}
+
+.categoria #topBanners{float:right;}
+
+.categoria #collections{float:right;}

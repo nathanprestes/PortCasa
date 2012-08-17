@@ -265,10 +265,11 @@ h1 a:hover {
     float: left;
     /*font-weight: 700;*/
     line-height: 1.45em;
-    padding: 14px 14px 12px 10px;
+    padding: 10px 14px 11px 10px
 }
 #menu01 a:hover {
     text-decoration: none;
+	background: url("/arquivos/menu_fundo_hover.png") repeat-x center top transparent;
 }
 .searchWrapper {
     /*padding: 7px 0 13px 8px;*/
@@ -1054,7 +1055,7 @@ input.cep-sufixo{
 .carrinho .content .bt {
     width: auto;
 }
-.carrinho .search{display:none !important;}
+/*.carrinho .search{display:none !important;}*/
 .carrinhoTable {
     width: 100%;
 	margin:10px 0;
@@ -1144,7 +1145,7 @@ input.cep-sufixo{
 .carrinho .controle-quantidade {
     display: none;
 }
-.subtotal{font-size:16px;}
+/*.subtotal{font-size:16px;}*/
 .carrinhoTable .txtSubTotal, .carrinhoTable .preco-total, .carrinhoTable .vale-presente, .carrinhoTable .txt-frete, .carrinhoTable .frete-gratis, .carrinhoTable .valor-total, .carrinhoTable .valor{
     /*padding-left: 414px;*/
 	text-align:right;
@@ -1162,7 +1163,7 @@ input.cep-sufixo{
     width: 110px;
 }
 .carrinhoTable .excluir a {
-	background: url('/arquivos/sprite_icons.png') no-repeat -235px -433px;
+	background: url('/arquivos/sprite_icons.png') no-repeat -267px -243px;
 	width: 15px;
 	height: 15px;
 	text-indent:-9999px;
@@ -1222,9 +1223,9 @@ carrinho div.valor-parcelado {
 	background:none;
 }
 .carrinho .continuar-comprando {
-    background: url('/arquivos/sprite_icons.png') no-repeat -6px -433px;
-	width: 225px;
-	height: 41px;
+    background: url('/arquivos/sprite_buttons.png') no-repeat -7px -307px;
+	width: 275px;
+	height: 48px;
 	float:left;
 }
 .continuar-comprando a{
@@ -1233,7 +1234,7 @@ carrinho div.valor-parcelado {
 }
 .carrinho .finalizar-compra {
     float: right;
-    background: url('/arquivos/sprite_icons.png') no-repeat -6px -484px;
+    background: url('/arquivos/sprite_buttons.png') no-repeat -7px -363px;
 	width: 264px;
 	height: 48px;
 	margin-right:0;
@@ -1285,8 +1286,8 @@ body{background: url('/arquivos/bg_rodape.jpg') repeat-x bottom center;}
 
 .controle-quantidade{display:block !important;position:relative;right:-90px;top:-25px;width:14px;}
 
-.adicionar-item a{background: url('/arquivos/sprite_icons.png') no-repeat -254px -433px;width: 14px;height: 14px;display:block;text-indent:-9999px;}
-.remove-item a{background: url('/arquivos/sprite_icons.png') no-repeat -254px -451px;width: 14px;height: 15px;display:block;text-indent:-9999px;}
+.adicionar-item a{background: url('/arquivos/sprite_icons.png') no-repeat -235px -243px;width: 14px;height: 14px;display:block;text-indent:-9999px;}
+.remove-item a{background: url('/arquivos/sprite_icons.png') no-repeat -235px -261px;width: 14px;height: 15px;display:block;text-indent:-9999px;}
 
 #linkalerta, .erro_carrinho{clear:both;color:#F00;text-align:left;}
 
@@ -1304,7 +1305,7 @@ margin:5px 0;}
 
 #ctl00_Conteudo_ctrlLogin_ctrLogin{font-size:13px;color:#333333;}
 
-.criar-conta a{padding:7px !important;}
+/*.criar-conta a{padding:7px !important;}*/
 .criar-conta a:hover{text-decoration:none !important;}
 
 #ctl00_TopBar_TopBar1_outerHeader.header-steps, #ctl00_TopBar_ComercioTopBar_outerHeader.header-steps{height:97px;margin-bottom:30px;}
@@ -1315,11 +1316,15 @@ margin:5px 0;}
 
 .login #pnlNaoSeguro{display:none;}
 
+.login #ctl00_Conteudo_lnkCadastroCliente{float:right;}
+
 .login #ctl00_TopBar_TopBar1_outerHeader h1, .endereco-compra #ctl00_TopBar_ComercioTopBar_outerHeader h1, .forma-pagamento #ctl00_TopBar_TopBar1_outerHeader h1, .confirmacao-compra #ctl00_TopBar_TopBar1_outerHeader h1, .minha-conta #ctl00_TopBar_TopBar1_ulServicos h1, .meus-pedidos #ctl00_TopBar_ctlTopBar_ulServicos h1, .esqueci-email #ctl00_TopBar_ComercioTopBar_ulServicos h1, .email-mudou #header h1, .meus-pedidos-detalhes #ctl00_TopBar_TopBar2_ulServicos h1{float:left;}
 
 .login #ctl00_TopBar_TopBar1_outerHeader h1 a, .endereco-compra #ctl00_TopBar_ComercioTopBar_outerHeader h1 a, .forma-pagamento #ctl00_TopBar_TopBar1_outerHeader h1 a, .confirmacao-compra #ctl00_TopBar_TopBar1_outerHeader h1 a, .finaliza-compra h1.title a, .minha-conta h1.title a{background: url("/arquivos/logo_portcasa.png") no-repeat scroll left top transparent;float: left;height: 51px;/*margin-left: 3px;*/margin-top: 20px;padding-top: 0;width: 215px;display:block;}
 
 .endereco-compra #ctl00_TopBar_ComercioTopBar_outerHeader h1 #ctl00_TopBar_ComercioTopBar_lnkHome, .endereco-compra #ctl00_TopBar_ComercioTopBar_pnlTopBarAssincrono{display:none;}
+
+.checkout.endereco-compra #ctl00_TopBar_ComercioTopBar_outerHeader h1 #ctl00_TopBar_ComercioTopBar_lnkHome{display:block;}
 
 .endereco-compra .content{float: left;width: 946px;background:#f2f2f2;padding:20px;color:#333333;}
 
@@ -1631,13 +1636,23 @@ width: 215px;}
 
 .meus-pedidos-detalhes .box-dados-pagamento{display:none;}
 
-.meus-pedidos-detalhes .content .descricao-compra{clear:both;width:100%;}
-
-.meus-pedidos-detalhes table.descricao-compra{background:#f2f2f2;width:100%;border-collapse:collapse;}
+.meus-pedidos-detalhes table.descricao-compra{clear:both;background:#f2f2f2;width:100%;border-collapse:collapse;text-align:center;font-size:13px;}
 .meus-pedidos-detalhes table.descricao-compra thead{font-size:14px;color:#696969;background:#FFF;}
-.meus-pedidos-detalhes table.descricao-compra thead th, .meus-pedidos-detalhes table.descricao-compra thead tr{border-top:1px solid #bcbcbc;}
+.meus-pedidos-detalhes table.descricao-compra thead th, .meus-pedidos-detalhes table.descricao-compra thead tr{border-top:1px solid #bcbcbc;text-align:center;font-weight: normal;padding:0 5px;}
+.meus-pedidos-detalhes table.descricao-compra .descricao-produto{text-align:left;}
 .meus-pedidos-detalhes table.descricao-compra tbody th, .meus-pedidos-detalhes table.descricao-compra tbody td{border-top:1px solid #bcbcbc;background:#f2f2f2;}
+.meus-pedidos-detalhes tfoot{background:#FFF;border-top: 1px solid #BCBCBC;border-bottom: 1px solid #BCBCBC;}
+.meus-pedidos-detalhes tfoot .subtotal, .meus-pedidos-detalhes tfoot .frete, .meus-pedidos-detalhes tfoot .valor-total{text-align:right;}
+.meus-pedidos-detalhes tfoot .subtotal{padding-right:99px;font-weight:normal;}
+.meus-pedidos-detalhes tfoot .frete{padding-right:116px;font-weight:normal;}
+.meus-pedidos-detalhes tfoot .valor-total{padding-right:81px;}
+.meus-pedidos-detalhes tfoot .valor-total, .meus-pedidos-detalhes tfoot .valor{font-weight:bold;}
+.meus-pedidos-detalhes table.descricao-compra tbody th, .meus-pedidos-detalhes table.descricao-compra tbody td{border-top:1px solid #bcbcbc;text-align:center;font-weight: normal;padding:0 5px;}
+.meus-pedidos-detalhes table.descricao-compra tbody, .meus-pedidos-detalhes tfoot{color:#000;}
 
+.meus-pedidos-detalhes table.descricao-compra tfoot th, .meus-pedidos-detalhes table.descricao-compra tfoot td, .meus-pedidos-detalhes table.descricao-compra tbody th, .meus-pedidos-detalhes table.descricao-compra tbody td{padding-top:5px;padding-bottom:5px;}
+
+.meus-pedidos-detalhes div.voltar a{display:none;}
 
 /* ______ EDITAR CONTA ______ */
 

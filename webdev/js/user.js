@@ -82,6 +82,6 @@
 	$('.meus-pedidos-detalhes #ctl00_Conteudo_controleDadosPagamento_fieldsetDadosPagamento').appendTo('.meus-pedidos-detalhes .informacoes-entrega');
 	
 	$('.meus-pedidos-detalhes .box-dados-pedido .descricao-compra').appendTo('.meus-pedidos-detalhes .content');
-	
+
 	//Cufon.replace('.menu li, .content .bt, .content #ctl00_Conteudo_ctrlEndereco_BtnSalvar.bt, .cadastro-cliente #ctl00_Conteudo_ctrlCadastroCliente_bntNewUserAdd, .bt, .minha-conta .area-3-2-3 h3, .minha-conta .abas li a, .minha-conta .nav h3, .minha-conta .area-3-2-3 h4, .minha-conta .area-3-2-5 h3, .minha-conta .area-3-2-10 h3, .meus-pedidos .content-meuspedidos h2', { fontFamily: 'Androgyne' });
 });
