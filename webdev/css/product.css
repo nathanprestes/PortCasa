@@ -72,7 +72,7 @@ ul.rating,
     margin-top: 25px;
 }
 #wrapStepThree .buy-button {
-    background: url("/arquivos/btn_comprar.png") repeat scroll 0 0 transparent;
+	background: url('/arquivos/sprite_buttons.png') no-repeat -7px -419px;
     display: block;
     height: 53px;
     margin: 15px 0 0;

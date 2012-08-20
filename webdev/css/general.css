@@ -9,7 +9,7 @@
     font-style: normal;
 }
 
-#bg_header .menu li, #menu h3 a, .content .bt, .content #ctl00_Conteudo_ctrlEndereco_BtnSalvar.bt, .cadastro-cliente #ctl00_Conteudo_ctrlCadastroCliente_bntNewUserAdd, .bt, .minha-conta .area-3-2-3 h3, .minha-conta .abas li a, .minha-conta .nav h3, .minha-conta .area-3-2-3 h4, .minha-conta .area-3-2-5 h3, .minha-conta .area-3-2-10 h3, .meus-pedidos .content-meuspedidos h2, .alterar-senha .content h2, .alterar-senha .outras-opcoes h3, .listas .abas li a, .listas #sideBar h2, .produto #wrapProduto h1 div.productName{font-family: 'androgyneregular';}
+#bg_header .menu li, #menu h3 a, .content .bt, .content #ctl00_Conteudo_ctrlEndereco_BtnSalvar.bt, .cadastro-cliente #ctl00_Conteudo_ctrlCadastroCliente_bntNewUserAdd, .bt, .minha-conta .area-3-2-3 h3, .minha-conta .abas li a, .minha-conta .nav h3, .minha-conta .area-3-2-3 h4, .minha-conta .area-3-2-5 h3, .minha-conta .area-3-2-10 h3, .meus-pedidos .content-meuspedidos h2, .alterar-senha .content h2, .alterar-senha .outras-opcoes h3, .listas .abas li a, .listas #sideBar h2, .produto #wrapProduto h1 div.productName, .listas h2.giftlistsearch-title,  .listas h2.titulo-sessao, .listas .address h2, .lstas #sideBar h2, .lstas #content h2.titulo-sessao{font-family: 'androgyneregular';font-weight: lighter;font-style: normal;}
 
 body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td, legend {
     margin: 0;
@@ -792,7 +792,7 @@ h1.title {
 #ambientes {
     background: none repeat scroll 0 0 #F0F0F0;
     float: left;
-    height: 903px;
+    height: 920px;
     padding: 10px;
     width: 966px;
 }
@@ -838,6 +838,7 @@ h1.title {
     border-bottom: 1px solid #CCCCCC;
     color: #999999;
     font-size: 14px;
+	font-weight:bold;
 }
 .pager {
     clear: both;
@@ -1642,19 +1643,19 @@ h2.titulo-sessao {
 }
 .login .content{clear:both;/*margin:20px 0;*/}
 
-.listas .abas{left: 10px;position: absolute;}
-.listas .abas li{float:left;margin-right:10px;padding:0 16px 0 0;background:url("/arquivos/abas_fundo.png") no-repeat right center;}
+.listas .abas, .lstas .abas{left: 10px;position: absolute;}
+.listas .abas li, .lstas .abas li{float:left;margin-right:10px;padding:0 16px 0 0;background:url("/arquivos/abas_fundo.png") no-repeat right center;}
 /*#tabela_login .area-3-2-2, #tabela_login .pedidos{position:relative;}*/
 
-.listas .abas a{display:block;font-size:15px;padding:5px;color:#000;cursor:pointer;font-family: 'androgyneregular';}
-.listas .abas a:hover{background:url("/arquivos/btn_fundo_hover2.jpg") repeat-x bottom center #95151b;color:#FFF !important;}
-.listas .abas li.ativo{background:url("/arquivos/btn_fundo_hover2.jpg") repeat-x bottom center #95151b;color:#FFF !important;display:block;font-size:15px;padding:5px;cursor:pointer;font-family: 'androgyneregular';}
+.listas .abas a, .lstas .abas a{display:block;font-size:15px;padding:5px;color:#000;cursor:pointer;font-family: 'androgyneregular';}
+.listas .abas a:hover, .lstas .abas a:hover{background:url("/arquivos/btn_fundo_hover2.jpg") repeat-x bottom center #95151b;color:#FFF !important;}
+.listas .abas li.ativo, .lstas .abas li.ativo{background:url("/arquivos/btn_fundo_hover2.jpg") repeat-x bottom center #95151b;color:#FFF !important;display:block;font-size:15px;padding:5px;cursor:pointer;font-family: 'androgyneregular';}
 
-.listas #tabela_login{margin-bottom:20px;}
+.listas #tabela_login, .lstas #tabela_login{margin-bottom:20px;}
 #tabela_login{float: left;width: 986px;background:url("/arquivos/finaliza_compra_fundo.jpg") no-repeat bottom center #f2f2f2;padding:0 0 12px;position:relative;}
 #tabela_login_conteudo{background:url("/arquivos/minha_conta_bg.jpg") repeat-x scroll center top #F2F2F2;float:left;padding:0 10px 10px;width:966px;}
 
-.listas #sideBar{
+.listas #sideBar, .lstas #sideBar{
     float: left;
     margin-top: 47px;
     width: 172px;
@@ -1663,24 +1664,78 @@ h2.titulo-sessao {
 	min-height:403px;
 }
 
-.listas #content{
+.listas #content, .lstas #content{
     padding-top: 47px;
 	float:right;
 	width:754px;
 }
 
-.listas #sideBar h2{color:#92151a;font-size:15px;margin: 10px 0;font-weight:normal;}
-.listas #sideBar ul{padding-left:5px;}
-.listas #sideBar ul li{color:#000000;font-size:13px;margin: 5px 0;}
-.listas #sideBar ul li a{color:#000000;font-size:13px;margin: 5px 0;}
-.listas #sideBar ul li a:hover{text-decoration:underline;}
+.listas #sideBar h2, .lstas #sideBar h2{color:#92151a;font-size:15px;margin: 10px 0;font-weight:normal;}
+.listas #sideBar ul, .lstas #sideBar ul{padding-left:5px;}
+.listas #sideBar ul li, .lstas #sideBar ul li{color:#000000;font-size:13px;margin: 5px 0;}
+.listas #sideBar ul li a, .lstas #sideBar ul li a{color:#000000;font-size:13px;margin: 5px 0;}
+.listas #sideBar ul li a:hover, .lstas #sideBar ul li a:hover{text-decoration:underline;}
 
-.listas .area-3-2-3 h3{display:block !important;text-transform:capitalize;font-size:22px;color:#000;}
+.listas .area-3-2-3 h3, .listas h2.titulo-sessao{display:block !important;text-transform:capitalize;font-size:22px;color:#000;}
+.listas h2.giftlistsearch-title{display:none;}
 
+.listas li.giftlistaddress input{float:left;margin-right:5px;}
+.listas address{float:left;width:122px;}
+.listas address h2{color:#000;}
 
 /* ______ BUSCA LISTA ______ */
 
 .listas #topBar{display:none;}
+
+.listas ul.giftlistsearchul li, .listas ul.giftlistul li{margin-top:10px;float:left;clear:both;}
+.listas ul.giftlistsearchul span, .listas ul.giftlistul span{float: left;font-size: 13px;margin-right: 10px;margin-top: 10px;width: 120px;}
+.listas ul.giftlistul li.giftlistphotoview span{float:left;margin-right:0;margin-left:7px;margin-bottom:10px;}
+.listas ul.giftlistsearchul .giftlistphoto span{margin-top:0;}
+.listas ul.giftlistsearchul .giftlistsearchname input, .listas ul.giftlistsearchul .giftlistsearchgifeted input, .listas ul.giftlistsearchul .giftlistsearcheventdate input, .listas ul.giftlistsearchul .giftlistsearchcodigo input, .listas ul.giftlistul li.giftlisttype select, .listas ul.giftlistul li.giftlistname input, .listas ul.giftlistul li.giftlistgifeted input, .listas ul.giftlistul li.giftlisteventdate input, .listas ul.giftlistul li.giftlisturl input, .listas ul.giftlistul li.giftlistmessage input, .listas ul.giftlistul li.giftlistmessage textarea{background: url("/arquivos/bg_prodQnty.png") no-repeat scroll left top transparent;border: medium none;font-size: 12px;text-align:left;width:340px;padding:10px 5px;}
+.listas ul.giftlistsearchul .giftlistsearcheventdate input{width:61px;}
+.listas ul.giftlistul li.giftlisttype select{width:350px;}
+.listas ul.giftlistul li.giftlistmessage textarea{height:110px;resize:none;}
+.listas ul.giftlistsearchul li.giftlistsearchfind{width:480px;}
+.listas ul.giftlistul #giftlistphoto{margin:8px 20px 0 0;}
+.listas ul.giftlistul li.giftlistisactive{display:none;}
+.listas ul.giftlistul li.giftlistphotoview div{/*float:left;*/}
+.listas ul.giftlistul li.giftlistphotoview img{width:130px;}
+.listas ul.giftlistsearchul #giftlistsearchfind, .listas ul.giftlistul #giftlistupload, .listas ul.giftlistul #giftlistremovephoto, .listas #giftlistform #giftlistsave{font-size:14px;background:url("/arquivos/btn_fundo_hover2.jpg") repeat-x bottom center #95151b;border:none;padding:5px 10px;cursor:pointer;color:#FFF;font-family: 'androgyneregular';float:right;}
+.listas #giftlistform #giftlistsave{margin-right:274px;}
+.listas ul.giftlistul #giftlistremovephoto{float:left;}
+
+.listas ul.address-list-select{border-top:1px dotted #999999;border-bottom:1px dotted #999999;width:100%;margin-top:10px;margin-bottom:10px;float:left;padding-bottom:20px;}
+
+.listas ul.address-list-select li{float: left;margin: 20px 20px 0 0;padding-right:10px;border-right:1px dotted #999999;width:140px;font-size: 13px;text-transform: uppercase;}
+
+.listas .address h2{color:#000;}
+
+/* ______ GERENCIAR LISTA ______ */
+
+.lstas #topBar{display:none;}
+.lstas ul.giftlist-action{display:none;}
+
+.lstas #content h2.titulo-sessao{display:block !important;text-transform:capitalize;font-size:22px;color:#000;}
+
+.lstas .giftlist-table{margin-top:20px;}
+.lstas .giftlist-table th, .lstas .giftlist-table td{border:1px solid #bcbcbc;padding:3px 10px;}
+.lstas table.giftlist-table{clear:both;background:#f2f2f2;width:100%;border-collapse:collapse;text-align:center;font-size:13px;}
+.lstas table.giftlist-table thead{font-size:14px;color:#696969;background:#FFF;}
+.lstas table.giftlist-table thead th, .lstas table.giftlist-table thead tr{border-top:1px solid #bcbcbc;text-align:left;font-weight: normal;padding:0 5px;}
+.lstas table.giftlist-table thead th.giftlist-header-eventdate{width:100px;}
+.lstas table.giftlist-table .giftlist-table{text-align:left;border-right:1px solid #bcbcbc;}
+.lstas table.giftlist-table tbody th, .lstas table.giftlist-table tbody td{border-top:1px solid #bcbcbc;background:#f2f2f2;}
+.lstas tfoot{background:#FFF;border-top: 1px solid #BCBCBC;border-bottom: 1px solid #BCBCBC;}
+/*.lstas tfoot .subtotal, .lstas tfoot .frete, .lstas tfoot .valor-total{text-align:right;}
+.lstas tfoot .subtotal{padding-right:99px;font-weight:normal;}
+.lstas tfoot .frete{padding-right:116px;font-weight:normal;}
+.lstas tfoot .valor-total{padding-right:81px;}*/
+.lstas tfoot .valor-total, .lstas tfoot .valor{font-weight:bold;}
+.lstas table.giftlist-tabletbody th, .lstas table.giftlist-table tbody td{border-top:1px solid #bcbcbc;text-align:center;font-weight: normal;padding:0 5px;}
+.lstas table.giftlist-table tbody, .lstas tfoot{color:#000;}
+
+.lstas table.giftlist-table tfoot th, .lstas table.giftlist-table tfoot td, .lstas table.giftlist-table tbody th, .lstas table.giftlist-table tbody td{padding-top:5px;padding-bottom:5px;}
+
 
 /* ______ DEPARTAMENTO ______ */
 
@@ -1706,7 +1761,7 @@ h2.titulo-sessao {
 
 .categoria #all{width:980px;}
 
-.categoria #sideBar{float:left;width:177px;border-top:1px solid #000;border-left:1px solid #000;border-right:1px solid #000;}
+.categoria #sideBar{float:left;width:177px;border-top:1px solid #000;border-left:1px solid #000;border-right:1px solid #000;margin-bottom:20px;}
 .categoria #departmentNavigator > h3{background: url("/arquivos/sprite_menu.png") no-repeat scroll 0 -480px transparent;border-bottom: 1px solid black;height: 25px;margin: 0;padding: 0;text-indent: -9999px;}
 .categoria #sideBar #departmentNavigator .menu-departamento h3 {background: url("/arquivos/sprite_menu.png") no-repeat scroll -4px -517px transparent;font-weight: normal;margin: 0;padding: 15px 10px 5px 20px;position: relative;}
 .categoria #sideBar #departmentNavigator .menu-departamento a{color:#000;text-decoration:none;font-size:13px;}
@@ -1721,3 +1776,25 @@ h2.titulo-sessao {
 .categoria #topBanners{float:right;}
 
 .categoria #collections{float:right;}
+
+/* ______ BUSCA ______ */
+
+.resultado-busca #all{width:980px;}
+
+.resultado-busca #sideBar{float:left;width:177px;border-top:1px solid #000;border-left:1px solid #000;border-right:1px solid #000;margin-bottom:20px;}
+.resultado-busca #departmentNavigator > h3{background: url("/arquivos/sprite_menu.png") no-repeat scroll 0 -480px transparent;border-bottom: 1px solid black;height: 25px;margin: 0;padding: 0;text-indent: -9999px;}
+.resultado-busca #sideBar #departmentNavigator .menu-departamento h3 {background: url("/arquivos/sprite_menu.png") no-repeat scroll -4px -517px transparent;font-weight: normal;margin: 0;padding: 15px 10px 5px 20px;position: relative;}
+.resultado-busca #sideBar #departmentNavigator .menu-departamento a{color:#000;text-decoration:none;font-size:13px;}
+.resultado-busca #sideBar #departmentNavigator .menu-departamento a:hover{color:#790a11;text-decoration:underline;}
+.resultado-busca #sideBar #departmentNavigator .menu-departamento ul{font-size: 13px;margin: 0 5px 10px;padding: 0 0 5px 20px;border-bottom:1px solid #000;}
+.resultado-busca #sideBar #departmentNavigator .menu-departamento li{margin:5px 0;}
+
+.resultado-busca #sideBar #departmentNavigator .menu-departamento .brandFilter ul{margin-bottom:0;}
+
+.resultado-busca #sideBar #content #collections{float:right;}
+
+.resultado-busca #topBanners{float:right;}
+
+.resultado-busca #collections{float:right;}
+
+.resultado-busca .busca-vazio{width:750px;background:#F3F3F3;text-align:center;padding:15px;font-size:14px;font-family: 'androgyneregular';font-weight:normal;}

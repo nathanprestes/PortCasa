@@ -9,7 +9,7 @@
     font-style: normal;
 }
 
-#bg_header .menu li, .content .bt, .content #ctl00_Conteudo_ctrlEndereco_BtnSalvar.bt, .cadastro-cliente #ctl00_Conteudo_ctrlCadastroCliente_bntNewUserAdd, .bt, .minha-conta .area-3-2-3 h3, .minha-conta .abas li a, .minha-conta .nav h3, .minha-conta .area-3-2-3 h4, .minha-conta .area-3-2-5 h3, .minha-conta .area-3-2-10 h3, .meus-pedidos .content-meuspedidos h2, .alterar-senha .content h2, .alterar-senha .outras-opcoes h3, .listas .abas li a, .esqueci-email #ctl00_Conteudo_UpdatePanel1 h2, .esqueci-senha .content h2, .email-mudou .content h2, .meus-pedidos-detalhes .content h2, #menu01 li, .meus-pedidos-detalhes #sideBar h2{font-family: 'androgyneregular';font-weight:normal;}
+#bg_header .menu li, .content .bt, .content #ctl00_Conteudo_ctrlEndereco_BtnSalvar.bt, .cadastro-cliente #ctl00_Conteudo_ctrlCadastroCliente_bntNewUserAdd, .bt, .minha-conta .area-3-2-3 h3, .minha-conta .abas li a, .minha-conta .nav h3, .minha-conta .area-3-2-3 h4, .minha-conta .area-3-2-5 h3, .minha-conta .area-3-2-10 h3, .meus-pedidos .content-meuspedidos h2, .alterar-senha .content h2, .alterar-senha .outras-opcoes h3, .listas .abas li a, .esqueci-email #ctl00_Conteudo_UpdatePanel1 h2, .esqueci-senha .content h2, .email-mudou .content h2, .meus-pedidos-detalhes .content h2, #menu01 li, .meus-pedidos-detalhes #sideBar h2, .editar-conta .meus-dados h4, .endereco-compra #ctl00_Conteudo_ctrlEnderecoCatalogo_divListaEndereco legend span{font-family: 'androgyneregular';font-weight: lighter;font-style: normal;}
 
 body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td, legend {
     margin: 0;
@@ -164,17 +164,7 @@ a:hover {
 #divMenuUsuario {
     display: none;
 }
-.header div div {
-    /*font-size: 10px;*/
-    overflow: auto;
-    position: relative;
-    /*top: 2px;*/
-    width: 100%;
-}
-.header div div div {
-    overflow: auto;
-    /*padding-top: 2px;*/
-}
+
 .header div div .ajax-content-loader, .header div div .ajax-content-loader div {
     color: #999999;
     float: left;
@@ -236,41 +226,111 @@ h1 a {
 h1 a:hover {
     text-decoration: none;
 }
+
+
+
+
+
 .header .menuwrap {
     clear: both;
     font-size: 11px;
-    overflow: auto;
+    /*overflow: auto;*/
 	/*position: static;*/
     position: absolute;
-	top:80px;
+	top:92px;
+	left:3px;
 }
+#menu01 .brandFilter{display:none;}
 #menu01 {
-    /*background: none repeat scroll 0 0 #195073;
+    background: url("/arquivos/bg_menu.jpg") repeat scroll 0 0 transparent;
+    border-radius: 3px 3px 3px 3px;
     clear: both;
-    margin: 3px 0 4px;
-    overflow: hidden;*/
-	background: url("/arquivos/bg_menu.jpg") repeat scroll 0 0 transparent;
-	border-radius: 3px 3px 3px 3px;
-	clear: both;
-	height: 42px;
-	margin: 12px auto 0;
-	overflow: hidden;
-	width: 980px;
-}
-#menu01 li {
-    float: left;
+    height: 42px;
+    margin: 0 auto;
+    overflow: hidden;
+    width: 980px;
 }
 #menu01 a {
     color: #FFFFFF;
+    font-size: 13px;
+}
+#menu01 li {
+    background: url("/arquivos/sprite_icons.png") no-repeat scroll -134px -179px transparent;
     float: left;
+}
+#menu01 li a, #linkVipClub {
+    color: #FFFFFF;
+    float: left;
+    font-size: 15px;
     /*font-weight: 700;*/
-    line-height: 1.45em;
-    padding: 10px 14px 11px 10px
+	font-weight:normal;
+    padding: 10px 20px 11px 20px;
+	text-decoration: none;
+	margin-left:2px;
 }
-#menu01 a:hover {
-    text-decoration: none;
-	background: url("/arquivos/menu_fundo_hover.png") repeat-x center top transparent;
+#menu01 li a:hover {
+    background: url("/arquivos/menu_fundo_hover.png") repeat-x center top transparent;
+	box-shadow:inset 2px 2px 5px #490a10;
+	-moz-box-shadow:inset 2px 2px 5px #490a10;
+	-webkit-box-shadow:inset 2px 2px 5px #490a10;
 }
+#menu01 ul {
+    /*-moz-border-bottom-colors: none;
+    -moz-border-image: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: none repeat scroll 0 0 white;
+    border-color: -moz-use-text-color #565554 #565554;
+    border-style: none solid solid;
+    border-width: medium 1px 1px;
+    display: none;
+    font-weight: bold;
+    margin: 42px 0 0 8px;
+    padding: 5px;
+    position: absolute;*/
+	
+	background: none repeat scroll 0 0 white;
+	border-left: 1px solid #A5A5A5;
+	border-right: 1px solid #A5A5A5;
+	border-bottom: 2px solid #A5A5A5;
+	
+	margin: 42px 0 0;
+	position: absolute;
+	display: none;
+	color:#000000;
+}
+#menu01 ul a {
+    color: #790A11;
+	font-weight: bold;
+    /*display: block;*/
+    padding: 1px 4px 0;
+    position: relative;
+}
+#menu01 ul a:hover {text-decoration:underline;}
+#menu01 ul li {
+	border-left: 1px solid #4B4B4C;
+	border-right: 1px solid #4B4B4C;
+	list-style: disc inside none;
+	padding: 5px;
+}
+#menu01 ul .lista-completa {
+    border-top: 1px dashed #FFFFFF;
+    margin-top: 8px;
+    padding-top: 2px;
+}
+#menu01 #linkVipClub {
+    color: #EDEDED;
+    float: right;
+    padding-left: 8px;
+    padding-right: 11px;
+}
+
+
+
+
+
+
 .searchWrapper {
     /*padding: 7px 0 13px 8px;*/
 	display:none;
@@ -907,7 +967,7 @@ input.cep-sufixo{
 	width:754px;
 }
 .meus-dados h4, .filtrar legend {
-    font-weight: 700;
+    /*font-weight: 700;*/
 }
 .minha-conta .dados {
     overflow: hidden;
@@ -1264,8 +1324,8 @@ body{background: url('/arquivos/bg_rodape.jpg') repeat-x bottom center;}
 .carrinho #chat_online, .editar-conta #chat_online{float:right;margin-right:144px;}
 .editar-conta #chat_online{margin-top:12px;}
 
-#diferenciaisHeader {margin: 47px auto 10px;padding-left: 7px;width: 980px;}
-#diferenciaisHeader a {padding: 0 12px 0 11px;}
+#diferenciaisHeader {/*margin: 47px auto 10px;padding-left: 7px;width: 980px;*/margin:47px 10px 10px 7px;width: 980px;}
+#diferenciaisHeader a {/*padding: 0 12px 0 11px;*/padding:0 12px 0 11px;}
 
 #ctl00_TopBar_TopBar1_lnkHome{/*display:none;*/}
 
@@ -1276,8 +1336,6 @@ body{background: url('/arquivos/bg_rodape.jpg') repeat-x bottom center;}
 #header_fundo{background:url("/arquivos/bg_header.jpg") repeat-x scroll 0 0 transparent;width:100%;height:97px;position:absolute;top:0;}
 
 /*h1.title{padding-top:20px;}*/
-
-#menu01 li{font-size: 15px;background:url("/arquivos/sprite_icons.png") no-repeat scroll -134px -179px transparent;float:left;}
 
 .painelCarrinho{background:#f2f2f2;padding:10px;}
 
@@ -1322,9 +1380,10 @@ margin:5px 0;}
 
 .login #ctl00_TopBar_TopBar1_outerHeader h1 a, .endereco-compra #ctl00_TopBar_ComercioTopBar_outerHeader h1 a, .forma-pagamento #ctl00_TopBar_TopBar1_outerHeader h1 a, .confirmacao-compra #ctl00_TopBar_TopBar1_outerHeader h1 a, .finaliza-compra h1.title a, .minha-conta h1.title a{background: url("/arquivos/logo_portcasa.png") no-repeat scroll left top transparent;float: left;height: 51px;/*margin-left: 3px;*/margin-top: 20px;padding-top: 0;width: 215px;display:block;}
 
-.endereco-compra #ctl00_TopBar_ComercioTopBar_outerHeader h1 #ctl00_TopBar_ComercioTopBar_lnkHome, .endereco-compra #ctl00_TopBar_ComercioTopBar_pnlTopBarAssincrono{display:none;}
+/*.endereco-compra #ctl00_TopBar_ComercioTopBar_outerHeader h1 #ctl00_TopBar_ComercioTopBar_lnkHome, .endereco-compra #ctl00_TopBar_ComercioTopBar_pnlTopBarAssincrono{display:none;}*/
+.endereco-compra #ctl00_TopBar_ComercioTopBar_pnlTopBarAssincrono{display:none;}
 
-.checkout.endereco-compra #ctl00_TopBar_ComercioTopBar_outerHeader h1 #ctl00_TopBar_ComercioTopBar_lnkHome{display:block;}
+/*.checkout.endereco-compra #ctl00_TopBar_ComercioTopBar_outerHeader h1 #ctl00_TopBar_ComercioTopBar_lnkHome{display:block;}*/
 
 .endereco-compra .content{float: left;width: 946px;background:#f2f2f2;padding:20px;color:#333333;}
 
@@ -1516,7 +1575,6 @@ width: 215px;}
 .minha-conta .area-3-2-3{font-weight:bold;font-size:13px;}
 
 .minha-conta .area-3-2-3 h3, .meus-pedidos .content-meuspedidos h2, .editar-conta .meus-dados h4,.alterar-senha .content h2{display:block !important;text-transform:capitalize;font-size:22px;color:#000;}
-.editar-conta .meus-dados h4{font-family: 'androgyneregular';}
 
 .minha-conta .area-3-2-3 .bts li{margin:10px 0;}
 
@@ -1672,7 +1730,7 @@ width: 215px;}
 /* ______ ALTERAR SENHA ______ */
 
 .alterar-senha .content{margin:0 auto;width:586px;float:none;font-size:13px;}
-.alterar-senha .content h2{display:block !important;color:#333333 !important;}
+.alterar-senha .content h2{display:block !important;}
 
 .alterar-senha #ctl00_BuscaTxt_Top_Busca_btnOK{width: 30px;height: 33px;background: none;border: none;cursor:pointer;text-indent: -99999px;position: relative;top: -2px;left: -32px;}
 

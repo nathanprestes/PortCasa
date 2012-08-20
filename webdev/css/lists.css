@@ -7,33 +7,32 @@
 .giftlistsearchul span,
 .giftlistul span{float:left;margin-top:2px;width:140px;}
 
-.giftlistsearchul textarea,
-.giftlistul textarea{height:100px;width:300px;}
-
+/*.giftlistsearchul textarea,
+.giftlistul textarea{height:100px;width:300px;}*/
 
 /* List Elements */
-.giftlist h2{font-weight:700;padding:16px 0 4px;}
+.giftlist h2{/*font-weight:700;padding:16px 0 4px;*/}
 
 /* List Management */
 .giftlist a{text-decoration:underline;}
 
-.giftlist-table{margin-top:20px;}
+/*.giftlist-table{margin-top:20px;}
 .giftlist-table th,
 .giftlist-table td{border:1px solid #195073;padding:3px 10px;}
-
+*/
 .giftlist-table thead{background:#f0f0f0;}
 
 /* New List */
-.address{padding-bottom:50px;}
-.address-list-select{margin:15px 0;}
-.address-list-select li{float:left;margin:0 20px 15px 0;}
-
+/*.address{padding-bottom:50px;}
+.address-list-select{margin:15px 0;float:left;}
+.address-list-select li{float:left;margin:0 10px 15px 0;}
+*/
 /* Top menu */
-.abas{border-bottom:1px solid #195073;overflow:hidden;margin:10px 0 18px;padding-bottom:3px;}
+/*.abas{border-bottom:1px solid #195073;overflow:hidden;margin:10px 0 18px;padding-bottom:3px;}
 .abas li{float:left;font-size:15px;padding:3px 9px;}
 .abas a{display:block;}
 .abas .meu-perfil,
 .abas .meus-pedidos{background:url("/arquivos/tabs-bg.gif") right 5px no-repeat;}
-
+*/
 /* Side Menu */
 #sideBar .linkList a{font-size:11px;}
