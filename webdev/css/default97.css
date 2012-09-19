@@ -94,7 +94,7 @@ span.obr {color:#F00;padding-left:5px;}
 .load {
 width:31px;
 height:31px;
-background:url(http://portcasa.vtexcommerce.com.br:80/Control/ArquivoExibir.aspx?NomeArquivo=loading.gif) no-repeat;
+background:url(http://develop-portcasa.vtexcommerce.com.br:80/Control/ArquivoExibir.aspx?NomeArquivo=loading.gif) no-repeat;
 text-indent:-999em;
 position:absolute;
 top:50%;
@@ -122,7 +122,7 @@ width:782px;
 .bread-crumb {
 padding-left:26px;
 height:20px;
-background:url(http://portcasa.vtexcommerce.com.br:80/Control/ArquivoExibir.aspx?NomeArquivo=icon-breadcrumb.gif) no-repeat #FBFBEF;
+background:url(http://develop-portcasa.vtexcommerce.com.br:80/Control/ArquivoExibir.aspx?NomeArquivo=icon-breadcrumb.gif) no-repeat #FBFBEF;
 }
 body.servico .breadcrumb {
 padding:10px;
@@ -138,7 +138,7 @@ padding-right:10px;
 margin-right:3px;
 float:left;
 line-height:20px;
-background:url(http://portcasa.vtexcommerce.com.br:80/Control/ArquivoExibir.aspx?NomeArquivo=arrow-right-purple.gif) no-repeat right 8px;
+background:url(http://develop-portcasa.vtexcommerce.com.br:80/Control/ArquivoExibir.aspx?NomeArquivo=arrow-right-purple.gif) no-repeat right 8px;
 }
 .breadcrumb ul li.last,
 .bread-crumb ul li.last {
@@ -155,7 +155,7 @@ text-decoration:underline;
 div.header,
 div.header-steps {width:100%;height:64px;padding-top:9px;margin:0 auto;position:relative;background:#FFF;}
 
-h1 {margin:0 0 2px 22px;width:233px;height:30px;float:left;background:url(http://portcasa.vtexcommerce.com.br:80/Control/ArquivoExibir.aspx?NomeArquivo=logo.gif) no-repeat;text-indent:-999em;}
+h1 {margin:0 0 2px 22px;width:233px;height:30px;float:left;background:url(http://develop-portcasa.vtexcommerce.com.br:80/Control/ArquivoExibir.aspx?NomeArquivo=logo.gif) no-repeat;text-indent:-999em;}
 h1 a {width:233px;height:30px;display:block;}
 
 .menu-user {position:absolute;top:20px;right:5px;}
@@ -182,7 +182,7 @@ body.login .loginmsg {display:none;}
 
 
 /* busca */
-.searchWrapper {width:100%;height:45px;float:left;background:url(http://portcasa.vtexcommerce.com.br:80/Control/ArquivoExibir.aspx?NomeArquivo=bg-topbar.jpg) repeat-x #F1EEB5;position:relative;
+.searchWrapper {width:100%;height:45px;float:left;background:url(http://develop-portcasa.vtexcommerce.com.br:80/Control/ArquivoExibir.aspx?NomeArquivo=bg-topbar.jpg) repeat-x #F1EEB5;position:relative;
 border-bottom-right-radius:10px;
 border-bottom-left-radius:10px; 	
 -moz-border-radius-bottomright:10px;
@@ -193,17 +193,17 @@ border-bottom-left-radius:10px;
 .bottomSearchWrapper,
 fieldset.search label,
 fieldset.search select {display:none;}
-fieldset.search {padding:0 4px;width:369px;height:31px;background:url(http://portcasa.vtexcommerce.com.br:80/Control/ArquivoExibir.aspx?NomeArquivo=bg-busca.gif) no-repeat;position:absolute;top:6px;left:295px;}
+fieldset.search {padding:0 4px;width:369px;height:31px;background:url(http://develop-portcasa.vtexcommerce.com.br:80/Control/ArquivoExibir.aspx?NomeArquivo=bg-busca.gif) no-repeat;position:absolute;top:6px;left:295px;}
 fieldset.search input.fitext {margin-top:4px;width:330px;float:left;font-family:Verdana;font-size:1.4em;color:#878337;border:none;background:#FFF;}
-fieldset.search .ok .bt {margin-top:3px;width:32px;height:25px;float:left;line-height:40px;background:url(http://portcasa.vtexcommerce.com.br:80/Control/ArquivoExibir.aspx?NomeArquivo=bt-buscar.gif) no-repeat;border:none;text-indent:-999em;cursor:pointer;}
+fieldset.search .ok .bt {margin-top:3px;width:32px;height:25px;float:left;line-height:40px;background:url(http://develop-portcasa.vtexcommerce.com.br:80/Control/ArquivoExibir.aspx?NomeArquivo=bt-buscar.gif) no-repeat;border:none;text-indent:-999em;cursor:pointer;}
 
 /* carrinho header */
-.menu-user li#cesta-compras {padding:0;width:290px;height:29px;float:none;background:url(http://portcasa.vtexcommerce.com.br:80/Control/ArquivoExibir.aspx?NomeArquivo=icon-carrinho.gif) no-repeat;position:absolute;right:10px;top:62px;z-index:400;}
+.menu-user li#cesta-compras {padding:0;width:290px;height:29px;float:none;background:url(http://develop-portcasa.vtexcommerce.com.br:80/Control/ArquivoExibir.aspx?NomeArquivo=icon-carrinho.gif) no-repeat;position:absolute;right:10px;top:62px;z-index:400;}
 .menu-user li#cesta-compras a {padding:0 0 0 30px;font-size:1.1em;color:#99182C;line-height:29px;border:none;}
 body.login .menu-user li#cesta-compras {display:none;}
 
 /* menu */
-.menu {width:100%;height:32px;float:left;background:url(http://portcasa.vtexcommerce.com.br:80/Control/ArquivoExibir.aspx?NomeArquivo=bg-menu.jpg) #BFBB6D;
+.menu {width:100%;height:32px;float:left;background:url(http://develop-portcasa.vtexcommerce.com.br:80/Control/ArquivoExibir.aspx?NomeArquivo=bg-menu.jpg) #BFBB6D;
 border-top-left-radius:10px;
 border-top-right-radius:10px;
 -moz-border-radius-topleft:10px;
@@ -211,7 +211,7 @@ border-top-right-radius:10px;
 -webkit-border-top-left-radius:10px;
 -webkit-border-top-right-radius:10px;
 }
-.menu li {float:left;background:url(http://portcasa.vtexcommerce.com.br:80/Control/ArquivoExibir.aspx?NomeArquivo=menu-sep.gif) no-repeat center right;}
+.menu li {float:left;background:url(http://develop-portcasa.vtexcommerce.com.br:80/Control/ArquivoExibir.aspx?NomeArquivo=menu-sep.gif) no-repeat center right;}
 .menu li.menu-venda-para-empresas {background:none;}
 .menu a {padding:0 17px;display:block;font-family:Verdana;font-size:1.3em;font-weight:bold;color:#FFF;line-height:32px;}
 .menu a:hover {color:#99182C;}
@@ -254,7 +254,7 @@ width:140px;
 margin-bottom:24px;
 clear:both;
 text-align:center;
-background:url(http://portcasa.vtexcommerce.com.br:80/Control/ArquivoExibir.aspx?NomeArquivo=buscas-dia-br.gif) no-repeat 865px 0;
+background:url(http://develop-portcasa.vtexcommerce.com.br:80/Control/ArquivoExibir.aspx?NomeArquivo=buscas-dia-br.gif) no-repeat 865px 0;
 }
 .buscas-dia {
 padding-left:42px;
@@ -262,13 +262,13 @@ margin:0 auto;
 width:686px;
 min-height:166px;
 text-align:left;
-background:url(http://portcasa.vtexcommerce.com.br:80/Control/ArquivoExibir.aspx?NomeArquivo=buscas-dia-bl.gif) no-repeat;
+background:url(http://develop-portcasa.vtexcommerce.com.br:80/Control/ArquivoExibir.aspx?NomeArquivo=buscas-dia-bl.gif) no-repeat;
 }
 .buscas-dia h3 {
 padding-left:40px;
 font-size:3.3em;
 line-height:33px;
-background:url(http://portcasa.vtexcommerce.com.br:80/Control/ArquivoExibir.aspx?NomeArquivo=icon-buscas-dia.gif) no-repeat;
+background:url(http://develop-portcasa.vtexcommerce.com.br:80/Control/ArquivoExibir.aspx?NomeArquivo=icon-buscas-dia.gif) no-repeat;
 }
 body.home .buscas-diaWrapper {
 background-position:622px 0;
@@ -281,7 +281,7 @@ body.home .buscas-dia h3 {
 padding-left:30px;
 font-size:1.5em;
 line-height:23px;
-background:url(http://portcasa.vtexcommerce.com.br:80/Control/ArquivoExibir.aspx?NomeArquivo=icon-buscas-dia-small.gif) no-repeat;
+background:url(http://develop-portcasa.vtexcommerce.com.br:80/Control/ArquivoExibir.aspx?NomeArquivo=icon-buscas-dia-small.gif) no-repeat;
 }
 .buscas-dia p {
 padding:26px;
@@ -370,7 +370,7 @@ margin-top:5px;
 width:216px;
 height:63px;
 float:left;
-background:url(http://portcasa.vtexcommerce.com.br:80/Control/ArquivoExibir.aspx?NomeArquivo=formas-pagamento.gif) no-repeat;
+background:url(http://develop-portcasa.vtexcommerce.com.br:80/Control/ArquivoExibir.aspx?NomeArquivo=formas-pagamento.gif) no-repeat;
 text-indent:-999em;
 }
 .certificados {
@@ -379,7 +379,7 @@ margin:5px 14px 0 9px;
 width:502px;
 height:62px;
 float:left;
-background:url(http://portcasa.vtexcommerce.com.br:80/Control/ArquivoExibir.aspx?NomeArquivo=bg-certificados.gif) no-repeat;
+background:url(http://develop-portcasa.vtexcommerce.com.br:80/Control/ArquivoExibir.aspx?NomeArquivo=bg-certificados.gif) no-repeat;
 }
 .certificados strong {
 line-height:60px;
@@ -396,14 +396,14 @@ float:left;
 margin-left:30px;
 width:83px;
 height:32px;
-background:url(http://portcasa.vtexcommerce.com.br:80/Control/ArquivoExibir.aspx?NomeArquivo=certisign.gif) no-repeat;
+background:url(http://develop-portcasa.vtexcommerce.com.br:80/Control/ArquivoExibir.aspx?NomeArquivo=certisign.gif) no-repeat;
 text-indent:-999em;
 }
 .blindado {display:none;
 margin-left:46px;
 width:117px;
 height:32px;
-background:url(http://portcasa.vtexcommerce.com.br:80/Control/ArquivoExibir.aspx?NomeArquivo=blindado.gif) no-repeat;
+background:url(http://develop-portcasa.vtexcommerce.com.br:80/Control/ArquivoExibir.aspx?NomeArquivo=blindado.gif) no-repeat;
 text-indent:-999em;
 }
 .vtex {
@@ -411,7 +411,7 @@ margin-left:25px;
 margin-top:6px;
 width:104px;
 height:21px;
-background:url(http://portcasa.vtexcommerce.com.br:80/Control/ArquivoExibir.aspx?NomeArquivo=vtex.gif) no-repeat;
+background:url(http://develop-portcasa.vtexcommerce.com.br:80/Control/ArquivoExibir.aspx?NomeArquivo=vtex.gif) no-repeat;
 text-indent:-999em;
 }
 .vtex a {width:104px;height:21px;display:block;}
@@ -419,7 +419,7 @@ text-indent:-999em;
 width:86px;
 height:74px;
 float:left;
-background:url(http://portcasa.vtexcommerce.com.br:80/Control/ArquivoExibir.aspx?NomeArquivo=ebit.gif) no-repeat;
+background:url(http://develop-portcasa.vtexcommerce.com.br:80/Control/ArquivoExibir.aspx?NomeArquivo=ebit.gif) no-repeat;
 text-indent:-999em;
 }
 .ebit a {
@@ -430,7 +430,7 @@ display:block;
 
 .wrapperLnkInst {
 height:30px;
-background:url(http://portcasa.vtexcommerce.com.br:80/Control/ArquivoExibir.aspx?NomeArquivo=bg-lnk-inst.jpg) no-repeat;
+background:url(http://develop-portcasa.vtexcommerce.com.br:80/Control/ArquivoExibir.aspx?NomeArquivo=bg-lnk-inst.jpg) no-repeat;
 }
 .linksInstitucionais li {
 padding-right:8px;
@@ -452,7 +452,7 @@ text-decoration:underline;
 /* fim estrutura principal */
 
 /* carrinho */
-body.carrinho h2 {width:982px;height:31px;background:url(http://portcasa.vtexcommerce.com.br:80/Control/ArquivoExibir.aspx?NomeArquivo=carrinho-top.gif) no-repeat;text-indent:-999em;}
+body.carrinho h2 {width:982px;height:31px;background:url(http://develop-portcasa.vtexcommerce.com.br:80/Control/ArquivoExibir.aspx?NomeArquivo=carrinho-top.gif) no-repeat;text-indent:-999em;}
 .carrinho .sidebar .prateleira{padding:1em;clear:both;}
 body.carrinho div.painelCarrinho ul.top {display:none;}
 body.carrinho ul.bts {margin-bottom:2em;float:left;width:100%;border-top:24px solid #F1F1CA;}
@@ -460,9 +460,9 @@ body.carrinho .carrinho-vazio ul.bts {margin:0;border:none;}
 body.carrinho ul.bts a {width:174px;height:26px;display:block;text-indent:-999em;}
 body.carrinho .carrinho-vazio ul.bts a {text-indent:0;}
 body.carrinho .continuar-comprando {float:left;}
-body.carrinho .continuar-comprando a {background:url(http://portcasa.vtexcommerce.com.br:80/Control/ArquivoExibir.aspx?NomeArquivo=bt-continuar-comprando.png) no-repeat;}
+body.carrinho .continuar-comprando a {background:url(http://develop-portcasa.vtexcommerce.com.br:80/Control/ArquivoExibir.aspx?NomeArquivo=bt-continuar-comprando.png) no-repeat;}
 body.carrinho .finalizar-compra {float:right;}
-body.carrinho .finalizar-compra a {background:url(http://portcasa.vtexcommerce.com.br:80/Control/ArquivoExibir.aspx?NomeArquivo=bt-finalizar-compra.png) no-repeat;}
+body.carrinho .finalizar-compra a {background:url(http://develop-portcasa.vtexcommerce.com.br:80/Control/ArquivoExibir.aspx?NomeArquivo=bt-finalizar-compra.png) no-repeat;}
 
 body.carrinho table.carrinhoTable {width:100%;clear:both;border-collapse:collapse !important;border:1px solid #F1F1CA;border-top:2px solid #F1F1CA;}
 table.carrinhoTable thead th,
@@ -479,7 +479,7 @@ table.carrinhoTable tbody td.produto h4 a {text-decoration:none;}
 table.carrinhoTable tbody td.preco-unitario,
 table.carrinhoTable tbody td.preco-total {font-size:1.5em;line-height:1.5em;text-align:center;}
 table.carrinhoTable tbody td.excluir {text-align:center;}
-table.carrinhoTable tbody td.excluir a {margin:0 auto;width:20px;height:20px;display:block;background:url(http://portcasa.vtexcommerce.com.br:80/Control/ArquivoExibir.aspx?NomeArquivo=bt-excluir.gif) no-repeat;text-indent:-999em;}
+table.carrinhoTable tbody td.excluir a {margin:0 auto;width:20px;height:20px;display:block;background:url(http://develop-portcasa.vtexcommerce.com.br:80/Control/ArquivoExibir.aspx?NomeArquivo=bt-excluir.gif) no-repeat;text-indent:-999em;}
 table.carrinhoTable tbody td.preco-total {}
 table.carrinhoTable tbody td.preco-unitario s {text-decoration:line-through;}
 table.carrinhoTable tbody input.boxQuantidade{float:left;background:#fff;text-align:right;}
@@ -814,7 +814,7 @@ padding:0 0 5px 0;
 margin-bottom:15px;
 font-size:2.6em;
 color:#5C7334;
-background:url(http://portcasa.vtexcommerce.com.br:80/Control/ArquivoExibir.aspx?NomeArquivo=tit-prateleira-border.jpg) no-repeat left bottom;
+background:url(http://develop-portcasa.vtexcommerce.com.br:80/Control/ArquivoExibir.aspx?NomeArquivo=tit-prateleira-border.jpg) no-repeat left bottom;
 }
 .prateleira ul {
 width:100%;
@@ -841,7 +841,7 @@ font-size:1.1em;
 font-weight:bold;
 line-height:22px;
 text-align:right;
-background:url(http://portcasa.vtexcommerce.com.br:80/Control/ArquivoExibir.aspx?NomeArquivo=bg-dept.gif) no-repeat left bottom;
+background:url(http://develop-portcasa.vtexcommerce.com.br:80/Control/ArquivoExibir.aspx?NomeArquivo=bg-dept.gif) no-repeat left bottom;
 }
 .prateleira h3 a {
 margin:6px 10px;
@@ -872,7 +872,7 @@ font-style:normal;
 width:86px;
 height:23px;
 display:block;
-background:url(http://portcasa.vtexcommerce.com.br:80/Control/ArquivoExibir.aspx?NomeArquivo=bt-comprar-prateleira.gif) no-repeat;
+background:url(http://develop-portcasa.vtexcommerce.com.br:80/Control/ArquivoExibir.aspx?NomeArquivo=bt-comprar-prateleira.gif) no-repeat;
 text-indent:-999em;
 }
 .esgotado {
@@ -884,7 +884,7 @@ text-align:center;
 margin-top:7px;
 width:100%;
 height:29px;
-background:url(http://portcasa.vtexcommerce.com.br:80/Control/ArquivoExibir.aspx?NomeArquivo=flag-frete-gratis-sp.png) no-repeat center top;
+background:url(http://develop-portcasa.vtexcommerce.com.br:80/Control/ArquivoExibir.aspx?NomeArquivo=flag-frete-gratis-sp.png) no-repeat center top;
 text-indent:-999em;
 }
 .rating-produto {
@@ -892,7 +892,7 @@ margin:5px 0 7px 10px;
 width:59px;
 height:11px;
 display:block;
-background:url(http://portcasa.vtexcommerce.com.br:80/Control/ArquivoExibir.aspx?NomeArquivo=rating.gif) no-repeat;
+background:url(http://develop-portcasa.vtexcommerce.com.br:80/Control/ArquivoExibir.aspx?NomeArquivo=rating.gif) no-repeat;
 text-indent:-999em;
 }
 
@@ -1115,7 +1115,7 @@ body.minha-conta #orderInfoProductList th {font-size:1.2em;line-height:38px;back
 body.minha-conta #orderInfoProductList td {padding:4px 5px;line-height:22px;font-weight:normal;text-align:center;vertical-align:middle;border-right:1px solid #CCCD4A;}
 body.minha-conta #orderInfoProductList tr.even td {background:#FBFBEF;}
 body.minha-conta #orderInfoProductList td.links {text-align:left;}
-body.minha-conta #orderInfoProductList td.links a {padding-left:23px;display:block;color:#74741F;background:url(http://portcasa.vtexcommerce.com.br:80/Control/ArquivoExibir.aspx?NomeArquivo=icons.gif) no-repeat;text-decoration:underline;}
+body.minha-conta #orderInfoProductList td.links a {padding-left:23px;display:block;color:#74741F;background:url(http://develop-portcasa.vtexcommerce.com.br:80/Control/ArquivoExibir.aspx?NomeArquivo=icons.gif) no-repeat;text-decoration:underline;}
 body.minha-conta #orderInfoProductList td.links a.detalhes {background-position:0 4px;}
 body.minha-conta #orderInfoProductList td.links a.imprimir {background-position:0 -48px;}
 

@@ -289,12 +289,12 @@ h1 a:hover {
     margin: 42px 0 0 8px;
     padding: 5px;
     position: absolute;*/
-	
+
 	background: none repeat scroll 0 0 white;
 	border-left: 1px solid #A5A5A5;
 	border-right: 1px solid #A5A5A5;
 	border-bottom: 2px solid #A5A5A5;
-	
+
 	margin: 42px 0 0;
 	position: absolute;
 	display: none;
@@ -721,7 +721,7 @@ h1 a:hover {
 .register-info .bt, .login .continuar, .cadastro-cliente .continuar-usuario, .minha-conta .outras-opcoes ul, .minha-conta .btw, .meus-pedidos .ok, .bts {
     /*margin-bottom: 20px;
     margin-top: 16px;*/
-	
+
     /*overflow: hidden;*/
 }
 .bts .bt, .pagamento .bt, .voltar a, .confirmar-pedido input, .cadastrar-novo a {
@@ -745,8 +745,8 @@ h1 a:hover {
     padding: 0;
     text-decoration: underline !important;
     width: auto !important;*/
-	
-	
+
+
 	/*font-size:14px;
 	text-transform:uppercase;
 	background:url("/arquivos/btn_fundo.jpg") repeat-x bottom center #eaeaea;
@@ -1458,7 +1458,7 @@ margin:5px 0;}
 .forma-pagamento .bt{float:left;clear:both;padding-left:10px;}
 
 
-/* _____ comfirmação _____*/
+/* _____ comfirmaÃ§Ã£o _____*/
 
 .confirmacao-compra .content{float: left;width: 946px;background:#f2f2f2;padding:20px;color:#333333;}
 
@@ -1805,3 +1805,84 @@ width: 215px;}
 .email-mudou #ctl00_Conteudo_lnkEsqueciMinhaSenha{text-decoration:underline;}
 
 .email-mudou #ctl00_Conteudo_btnMeuEmailMudou{background: url('/arquivos/sprite_buttons.png') no-repeat -7px -181px; width: 228px; height: 34px;display:block;text-indent:-9999px;}
+
+.area-root .photo,
+.area-root .addPhoto
+.area-root .dados,
+.area-root .bts,
+.area-root .area-3-2-4,
+.area-root dl,
+.area-root .lista-comentarios {
+	display: block !important;
+	margin-left: 10px !important;
+}
+
+#ctl00_Conteudo_btnAlterarSenha{
+	margin-top: 10px;
+}
+
+.checkout.endereco-compra legend{
+  font-family: "Trebuchet MS";
+}
+
+.checkout.endereco-compra address{
+  font-style: normal !important;
+}
+
+.checkout.endereco-compra input,
+.checkout.endereco-compra select{
+  padding: 7px 10px !important;
+}
+
+.dados-pagamento{
+  background: #FFFFFF;
+  margin: 10px 0;
+}
+
+.valor-total{
+  background:#EBEBEB;
+}
+
+#ctl00_Conteudo_ctrlFormaPagamento_DadosFormaPagamamentoCartao1{
+  border: 2px dotted #ccc;
+  border-left: none;
+  border-right: none;
+  margin:20px 0;
+}
+
+.mensagem-cartao{
+  margin-top: 10px;
+  padding: 10px 20px;
+  width:95% !important;
+}
+
+.lista-formas-pagamento label input,
+.lista-formas-pagamento label img,
+.lista-formas-pagamento label strong{
+  float: left;
+}
+
+.lista-formas-pagamento label img{
+  margin: 0 25px;
+}
+
+.lista-formas-pagamento label input,
+.lista-formas-pagamento label strong{
+  margin-top: 20px;
+}
+
+.formapagamento-descricao{
+  float:left;
+  margin:10px 0 0 40px;
+}
+
+
+
+
+
+
+
+
+
+
+

@@ -16,10 +16,10 @@
 /* List Management */
 .giftlist a{text-decoration:underline;}
 
-/*.giftlist-table{margin-top:20px;}
+.giftlist-table{margin-top:20px;}
 .giftlist-table th,
 .giftlist-table td{border:1px solid #195073;padding:3px 10px;}
-*/
+
 .giftlist-table thead{background:#f0f0f0;}
 
 /* New List */

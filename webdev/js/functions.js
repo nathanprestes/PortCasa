@@ -67,7 +67,7 @@ $(document).ready(function() {
 	
 	//CAROUSEL
 	
-	//opções( 1 - ON , 0 - OFF)
+	//opÃ§Ãµes( 1 - ON , 0 - OFF)
 	var auto_slide_seconds = 2000;
 	
 	//efeito loop
@@ -81,15 +81,15 @@ $(document).ready(function() {
 	$('#comentarioFacebook').html('<div class="fb-comments" data-href="'+LinkProduto+'" data-num-posts="2" data-width="890"></div>');
 });
 
-//função do carousel
+//funÃ§Ã£o do carousel
 function slide(where){
 	//pega a largura
 	var item_width = $('#carousel_container ul li').outerWidth() + 10;
 	if(where == 'left'){
-		//quanto vai avançar para esquerda
+		//quanto vai avanÃ§ar para esquerda
 		var left_indent = parseInt($('#carousel_container ul').css('left')) + item_width;
 	}else{
-		//quanto vai avançar para direita
+		//quanto vai avanÃ§ar para direita
 		var left_indent = parseInt($('#carousel_container ul').css('left')) - item_width;
 	}
 	$('#carousel_container ul:not(:animated)').animate({'left' : left_indent},1,function(){
