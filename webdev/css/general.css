@@ -39,7 +39,7 @@ body {
 #menu01 li,
 .meus-pedidos-detalhes #sideBar h2,
 .editar-conta .meus-dados h4,
-.menu-departamento a,
+.menu-departamento h3, .menu-departamento h3 a,
 .endereco-compra #ctl00_Conteudo_ctrlEnderecoCatalogo_divListaEndereco legend span {
   font-family:androgyneregular;
   font-style:normal;
@@ -487,6 +487,7 @@ h1.title {
   display:none;
   margin:42px 0 0;
   position:absolute;
+  z-index:20;
 }
 #menu ul a {
   color:#790A11;
@@ -505,7 +506,7 @@ h1.title {
   border-right-style:solid;
   border-right-width:1px;
   list-style:disc inside none;
-  padding:5px;
+  padding:5px 5px 5px 20px;
 }
 #menu ul .lista-completa {
   border-top-color:#FFFFFF;
@@ -777,6 +778,7 @@ h1.title {
   position:absolute;
   top:0;
   width:23px;
+  cursor:pointer;
 }
 .jcarousel-next {
   background-attachment:scroll;
@@ -789,6 +791,7 @@ h1.title {
   right:0;
   top:0;
   width:25px;
+  cursor:pointer;
 }
 .prateleira .prateleira {
   border:medium none;
@@ -1129,10 +1132,14 @@ h1.title {
 }
 .resultado-busca-filtro label, .resultado-busca-filtro select {
   color:#333333;
-  font-size:14px;
+  font-size:17px;
 }
 .resultado-busca-filtro label {
   font-weight:bold;
+}
+.resultado-busca-filtro select {
+  background:#eeeeee;
+  border:none;
 }
 #collectionNavigation {
   overflow:hidden;
@@ -1992,6 +1999,7 @@ h1.title {
   border-top-width:1px;
   float:left;
   width:177px;
+  margin-bottom:20px;
 }
 .departamento #departmentNavigator > h3 {
   background-attachment:scroll;
@@ -2017,6 +2025,7 @@ h1.title {
   margin:0;
   padding:15px 10px 5px 20px;
   position:relative;
+  color:#000;
 }
 .departamento #sideBar #departmentNavigator .menu-departamento a {
   color:#000000;
@@ -2118,9 +2127,17 @@ h1.title {
 .categoria #sideBar #content #collections {
   float:right;
 }
-.categoria #topBanners {
-  float:right;
-}
+.departamento #topBanners {float: right;height: 280px;overflow: hidden;width: 780px;position:relative;}
+.departamento #topBanners .topBanners_fundo{width:442px;height:280px;background:url(/arquivos/banner_departamento_fundo.png) no-repeat left top;position:absolute;top:0;left:0;z-index:50;}
+.departamento #topBanners .topBanners_titulo{font-size: 23px;top: 45px;left: 39px;position: absolute;width: 343px;font-style:italic;text-transform:uppercase;z-index:100;font-family:androgyneregular;text-shadow:-17px -22px 1px #999999, 18px 9px 1px #cccccc;-moz-text-shadow:-17px -22px 1px #999999, 18px 9px 1px #cccccc;-webkit-text-shadow:-17px -22px 1px #999999, 18px 9px 1px #cccccc;}
+.departamento #topBanners .topBanners_titulo h2{font-size: 23px;}
+.departamento #topBanners .topBanners_menu{position:absolute;bottom:0;left:15px;z-index:100;width:703px;height:25px;background:url(/arquivos/banner_departamento_menu_fundo.jpg) no-repeat bottom left;overflow:hidden;padding:20px;}
+.departamento #topBanners .topBanners_menu .menu-departamento > h3, .departamento #topBanners .topBanners_menu .menu-departamento > ul, .departamento #topBanners .topBanners_menu .menu-departamento > h5{display: none;}
+.departamento #topBanners .topBanners_menu .menu-departamento > h4{background: url("/arquivos/abas_fundo_2.png") no-repeat scroll right center transparent;color: #FFFFFF;float: left;font-family: androgyneregular;font-size: 15px;margin-right: 8px;overflow: hidden;padding-right: 10px;}
+.departamento #topBanners .topBanners_menu .menu-departamento > h4:first-child{margin-right:0;padding-right:0;}
+.departamento #topBanners .topBanners_menu .menu-departamento > h4 a{color: #FFFFFF;font-family: androgyneregular;font-weight: normal;text-decoration:none;}
+.departamento #topBanners .topBanners_menu .menu-departamento > h4 a:hover{text-decoration:underline;}
+
 .categoria #collections {
   float:right;
 }
@@ -2222,7 +2239,7 @@ h1.title {
   margin:0 20px;
   overflow:hidden;
   position:absolute;
-  width:auto;
+  width:741px;
 }
 #topBanners #menu-topBanners ul, #topBanners #menu-topBanners li, #topBanners #menu-topBanners a {
   display:block;
@@ -2237,7 +2254,7 @@ h1.title {
   color:#FFFFFF;
   font-family:androgyneregular;
   font-size:18px;
-  padding:21px 26px;
+  padding:21px 25px;
 }
 #topBanners #menu-topBanners a:hover {
   text-decoration:underline;

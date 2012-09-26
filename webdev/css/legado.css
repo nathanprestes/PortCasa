@@ -71,7 +71,7 @@ h1.title{padding-top:20px;}
 
 .menu li{font-size: 15px;background:url("/arquivos/sprite_icons.png") no-repeat scroll -134px -179px transparent;float:left;}
 
-#ctl00_Conteudo_pnlCarrinho{background:#f2f2f2;padding:10px;}
+#ctl00_Conteudo_pnlCarrinho{background:url(/arquivos/ambientes_sombra.jpg) no-repeat center bottom #f2f2f2;padding:10px 10px 17px 10px;}
 
 #ctl00_Conteudo_updcarrinho{/*position:relative;top:-20px;*/}
 
