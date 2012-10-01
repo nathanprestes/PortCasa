@@ -23,7 +23,8 @@ ul.rating,
 	/*height:430px;*/
 }
 #wrapProduto {
-    background: none repeat scroll 0 0 #F2F2F2;
+    background:url("/arquivos/finaliza_compra_fundo.jpg") no-repeat bottom center #f2f2f2;
+	padding-bottom:12px;
     float: left;
 	width:100%;
 }
@@ -69,7 +70,8 @@ ul.rating,
     margin-right: 5px;
 }
 #wrapStepTwo .topic {
-    margin-top: 25px;
+    /*margin-top: 25px;*/
+	margin: 5px 0 0 0;
 }
 #wrapStepThree .buy-button {
 	background: url('/arquivos/sprite_buttons.png') no-repeat -7px -419px;
@@ -105,7 +107,17 @@ h3.addLista {
     top: 43px;
     width: 233px;
     z-index: 1;
+	color:#FFF;
 }
+#productList ul.giftlistinsertsku-lists li{
+	overflow:hidden;
+}
+#productList ul.giftlistinsertsku-lists li a, #productList ul.giftlistinsertsku-lists li span{
+	clear:both;
+	float:left;
+}
+#productList ul.giftlistinsertsku-lists li a{color:#000;}
+#productList ul.giftlistinsertsku-lists li a:hover{text-decoration:underline;}
 #productTag {
     background: url("/arquivos/tags.png") no-repeat scroll center top transparent;
     float: left;
@@ -305,8 +317,7 @@ h1 {
     display: none;
 }
 #quantidadeProd .productQuantity {
-    background: url("/arquivos/bg_prodQnty.png") no-repeat scroll center top transparent;
-    border: medium none;
+    border: 1px solid #CCCCCC;
     font-size: 12px;
     height: 32px;
     text-align: center;
@@ -324,7 +335,7 @@ h1 {
     width: 18px;
 }
 .btnsQntyMais:hover {
-    background: url("/arquivos/sprite_prod_qnty.png") no-repeat scroll right top transparent;
+    background-position:right top;
 }
 .btnsQntyMenos {
     background: url("/arquivos/sprite_prod_qnty.png") no-repeat scroll left bottom transparent;
@@ -337,7 +348,7 @@ h1 {
     width: 18px;
 }
 .btnsQntyMenos:hover {
-    background: url("/arquivos/sprite_prod_qnty.png") no-repeat scroll right bottom transparent;
+    background-position:right bottom;
 }
 .buy-button {
     background: none repeat scroll 0 0 #195073;
@@ -390,6 +401,9 @@ h1 {
 }
 .topic input {
     margin-right: 4px;
+}
+.topic select {
+	padding:8px 10px;
 }
 .topic label {
     margin-right: 15px;
@@ -572,15 +586,14 @@ ul.rating, .avalie-produto {
 #comentarioFacebook{margin:0 40px 20px;}
 
 /* ______ CAROUSEL ______ */
-
-	#carousel_container{margin-bottom:15px;float:left;width:970px;}
-    #carousel_inner{float:left;width:860px;overflow: hidden;margin:0 55px;position:relative;}
-	#carousel_inner .prateleira{width:860px;}
-    #carousel_container ul{position:relative;#position:static;left:-232px;list-style-type: none;margin: 0px;padding: 0px;width:9999px;}
-    #carousel_container ul li{background: url("/arquivos/bg_produto_vitrine.jpg") no-repeat scroll center top transparent;border: medium none;float: left;width:170px;height: 286px;padding: 10px;margin-right: 15px;text-align: center;}
-    #carousel_container ul li img{.margin-bottom:-4px;cursor:pointer;cursor: hand;border:0px;width:160px;height:160px;}
-    #left_scroll, #right_scroll{clear: both;float: left;position: absolute;background: #C0C0C0;width: 82px;height: 78px;cursor:pointer;top:130px;z-index:10;}
-	#left_scroll{left:10px;background: url('/arquivos/sprite_icons.png') no-repeat -5px -419px;}
-	#left_scroll:hover{background: url('/arquivos/sprite_icons.png') no-repeat -96px -419px;}
-	#right_scroll{right:10px;background: url('/arquivos/sprite_icons.png') no-repeat -183px -419px;}
-	#right_scroll:hover{background: url('/arquivos/sprite_icons.png') no-repeat -274px -419px;}
+#carousel_container{margin-bottom:15px;float:left;width:970px;}
+#carousel_inner{float:left;width:860px;overflow: hidden;margin:0 55px;position:relative;}
+#carousel_inner .prateleira{width:860px;}
+#carousel_container ul{position:relative;#position:static;left:-232px;list-style-type: none;margin: 0px;padding: 0px;width:9999px;}
+#carousel_container ul li{background: url("/arquivos/bg_produto_vitrine.jpg") no-repeat scroll center top transparent;border: medium none;float: left;width:170px;height: 286px;padding: 10px;margin-right: 15px;text-align: center;}
+#carousel_container ul li img{.margin-bottom:-4px;cursor:pointer;cursor: hand;border:0px;width:160px;height:160px;}
+#left_scroll, #right_scroll{clear: both;float: left;position: absolute;background: #C0C0C0;width: 82px;height: 78px;cursor:pointer;top:130px;z-index:10;}
+#left_scroll{left:10px;background: url('/arquivos/sprite_icons.png') no-repeat -5px -419px;}
+#left_scroll:hover{background-position:-96px -419px;}
+#right_scroll{right:10px;background: url('/arquivos/sprite_icons.png') no-repeat -183px -419px;}
+#right_scroll:hover{background-position:-274px -419px;}
