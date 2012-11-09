@@ -1,4 +1,4 @@
-@font-face {
+﻿@font-face {
     font-family: 'androgyneregular';
     src: url('/arquivos/androgyne_tb-webfont1.css');/*eot*/
     src: url('/arquivos/androgyne_tb-webfont1.css?#iefix') format('embedded-opentype'),/*eot ie*/
@@ -8,667 +8,118 @@
     font-weight: lighter;
     font-style: normal;
 }
-body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td, legend {
-  margin:0;
-  padding:0;
-}
-body {
-  background-image:url(http://develop-portcasa.vtexcommerce.com.br/arquivos/bg_rodape.jpg);
-  background-position:50% 100%;
-  background-repeat:repeat no-repeat;
-}
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td, legend {margin:0;padding:0;}
+body {background-image:url(/arquivos/bg_rodape.jpg);background-position:50% 100%;background-repeat:repeat no-repeat;}
 
-#bg_header .menu li,
-.content .bt,
-.content #ctl00_Conteudo_ctrlEndereco_BtnSalvar.bt,
-.cadastro-cliente #ctl00_Conteudo_ctrlCadastroCliente_bntNewUserAdd,
-.bt, .minha-conta .area-3-2-3 h3,
-.minha-conta .abas li a,
-.minha-conta .nav h3,
-.minha-conta .area-3-2-3 h4,
-.minha-conta .area-3-2-5 h3,
-.minha-conta .area-3-2-10 h3,
-.meus-pedidos .content-meuspedidos h2,
-.alterar-senha .content h2,
-.alterar-senha .outras-opcoes h3,
-.listas .abas li a,
-.esqueci-email #ctl00_Conteudo_UpdatePanel1 h2,
-.esqueci-senha .content h2,
-.email-mudou .content h2,
-.meus-pedidos-detalhes .content h2,
-#menu01 li,
-.meus-pedidos-detalhes #sideBar h2,
-.editar-conta .meus-dados h4,
-.menu-departamento h3, .menu-departamento h3 a,
-.endereco-compra #ctl00_Conteudo_ctrlEnderecoCatalogo_divListaEndereco legend span {
-  font-family:androgyneregular;
-  font-style:normal;
-  font-weight:lighter;
-}
+#bg_header .menu li, .content .bt, .content #ctl00_Conteudo_ctrlEndereco_BtnSalvar.bt, .cadastro-cliente #ctl00_Conteudo_ctrlCadastroCliente_bntNewUserAdd, .bt, .minha-conta .area-3-2-3 h3, .minha-conta .abas li a, .minha-conta .nav h3, .minha-conta .area-3-2-3 h4, .minha-conta .area-3-2-5 h3, .minha-conta .area-3-2-10 h3, .meus-pedidos .content-meuspedidos h2, .alterar-senha .content h2, .alterar-senha .outras-opcoes h3, .listas .abas li a, .esqueci-email #ctl00_Conteudo_UpdatePanel1 h2, .esqueci-senha .content h2, .email-mudou .content h2, .meus-pedidos-detalhes .content h2, #menu01 li, .meus-pedidos-detalhes #sideBar h2, .editar-conta .meus-dados h4, .menu-departamento h3, .menu-departamento h3 a, .endereco-compra #ctl00_Conteudo_ctrlEnderecoCatalogo_divListaEndereco legend span, .institucional #content h2, .institucional #content h3 {font-family:androgyneregular;font-style:normal;font-weight:lighter;}
 
-#header_fundo {
-  background-attachment:scroll;
-  background-color:transparent;
-  background-image:url(http://develop-portcasa.vtexcommerce.com.br/arquivos/bg_header.jpg);
-  background-position:0 0;
-  background-repeat:repeat no-repeat;
-  height:97px;
-  position:absolute;
-  top:0;
-  width:100%;
-}
-table {
-  border-collapse:collapse;
-  border-spacing:0;
-}
-fieldset-img {
-  border:0 none;
-}
-address, caption, cite, code, dfn, th, var {
-  font-style:normal;
-  font-weight:normal;
-}
-ol, ul {
-  list-style:none outside none;
-}
-caption, th {
-  text-align:left;
-}
-q::before, q::after {
-  content:'';
-}
-abbr, acronym {
-  border:0 none;
-}
-hr {
-  display:none;
-}
-img {
-  border:medium none;
-}
-em {
-  font-style:normal;
-}
-fieldset {
-  border:medium none;
-}
-body {
-  font-size:11px;
-}
-body, input, select, textarea {
-  color:#333333;
-  font-family:'Trebuchet MS', Verdana, Geneva, sans-serif;
-}
-input, select, textarea {
-  border:1px solid #999999;
-  font-size:10px;
-  padding:1px 2px;
-}
-select {
-  padding:0;
-}
-a {
-  color:#333333;
-  text-decoration:none;
-}
-a:hover {
-}
-#textContent h3 {
-  font-weight:700;
-  margin-bottom:17px;
-}
-#all, #topBar div {
-  margin:0 auto;
-  position:relative;
-  width:980px;
-  z-index:10;
-}
-.home #sideBar {
-  float:left;
-  margin:0 17px 0 0;
-}
-.home #sideBar h3 {
-  background-attachment:scroll;
-  background-color:transparent;
-  background-image:url(http://develop-portcasa.vtexcommerce.com.br/arquivos/sprite_menu.png);
-  background-position:0 0;
-  background-repeat:no-repeat no-repeat;
-  border:1px solid black;
-  height:25px;
-  text-indent:-9999px;
-  width:176px;
-}
-.home #sideBar .menu_home {
-  border-left-color:black;
-  border-left-style:solid;
-  border-left-width:1px;
-  border-right-color:black;
-  border-right-style:solid;
-  border-right-width:1px;
-  width:176px;
-}
-.home #sideBar .menu_home li {
-  border-bottom-style:solid;
-  border-bottom-width:1px;
-  font-size:15px;
-  margin-left:4px;
-  width:167px;
-}
-.home #sideBar .menu_home li a {
-  background-attachment:scroll;
-  background-color:transparent;
-  background-image:url(http://develop-portcasa.vtexcommerce.com.br/arquivos/sprite_menu.png);
-  background-position:0 0;
-  background-repeat:no-repeat no-repeat;
-  display:block;
-  padding:14px 10px 15px 45px;
-  width:118px;
-}
-.home #sideBar .menu_home li.travesseiros a {
-  background-position:-5px -25px;
-}
-.home #sideBar .menu_home li.travesseiros a:hover {
-  background-position:-190px -25px;
-}
-.home #sideBar .menu_home li.toalhas_de_banho a {
-  background-position:-5px -73px;
-}
-.home #sideBar .menu_home li.toalhas_de_banho a:hover {
-  background-position:-190px -73px;
-}
-.home #sideBar .menu_home li.toalhas_de_mesa a {
-  background-position:-5px -121px;
-}
-.home #sideBar .menu_home li.toalhas_de_mesa a:hover {
-  background-position:-190px -121px;
-}
-.home #sideBar .menu_home li.lencois a {
-  background-position:-5px -171px;
-}
-.home #sideBar .menu_home li.lencois a:hover {
-  background-position:-190px -171px;
-}
-.home #sideBar .menu_home li.edredons a {
-  background-position:-5px -218px;
-}
-.home #sideBar .menu_home li.edredons a:hover {
-  background-position:-190px -218px;
-}
-.home #sideBar .menu_home li.tapetes a {
-  background-position:-5px -268px;
-}
-.home #sideBar .menu_home li.tapetes a:hover {
-  background-position:-190px -268px;
-}
-.home #sideBar .menu_home li.roupoes a {
-  background-position:-5px -315px;
-}
-.home #sideBar .menu_home li.roupoes a:hover {
-  background-position:-190px -315px;
-}
-.home #sideBar .menu_home li.utilidades_d a {
-  background-position:-5px -363px;
-}
-.home #sideBar .menu_home li.utilidades_d a:hover {
-  background-position:-190px -363px;
-}
-.home #sideBar .menu_home li.copos_e_tacas a {
-  background-position:-5px -417px;
-}
-.home #sideBar .menu_home li.copos_e_tacas a:hover {
-  background-position:-190px -417px;
-}
-#sideBar #sideInstitucional a, #sideBar #sideServicos a {
-  font-size:12px;
-  line-height:1.7;
-}
-#textContent {
-  margin:0 18px 0 4px;
-}
-#textContent p {
-  margin-bottom:17px;
-}
-#topBar p a, #cart, #cart a, #topNewsletter p, #sideBar h2, .navigator h3 a, .navigator h5, .vitrine .newPrice, #collectionNavigation .selected a, #footer h2, .pager, .flag.lancamento, #pnlNaoSeguro em a, #lnkLimparHistorico, #history h3 {
-  color:#195073;
-}
-.imgRp {
-  display:block;
-  text-indent:-999em;
-}
-#ajaxBusy {
-  position:absolute;
-}
-#topBar {
-  background-attachment:scroll;
-  background-color:#EFEFEF;
-  background-image:none;
-  background-position:0 0;
-  background-repeat:repeat repeat;
-  font-size:10px;
-}
-#topBar div {
-  overflow:auto;
-  padding-top:2px;
-}
-#topBar .ajax-content-loader, #topBar .ajax-content-loader div {
-  color:#999999;
-  float:left;
-  padding-top:0;
-  width:auto;
-}
-#topBar p {
-  color:#999999;
-  float:left;
-}
-#topBar p, #topBar .ajax-content-loader div {
-  margin-left:12px;
-}
-#topBar p a, #topBar .ajax-content-loader a {
-  margin-left:4px;
-  text-decoration:underline;
-}
-#topBar strong {
-  font-weight:normal;
-}
-#topBar ul {
-  float:right;
-  margin-right:5px;
-}
-#topBar ul li {
-  float:left;
-}
-#topBar ul li a {
-  background-attachment:scroll;
-  background-color:transparent;
-  background-image:url(http://develop-portcasa.vtexcommerce.com.br/arquivos/tabs-bg.gif);
-  background-position:100% 2px;
-  background-repeat:no-repeat no-repeat;
-  color:#666666;
-  padding:0 7px;
-}
-#topBar ul li.last a {
-  background-attachment:scroll;
-  background-color:transparent;
-  background-image:none;
-  background-position:0 0;
-  background-repeat:repeat repeat;
-}
-#pnlNaoSeguro a#lnkLogOut {
-  color:#999999;
-  margin:0;
-}
-#bg_header {
-  background-attachment:scroll;
-  background-color:transparent;
-  background-image:url(http://develop-portcasa.vtexcommerce.com.br/arquivos/bg_header.jpg);
-  background-position:0 0;
-  background-repeat:repeat no-repeat;
-  width:100%;
-}
-#contact_bar p {
-  background-attachment:scroll;
-  background-color:transparent;
-  background-image:url(http://develop-portcasa.vtexcommerce.com.br/arquivos/sep_contactBar.png);
-  background-position:100% 50%;
-  background-repeat:no-repeat no-repeat;
-  float:left;
-  font-weight:bold;
-  padding:0 20px;
-  text-align:right;
-}
-#contact_bar p.first {
-  padding-left:0;
-}
-#contact_bar p.last {
-  background-attachment:scroll;
-  background-color:transparent;
-  background-image:none;
-  background-position:0 0;
-  background-repeat:repeat repeat;
-  border-right-style:none;
-  border-right-width:medium;
-}
-#contact_bar p.menu_topbar {
-  background-attachment:scroll;
-  background-color:transparent;
-  background-image:url(http://develop-portcasa.vtexcommerce.com.br/arquivos/bullet_arrow.png);
-  background-position:0 50%;
-  background-repeat:no-repeat no-repeat;
-  border:medium none;
-  padding:0 15px 0 10px;
-}
-#header {
-  height:97px;
-  margin:0 auto;
-  overflow:hidden;
-  position:relative;
-  width:980px;
-}
-#header #contact_bar a p {
-  color:#FFFFFF;
-  float:left;
-}
-#header #contact_bar a p:hover {
-  text-decoration:underline;
-}
-h1.title {
-  float:left;
-  height:51px;
-  padding-top:20px;
-  width:215px;
-}
-#contact_bar {
-  color:#FFFFFF;
-  position:absolute;
-  right:0;
-  top:10px;
-  width:712px;
-}
-#title a {
-  background-position:8px 5px;
-  color:#000000;
-  float:left;
-  font-family:'Times New Roman', Times, serif;
-  font-size:22px;
-  font-style:italic;
-  font-variant:normal;
-  font-weight:normal;
-  height:51px;
-  line-height:normal;
-  margin:3px 0 2px;
-  padding:22px 0 0 232px;
-  width:352px;
-}
-#title a:hover {
-  text-decoration:none;
-}
-#title a span {
-  display:none;
-}
-#cart .title {
-}
-#cart .title, #cart li {
-  display:none;
-}
-#cart li.amount-items, #cart a {
-  background-position:100% -200px;
-  margin-top:6px;
-  padding-right:43px;
-  position:absolute;
-  right:0;
-  text-align:right;
-}
-#cart li.amount-items {
-  clear:both;
-  color:#FFFFFF;
-  display:block;
-  float:left;
-  margin:0;
-  padding:15px 0 0 30px;
-  position:static;
-  text-transform:uppercase;
-  width:80px;
-}
-#cart a {
-  color:#FFFFFF;
-  font-weight:700;
-  height:40px;
-  margin:0;
-  padding:0;
-  text-align:left;
-  text-decoration:none;
-  text-transform:uppercase;
-  width:114px;
-}
-#menu .brandFilter {
-  display:none;
-}
-#menu {
-  background-attachment:scroll;
-  background-color:transparent;
-  background-image:url(http://develop-portcasa.vtexcommerce.com.br/arquivos/bg_menu.jpg);
-  background-position:0 0;
-  background-repeat:repeat repeat;
-  border-bottom-left-radius:3px;
-  border-bottom-right-radius:3px;
-  border-top-left-radius:3px;
-  border-top-right-radius:3px;
-  clear:both;
-  height:42px;
-  margin:-5px auto 0;
-  overflow:hidden;
-  width:980px;
-}
-#menu a {
-  color:#FFFFFF;
-  font-size:13px;
-}
-#menu h3 {
-  background-attachment:scroll;
-  background-color:transparent;
-  background-image:url(http://develop-portcasa.vtexcommerce.com.br/arquivos/sprite_icons.png);
-  background-position:-134px -179px;
-  background-repeat:no-repeat no-repeat;
-  float:left;
-}
-#menu h3 a, #menu h3 a, #linkVipClub {
-  color:#FFFFFF;
-  float:left;
-  font-size:15px;
-  font-weight:normal;
-  margin-left:2px;
-  padding:10px 20px 11px;
-  text-decoration:none;
-}
-#menu h3 a:hover {
-  background: url("/arquivos/menu_fundo_hover.png") repeat-x center top transparent;
-  box-shadow:inset 2px 2px 5px #490a10;
-  -moz-box-shadow:inset 2px 2px 5px #490a10;
-  -webkit-box-shadow:inset 2px 2px 5px #490a10;
-}
-#menu ul {
-  background-attachment:scroll;
-  background-color:white;
-  background-image:none;
-  background-position:0 0;
-  background-repeat:repeat repeat;
-  border-bottom-color:#A5A5A5;
-  border-bottom-style:solid;
-  border-bottom-width:2px;
-  border-left-color:#A5A5A5;
-  border-left-style:solid;
-  border-left-width:1px;
-  border-right-color:#A5A5A5;
-  border-right-style:solid;
-  border-right-width:1px;
-  color:#000000;
-  display:none;
-  margin:42px 0 0;
-  position:absolute;
-  z-index:20;
-}
-#menu ul a {
-  color:#790A11;
-  font-weight:bold;
-  padding:1px 4px 0;
-  position:relative;
-}
-#menu ul a:hover {
-  text-decoration:underline;
-}
-#menu ul li {
-  border-left-color:#4B4B4C;
-  border-left-style:solid;
-  border-left-width:1px;
-  border-right-color:#4B4B4C;
-  border-right-style:solid;
-  border-right-width:1px;
-  list-style:disc inside none;
-  padding:5px 5px 5px 20px;
-}
-#menu ul .lista-completa {
-  border-top-color:#FFFFFF;
-  border-top-style:dashed;
-  border-top-width:1px;
-  margin-top:8px;
-  padding-top:2px;
-}
-#menu #linkVipClub {
-  color:#EDEDED;
-  float:right;
-  padding-left:8px;
-  padding-right:11px;
-}
-#search {
-  float:left;
-  left:25px;
-  position:relative;
-  top:45px;
-}
-#diferenciaisHeader {
-  margin:10px auto;
-  padding-left:5px;
-  width:980px;
-}
-#diferenciaisHeader a {
-  padding:0 13px;
-}
-.search legend, .search label, .search select {
-  display:none;
-}
-.search .fulltext-search-box {
-  background-attachment:scroll;
-  background-color:transparent;
-  background-image:url(http://develop-portcasa.vtexcommerce.com.br/arquivos/bg_search.png);
-  background-position:50% 0;
-  background-repeat:no-repeat no-repeat;
-  border:medium none;
-  font-size:14px;
-  height:25px;
-  outline:none medium;
-  padding:5px 40px 6px 5px;
-  width:450px;
-}
-.search .btn-buscar {
-  background-attachment:scroll;
-  background-color:transparent;
-  background-image:none;
-  background-position:0 0;
-  background-repeat:repeat repeat;
-  border:medium none;
-  cursor:pointer;
-  height:33px;
-  left:-32px;
-  position:relative;
-  text-indent:-99999px;
-  top:-2px;
-  width:30px;
-}
-#chat_online {
-  background-attachment:scroll;
-  background-color:transparent;
-  background-image:url(http://develop-portcasa.vtexcommerce.com.br/arquivos/sprite_icons.png);
-  background-position:-10px -5px;
-  background-repeat:no-repeat no-repeat;
-  float:left;
-  height:29px;
-  left:30px;
-  position:relative;
-  top:50px;
-  width:66px;
-}
-#cart {
-  background-attachment:scroll;
-  background-color:transparent;
-  background-image:url(http://develop-portcasa.vtexcommerce.com.br/arquivos/sprite_icons.png);
-  background-position:-117px -143px;
-  background-repeat:no-repeat no-repeat;
-  float:left;
-  height:35px;
-  left:45px;
-  position:relative;
-  top:50px;
-  width:145px;
-}
-.ui-autocomplete {
-  background-attachment:scroll;
-  background-color:white;
-  background-image:none;
-  background-position:0 0;
-  background-repeat:repeat repeat;
-  padding:5px;
-  position:absolute !important;
-  top:75px !important;
-  width:300px;
-}
-.ui-autocomplete li {
-  margin-bottom:3px;
-}
-.ui-autocomplete img {
-  margin-right:5px;
-  vertical-align:middle;
-}
-/*#prevBanner1 {
-  background:url(http://develop-portcasa.vtexcommerce.com.br/arquivos/sprite_icons.png) no-repeat -284px -294px;
-  cursor:pointer;
-  height:59px;
-  left:0;
-  position:absolute;
-  text-indent:-9999px;
-  top:210px;
-  width:11px;
-  z-index:100;
-  -webkit-transition: .1s ease-out;
-  -moz-transition: .1s ease-out;
-  transition: .1s ease-out;
-  -o-transition: .1s ease-out;
-}
-#prevBanner1:hover {
-  background-position:-234px -294px;
-  width:49px;
-}
-#nextBanner1 {
-  background:url(http://develop-portcasa.vtexcommerce.com.br/arquivos/sprite_icons.png) no-repeat -232px -356px;
-  cursor:pointer;
-  height:59px;
-  position:absolute;
-  right:195px;
-  text-indent:-9999px;
-  top:210px;
-  width:11px;
-  z-index:100;
-  -webkit-transition: .1s ease-out;
-  -moz-transition: .1s ease-out;
-  transition: .1s ease-out;
-  -o-transition: .1s ease-out;
-}
-#nextBanner1:hover {
-  background-position:-244px -354px;
-  width:49px;
-}
-*/
+#header_fundo {background-attachment:scroll;background-color:transparent;background-image:url(/arquivos/bg_header.jpg);background-position:0 0;background-repeat:repeat no-repeat;height:97px;position:absolute;top:0;width:100%;}
+table {border-collapse:collapse;border-spacing:0;}
+fieldset-img {border:0 none;}
+address, caption, cite, code, dfn, th, var {font-style:normal;font-weight:normal;}
+ol, ul {list-style:none outside none;}
+caption, th {text-align:left;}
+q::before, q::after {content:'';}
+abbr, acronym {border:0 none;}
+hr {display:none;}
+img {border:medium none;}
+em {font-style:normal;}
+fieldset {border:medium none;}
+body {font-size:11px;}
+body, input, select, textarea {color:#333333;font-family:'Trebuchet MS', Verdana, Geneva, sans-serif;}
+input, select, textarea {border:1px solid #999999;font-size:10px;padding:1px 2px;}
+select {padding:0;}
+a {color:#333333;text-decoration:none;}
+#textContent h3 {font-weight:700;margin-bottom:17px;}
+#all, #topBar div {margin:0 auto;position:relative;width:980px;z-index:10;}
+.home #sideBar {float:left;margin:0 17px 0 0;}
+.home #sideBar h3 {background-attachment:scroll;background-color:transparent;background-image:url(/arquivos/sprite_menu.png);background-position:0 0;background-repeat:no-repeat no-repeat;border:1px solid black;height:25px;text-indent:-9999px;width:176px;}
+.home #sideBar .menu_home {border-left-color:black;border-left-style:solid;border-left-width:1px;border-right-color:black;border-right-style:solid;border-right-width:1px;width:176px;}
+.home #sideBar .menu_home li {border-bottom-style:solid;border-bottom-width:1px;font-size:15px;margin-left:4px;width:167px;}
+.home #sideBar .menu_home li a {background-attachment:scroll;background-color:transparent;background-image:url(/arquivos/sprite_menu.png);background-position:0 0;background-repeat:no-repeat no-repeat;display:block;padding:14px 10px 15px 45px;width:118px;}
+.home #sideBar .menu_home li.travesseiros a {background-position:-5px -25px;}
+.home #sideBar .menu_home li.travesseiros a:hover {background-position:-190px -25px;}
+.home #sideBar .menu_home li.toalhas_de_banho a {background-position:-5px -73px;}
+.home #sideBar .menu_home li.toalhas_de_banho a:hover {background-position:-190px -73px;}
+.home #sideBar .menu_home li.toalhas_de_mesa a {background-position:-5px -121px;}
+.home #sideBar .menu_home li.toalhas_de_mesa a:hover {background-position:-190px -121px;}
+.home #sideBar .menu_home li.lencois a {background-position:-5px -171px;}
+.home #sideBar .menu_home li.lencois a:hover {background-position:-190px -171px;}
+.home #sideBar .menu_home li.edredons a {background-position:-5px -218px;}
+.home #sideBar .menu_home li.edredons a:hover {background-position:-190px -218px;}
+.home #sideBar .menu_home li.tapetes a {background-position:-5px -268px;}
+.home #sideBar .menu_home li.tapetes a:hover {background-position:-190px -268px;}
+.home #sideBar .menu_home li.roupoes a {background-position:-5px -315px;}
+.home #sideBar .menu_home li.roupoes a:hover {background-position:-190px -315px;}
+.home #sideBar .menu_home li.utilidades_d a {background-position:-5px -363px;}
+.home #sideBar .menu_home li.utilidades_d a:hover {background-position:-190px -363px;}
+.home #sideBar .menu_home li.copos_e_tacas a {background-position:-5px -417px;}
+.home #sideBar .menu_home li.copos_e_tacas a:hover {background-position:-190px -417px;}
+#sideBar #sideInstitucional a, #sideBar #sideServicos a {font-size:12px;line-height:1.7;}
+#textContent {margin:0 18px 0 4px;}
+#textContent p {margin-bottom:17px;}
+#topBar p a, #cart, #cart a, #topNewsletter p, #sideBar h2, .navigator h3 a, .navigator h5, .vitrine .newPrice, #collectionNavigation .selected a, #footer h2, .pager, .flag.lancamento, #pnlNaoSeguro em a, #lnkLimparHistorico, #history h3 {color:#195073;}
+.imgRp {display:block;text-indent:-999em;}
+#ajaxBusy {position:absolute;}
+#topBar {background-attachment:scroll;background-color:#EFEFEF;background-image:none;background-position:0 0;background-repeat:repeat repeat;font-size:10px;}
+#topBar div {overflow:auto;padding-top:2px;}
+#topBar .ajax-content-loader, #topBar .ajax-content-loader div {color:#999999;float:left;padding-top:0;width:auto;}
+#topBar p {color:#999999;float:left;}
+#topBar p, #topBar .ajax-content-loader div {margin-left:12px;}
+#topBar p a, #topBar .ajax-content-loader a {margin-left:4px;text-decoration:underline;}
+#topBar strong {font-weight:normal;}
+#topBar ul {float:right;margin-right:5px;}
+#topBar ul li {float:left;}
+#topBar ul li a {background-attachment:scroll;background-color:transparent;background-image:url(/arquivos/tabs-bg.gif);background-position:100% 2px;background-repeat:no-repeat no-repeat;color:#666666;padding:0 7px;}
+#topBar ul li.last a {background-attachment:scroll;background-color:transparent;background-image:none;background-position:0 0;background-repeat:repeat repeat;}
+#pnlNaoSeguro a#lnkLogOut {color:#999999;margin:0;}
+#bg_header {background-attachment:scroll;background-color:transparent;background-image:url(/arquivos/bg_header.jpg);background-position:0 0;background-repeat:repeat no-repeat;width:100%;}
+#contact_bar p {background-attachment:scroll;background-color:transparent;background-image:url(/arquivos/sep_contactBar.png);background-position:100% 50%;background-repeat:no-repeat no-repeat;float:left;font-weight:bold;padding:0 20px;text-align:right;}
+#contact_bar p.first {padding-left:0;}
+#contact_bar p.last {background-attachment:scroll;background-color:transparent;background-image:none;background-position:0 0;background-repeat:repeat repeat;border-right-style:none;border-right-width:medium;}
+#contact_bar p.menu_topbar {background-attachment:scroll;background-color:transparent;background-image:url(/arquivos/bullet_arrow.png);background-position:0 50%;background-repeat:no-repeat no-repeat;border:medium none;padding:0 14px 0 10px;}
+#header {height:97px;margin:0 auto;overflow:hidden;position:relative;width:980px;}
+#header #contact_bar a p {color:#FFFFFF;float:left;}
+#header #contact_bar a p:hover {text-decoration:underline;}
+h1.title {float:left;height:51px;padding-top:20px;width:215px;}
+#contact_bar {color:#FFFFFF;position:absolute;right:0;top:10px;width:712px;}
+#title a {background-position:8px 5px;color:#000000;float:left;font-family:'Times New Roman', Times, serif;font-size:22px;font-style:italic;font-variant:normal;font-weight:normal;height:51px;line-height:normal;margin:3px 0 2px;padding:22px 0 0 232px;width:352px;}
+#title a:hover {text-decoration:none;}
+#title a span {display:none;}
+#cart .title, #cart li {display:none;}
+#cart li.amount-items, #cart a {background-position:100% -200px;margin-top:6px;padding-right:43px;position:absolute;right:0;text-align:right;}
+#cart li.amount-items {clear:both;color:#FFFFFF;display:block;float:left;margin:0;padding:15px 0 0 30px;position:static;text-transform:uppercase;width:80px;}
+#cart a {color:#FFFFFF;font-weight:700;height:40px;margin:0;padding:0;text-align:left;text-decoration:none;text-transform:uppercase;width:114px;}
+#menu .brandFilter {display:none;}
+#menu {background-attachment:scroll;background-color:transparent;background-image:url(/arquivos/bg_menu.jpg);background-position:0 0;background-repeat:repeat repeat;border-bottom-left-radius:3px;border-bottom-right-radius:3px;border-top-left-radius:3px;border-top-right-radius:3px;clear:both;height:42px;margin:-5px auto 0;overflow:hidden;width:980px;}
+#menu a {color:#FFFFFF;font-size:13px;}
+#menu h3 {background-attachment:scroll;background-color:transparent;background-image:url(/arquivos/sprite_icons.png);background-position:-134px -179px;background-repeat:no-repeat no-repeat;float:left;}
+#menu h3 a, #menu h3 a, #linkVipClub {color:#FFFFFF;float:left;font-size:15px;font-weight:normal;margin-left:2px;padding:11px 20px 11px;text-decoration:none;}
+#menu h3 a:hover {background: url("/arquivos/menu_fundo_hover.png") repeat-x center top transparent;box-shadow:inset 2px 2px 5px #490a10;-moz-box-shadow:inset 2px 2px 5px #490a10;-webkit-box-shadow:inset 2px 2px 5px #490a10;}
+#menu ul {background-attachment:scroll;background-color:white;background-image:none;background-position:0 0;background-repeat:repeat repeat;border-bottom-color:#A5A5A5;border-bottom-style:solid;border-bottom-width:2px;border-left-color:#A5A5A5;border-left-style:solid;border-left-width:1px;border-right-color:#A5A5A5;border-right-style:solid;border-right-width:1px;color:#000000;display:none;margin:41px 0 0;position:absolute;z-index:20;}
+#menu ul a {color:#790A11;font-weight:bold;padding:1px 4px 0;position:relative;}
+#menu ul a:hover {text-decoration:underline;}
+#menu ul li {border-left-color:#4B4B4C;border-left-style:solid;border-left-width:1px;border-right-color:#4B4B4C;border-right-style:solid;border-right-width:1px;list-style:disc inside none;padding:5px 5px 5px 20px;}
+#menu ul .lista-completa {border-top-color:#FFFFFF;border-top-style:dashed;border-top-width:1px;margin-top:8px;padding-top:2px;}
+#menu #linkVipClub {color:#EDEDED;float:right;padding-left:8px;padding-right:11px;}
+#search {float:left;left:25px;position:relative;top:45px;}
+#diferenciaisHeader {margin:10px auto;padding-left:5px;width:980px;}
+#diferenciaisHeader a {padding:0 13px;}
+.search legend, .search label, .search select {display:none;}
+.search .fulltext-search-box {background-attachment:scroll;background-color:transparent;background-image:url(/arquivos/bg_search.png);background-position:50% 0;background-repeat:no-repeat no-repeat;border:medium none;font-size:14px;height:25px;outline:none medium;padding:5px 40px 6px 5px;width:450px;}
+.search .btn-buscar {background-attachment:scroll;background-color:transparent;background-image:none;background-position:0 0;background-repeat:repeat repeat;border:medium none;cursor:pointer;height:33px;left:-32px;position:relative;text-indent:-99999px;top:-2px;width:30px;}
+#chat_online {background-attachment:scroll;background-color:transparent;background-image:url(/arquivos/sprite_icons.png);background-position:-10px -5px;background-repeat:no-repeat no-repeat;float:left;height:29px;left:30px;position:relative;top:50px;width:66px;}
+#cart {background-attachment:scroll;background-color:transparent;background-image:url(/arquivos/sprite_icons.png);background-position:-117px -143px;background-repeat:no-repeat no-repeat;float:left;height:35px;left:45px;position:relative;top:50px;width:145px;}
+.ui-autocomplete {background-attachment:scroll;background-color:white;background-image:none;background-position:0 0;background-repeat:repeat repeat;padding:5px;position:absolute !important;top:75px !important;width:300px;}
+.ui-autocomplete li {margin-bottom:3px;}
+.ui-autocomplete img {margin-right:5px;vertical-align:middle;}
+.home #topBanners {float:left;margin:0 0 8px;width:785px;}
+#topBanners {position:relative;}
+#bottomBanners {margin-top:18px;overflow:auto;}
+.home #bottomBanners {margin-left:8px;}
+.box-banner img {display:block;}
+#banner2, #banner3, #topNewsletter {float:right;}
 
-.home #topBanners {
-  float:left;
-  margin:0 0 8px;
-  width:785px;
-}
-#topBanners {
-  position:relative;
-}
-#bottomBanners {
-  margin-top:18px;
-  overflow:auto;
-}
-.home #bottomBanners {
-  margin-left:8px;
-}
-.box-banner img {
-  display:block;
-}
-#banner2, #banner3, #topNewsletter {
-  float:right;
-}
 /*  BANNER 1  */
 #banner1{background: url(/arquivos/banner_home_fundo.png) no-repeat center center;float: left;height: 468px;width: 598px;}
 #banner1 #carousel {height: 468px;margin: 0 auto;overflow: hidden;width: 578px;position:relative;}
@@ -681,113 +132,21 @@ h1.title {
 #banner1 .clear {clear:both}
 #banner1 #carousel::selection, #banner1 #slides::selection, #banner1 ul::selection, #banner1 li::selection, #banner1 a::selection, #banner1 img::selection{-webkit-touch-callout: none;-webkit-user-select: none;-khtml-user-select: none;-moz-user-select: none;-ms-user-select: none;user-select: none;}
 /*  ACABA BANNER 1  */
-/*#banner1 {
-  float:left;
-}*/
-#banner2 {
-  margin-bottom:16px;
-}
-#banner3 {
-  margin-bottom:7px;
-}
-#bannerBottom1 {
-  float:left;
-}
-#bannerBottom2 {
-  float:right;
-  margin-top:11px;
-}
-#banner6 {
-  padding:6px 0 2px;
-}
-#banner6 img {
-  margin:0 auto;
-}
-#topNewsletter div {
-  border:1px solid #999999;
-}
-#topNewsletter fieldset {
-  background-attachment:scroll;
-  background-color:#EAE9E8;
-  background-image:none;
-  background-position:0 0;
-  background-repeat:repeat repeat;
-  height:100px;
-  margin:3px;
-  overflow:hidden;
-  padding:0 5px 0 7px;
-}
-#topNewsletter h3 {
-  display:none;
-}
-#topNewsletter p {
-  margin:9px 0 5px;
-}
-#topNewsletter p::after {
-  content:'.';
-}
-#topNewsletter input {
-  display:block;
-  float:left;
-  margin:4px 5px 0 0;
-}
-#topNewsletter .newsletter-client-name {
-  width:164px;
-}
-#topNewsletter .newsletter-client-email {
-  width:237px;
-}
-/*#brands {
-  float:left;
-  margin:20px 0;
-  width:986px;
-}
-#brands li {
-  display:block;
-  float:left;
-  height:47px;
-  list-style:none outside none;
-  margin:0 5px;
-  width:120px;
-}
-#brands .box-banner {
-  float:left;
-  padding:14px;
-}
-.jcarousel-container.jcarousel-container-horizontal {
-  margin:0 auto;
-  padding:0 20px;
-  width:900px;
-}
-.jcarousel-clip.jcarousel-clip-horizontal {
-  overflow:hidden;
-}
-.jcarousel-prev {
-  background-attachment:scroll;
-  background-color:transparent;
-  background-image:url(http://develop-portcasa.vtexcommerce.com.br/arquivos/sprite_icons.png);
-  background-position:-312px -304px;
-  background-repeat:no-repeat no-repeat;
-  height:43px;
-  left:0;
-  position:absolute;
-  top:0;
-  width:23px;
-  cursor:pointer;
-}
-.jcarousel-next {
-  background-attachment:scroll;
-  background-color:transparent;
-  background-image:url(http://develop-portcasa.vtexcommerce.com.br/arquivos/sprite_icons.png);
-  background-position:-312px -361px;
-  background-repeat:no-repeat no-repeat;
-  height:43px;
-  position:absolute;
-  right:0;
-  top:0;
-  width:25px;
-  cursor:pointer;
-}*/
+
+#banner2 {margin-bottom:16px;}
+#banner3 {margin-bottom:7px;}
+#bannerBottom1 {float:left;}
+#bannerBottom2 {float:right;margin-top:11px;}
+#banner6 {padding:6px 0 2px;}
+#banner6 img {margin:0 auto;}
+#topNewsletter div {border:1px solid #999999;}
+#topNewsletter fieldset {background-attachment:scroll;background-color:#EAE9E8;background-image:none;background-position:0 0;background-repeat:repeat repeat;height:100px;margin:3px;overflow:hidden; padding:0 5px 0 7px;}
+#topNewsletter h3 {display:none;}
+#topNewsletter p {margin:9px 0 5px;}
+#topNewsletter p::after {content:'.';}
+#topNewsletter input {display:block;float:left;margin:4px 5px 0 0;}
+#topNewsletter .newsletter-client-name {width:164px;}
+#topNewsletter .newsletter-client-email {width:237px;}
 
 /* _ CAROUSEL _ */
 .carousel{width: 980px;height: 43px;position: relative;clear:both;margin: 0 auto;margin:10px 0;}
@@ -799,1331 +158,257 @@ h1.title {
 .carousel .portfolio_items div img:hover{-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";filter:alpha(opacity=100);-moz-opacity:1.0;-khtml-opacity: 1.0;opacity: 1.0;}
 .carousel .carousel_right, .carousel .carousel_left{width: 42px;height: 43px;display: block;text-indent: -9999px;cursor:pointer;z-index:20;-webkit-transition: .2s ease-out;-moz-transition: .2s ease-out;transition: .2s ease-out;-o-transition: .2s ease-out;}
 .carousel .carousel_left{background: url(/arquivos/sprite_icons.png) no-repeat -305px -304px;float:left;}
-/*.carousel .carousel_left:hover{background-position:-48px 0;}*/
 .carousel .carousel_right{background: url(/arquivos/sprite_icons.png) no-repeat -305px -361px;float:left;}
-/*.carousel .carousel_right:hover{background-position:-96px 0;}*/
 .carousel .disable{display: none;}
 
-
-
-.prateleira .prateleira {
-  border:medium none;
-}
-.searchResultsTime, .filterBy, .compare {
-  display:none;
-}
-.vitrine {
-  clear:both;
-  position:relative;
-}
-.prateleira .vitrine {
-  left:0;
-  margin-top:6px;
-}
-.vitrine .vitrine li {
-  float:left;
-  margin-right:25px;
-  padding:34px 10px 0 0;
-  position:relative;
-  width:200px;
-}
-.vitrine .vitrine li.last {
-  margin-right:0;
-}
-.vitrine li .data {
-  margin:8px 0 15px;
-}
-.vitrine li .data h3 {
-  margin-bottom:10px;
-}
-.vitrine li .data h3 a {
-  color:#4E4E4E;
-  font-size:12px;
-  font-weight:bold;
-}
-.vitrine li .price a span {
-  color:#666666;
-  font-size:12px;
-  font-weight:bold;
-}
-.vitrine li .price a .installment {
-  color:#C70A00;
-  font-size:18px;
-}
-.vitrine li .price a .qtd_parcelas {
-  color:#C70A00;
-}
-.vitrine li {
-  background-attachment:scroll;
-  background-color:#FFFFFF;
-  background-image:none;
-  background-position:0 0;
-  background-repeat:repeat repeat;
-  border:1px solid #C0C0C0;
-  float:left;
-  margin:15px;
-  text-align:center;
-  width:230px;
-}
-.vitrine .highlight a, .vitrine .price a {
-  text-decoration:none;
-}
-.vitrine img {
-  height:160px;
-  width:160px;
-}
-.vitrine .price {
-  bottom:30px;
-  clear:both;
-  font-size:12px;
-  height:51px;
-  position:absolute;
-  width:163px;
-}
-.vitrine .oldPrice {
-  text-decoration:line-through;
-}
-.vitrine .newPrice {
-  font-weight:700;
-}
-.vitrine .quickView a {
-  background-color:#DDDDDD;
-  background-position:-200px -110px;
-  border:1px solid #CCCCCC;
-  color:#666666;
-  font-size:9px;
-  line-height:1em;
-  margin:2px 0 1px -2px;
-  padding:1px 10px 4px 19px;
-  position:absolute;
-}
-.vitrine .quickView a:hover {
-  text-decoration:none;
-}
-.vitrine .category {
-  margin-top:20px;
-}
-.vitrine .installment, .vitrine .category a, .vitrine .brand a {
-  display:block;
-  font-size:10px;
-}
-.vitrine .category a, .vitrine .brand a {
-  background-position:0 -280px;
-  line-height:1.45em;
-  padding-left:12px;
-}
-.discount {
-  color:#195073;
-  font-family:'Times New Roman', Times, serif;
-  font-size:17px;
-  font-style:italic;
-  font-variant:normal;
-  font-weight:700;
-  line-height:normal;
-  margin:2px 0;
-  overflow:hidden;
-}
-.discount .flag {
-  float:left;
-  margin-right:8px;
-}
-.flag.exclusivo {
-  background-attachment:scroll;
-  background-color:transparent;
-  background-image:url(http://develop-portcasa.vtexcommerce.com.br/arquivos/flag-exclusivo.gif);
-  background-position:0 0;
-  background-repeat:repeat repeat;
-  height:29px;
-  text-indent:-999em;
-  width:166px;
-}
-.flag.lancamento {
-  font-size:19px;
-}
-.vitrine .flag.vip---5- {
-  color:#0F0D0E;
-}
-.vitrine .flag.exclusivo {
-  left:2px;
-  position:absolute;
-  top:0;
-}
-.vitrine .flag.lancamento {
-  background-attachment:scroll;
-  background-color:transparent;
-  background-image:url(http://develop-portcasa.vtexcommerce.com.br/arquivos/flag-lancamento.png);
-  background-position:0 0;
-  background-repeat:repeat repeat;
-  height:96px;
-  position:absolute;
-  right:0;
-  text-indent:-999em;
-  top:149px;
-  width:114px;
-}
-.prateleira {
-  background-attachment:scroll;
-  background-color:#F3F3F3;
-  background-image:none;
-  background-position:0 0;
-  background-repeat:repeat repeat;
-  float:left;
-  width:780px;
-}
-.vitrine .prateleira li {
-  background-attachment:scroll;
-  background-color:transparent;
-  background-image:url(http://develop-portcasa.vtexcommerce.com.br/arquivos/bg_produto_vitrine.jpg);
-  background-position:50% 0;
-  background-repeat:no-repeat no-repeat;
-  border:medium none;
-  float:left;
-  height:286px;
-  padding:10px;
-  position:relative;
-  width:164px;
-}
-#ambientes {
-  background:url("/arquivos/finaliza_compra_fundo.jpg") no-repeat bottom center #f2f2f2;
-  float:left;
-  height:920px;
-  padding:10px 10px 22px 10px;
-  width:960px;
-}
-/*#ambientes_sombra {
-  background-attachment:scroll;
-  background-color:transparent;
-  background-image:url(http://develop-portcasa.vtexcommerce.com.br/arquivos/ambientes_sombra.jpg);
-  background-position:50% 0;
-  background-repeat:no-repeat no-repeat;
-  float:left;
-  height:7px;
-  margin-bottom:15px;
-  width:986px;
-}*/
-#ambientes > ul > li {
-  background-attachment:scroll;
-  background-color:#FFFFFF;
-  background-image:none;
-  background-position:0 0;
-  background-repeat:repeat repeat;
-  border:1px solid #C0C0C0;
-  float:left;
-  margin:4px;
-  padding:8px 0;
-  text-align:center;
-  width:230px;
-}
-#ambientes > ul > li.ambiente_top {
-  position:relative;
-  top:-69px;
-}
-#ambientes > ul > li.last {
-  margin-right:0;
-}
-#ambientes .title {
-  margin:15px 0;
-  text-transform:uppercase;
-}
-#ambientes .title, #ambientes .title a {
-  color:#333333;
-  font-size:18px;
-  font-family:androgyneregular;
-}
-#ambientes ul li ul li {
-  padding:5px 0;
-}
-#ambientes ul li ul {
-  margin:0 auto 10px;
-  width:155px;
-}
-#ambientes ul li ul li, #ambientes ul li ul li a {
-  border-bottom-color:#CCCCCC;
-  border-bottom-style:solid;
-  border-bottom-width:1px;
-  color:#999999;
-  font-size:14px;
-  font-weight:bold;
-}
-.vitrine .pager {
-  clear:both;
-  overflow:auto;
-}
-.vitrine .pager ul {
-  float:right;
-  padding:2px 5px;
-}
-.vitrine .pager li {
-  cursor:pointer;
-  float:left;
-  margin:0 5px;
-  padding:1px 7px 2px;
-  width:auto;
-}
-.pager .pages li {
-  background-attachment:scroll;
-  background-color:#333333;
-  background-image:none;
-  background-position:0 0;
-  background-repeat:repeat repeat;
-  border:medium none;
-  color:#333333;
-  font-size:14px;
-  font-weight:bold;
-  height:20px;
-  padding:0;
-  width:20px;
-}
-.pager .pages li.first, .pager .pages li.previous, .pager .pages li.next, .pager .pages li.last, .pager .pages li.pgCurrent {
-  background-attachment:scroll;
-  background-color:transparent;
-  background-image:url(http://develop-portcasa.vtexcommerce.com.br/arquivos/sprite_icons.png);
-  background-position:0 0;
-  background-repeat:no-repeat no-repeat;
-  text-indent:-99999px;
-}
-.pager .pages li.pgCurrent.page-number {
-  padding-top:2px;
-}
-.pager .pages li.pgCurrent {
-  background-position:-324px -73px;
-  text-indent:0;
-}
-.pager .pages li.first {
-  background-position:-311px -97px;
-}
-.pager .pages li.first:hover {
-  background-position:-311px -120px;
-}
-.pager .pages li.previous {
-  background-position:-311px -21px;
-}
-.pager .pages li.previous:hover {
-  background-position:-311px -47px;
-}
-.pager .pages li.next {
-  background-position:-337px -21px;
-}
-.pager .pages li.next:hover {
-  background-position:-337px -47px;
-}
-.pager .pages li.last {
-  background-position:-337px -97px;
-}
-.pager .pages li.last:hover {
-  background-position:-337px -120px;
-}
-.pager.top {
-  left:0;
-  position:absolute;
-  top:-30px;
-}
-.pager.bottom {
-  float:left;
-  height:30px;
-  text-align:center;
-  width:780px;
-}
-.pager.bottom ul {
-  float:none;
-  height:22px;
-  margin:0 auto;
-}
-.resultado-busca-filtro {
-  margin:8px 0;
-  overflow:hidden;
-}
-.resultado-busca-filtro fieldset, .resultado-busca-filtro fieldset, .resultado-busca-filtro p {
-  float:right;
-  margin-right:20px;
-}
+.prateleira .prateleira {border:medium none;}
+.searchResultsTime, .filterBy, .compare {display:none;}
+.vitrine {clear:both;position:relative;}
+.prateleira .vitrine {left:0;margin-top:6px;}
+.vitrine .vitrine li {float:left;margin-right:25px;padding:34px 10px 0 0;position:relative;width:200px;}
+.vitrine .vitrine li.last {margin-right:0;}
+.vitrine li .data {margin:8px 0 15px;}
+.vitrine li .data h3 {margin-bottom:10px;}
+.vitrine li .data h3 a {color:#4E4E4E;font-size:12px;font-weight:bold;}
+.vitrine li .price a span {color:#666666;font-size:12px;font-weight:bold;}
+.vitrine li .price a .installment {color:#C70A00;font-size:18px;}
+.vitrine li .price a .qtd_parcelas {color:#C70A00;}
+.vitrine li {background-attachment:scroll;background-color:#FFFFFF;background-image:none;background-position:0 0;background-repeat:repeat repeat;border:1px solid #C0C0C0;float:left;margin:15px;text-align:center;width:230px;}
+.vitrine .highlight a, .vitrine .price a {text-decoration:none;}
+.vitrine img {height:160px;width:160px;}
+.vitrine .price {bottom:30px;clear:both;font-size:12px;height:51px;position:absolute;width:163px;}
+.vitrine .oldPrice {text-decoration:line-through;}
+.vitrine .newPrice {font-weight:700;}
+.vitrine .quickView a {background-color:#DDDDDD;background-position:-200px -110px;border:1px solid #CCCCCC;color:#666666;font-size:9px;line-height:1em;margin:2px 0 1px -2px;padding:1px 10px 4px 19px;position:absolute;}
+.vitrine .quickView a:hover {text-decoration:none;}
+.vitrine .category {margin-top:20px;}
+.vitrine .installment, .vitrine .category a, .vitrine .brand a {display:block;font-size:10px;}
+.vitrine .category a, .vitrine .brand a {background-position:0 -280px;line-height:1.45em;padding-left:12px;}
+.discount {color:#195073;font-family:'Times New Roman', Times, serif;font-size:17px;font-style:italic;font-variant:normal;font-weight:700;line-height:normal;margin:2px 0;overflow:hidden;}
+.discount .flag {float:left;margin-right:8px;}
+.flag.exclusivo {background-attachment:scroll;background-color:transparent;background-image:url(/arquivos/flag-exclusivo.gif);background-position:0 0;background-repeat:repeat repeat;height:29px;text-indent:-999em;width:166px;}
+.flag.lancamento {font-size:19px;}
+.vitrine .flag.vip---5- {color:#0F0D0E;}
+.vitrine .flag.exclusivo {left:2px;position:absolute;top:0;}
+.vitrine .flag.lancamento {background-attachment:scroll;background-color:transparent;background-image:url(/arquivos/flag-lancamento.png);background-position:0 0;background-repeat:repeat repeat;height:96px;position:absolute;right:0;text-indent:-999em;top:149px;width:114px;}
+.prateleira {background-attachment:scroll;background-color:#F3F3F3;background-image:none;background-position:0 0;background-repeat:repeat repeat;float:left;width:780px;}
+.vitrine .prateleira li {background-attachment:scroll;background-color:transparent;background-image:url(/arquivos/bg_produto_vitrine.jpg);background-position:50% 0;background-repeat:no-repeat no-repeat;border:medium none;float:left;height:286px;padding:10px;position:relative;width:164px;}
+#ambientes {background:url("/arquivos/finaliza_compra_fundo.jpg") no-repeat bottom center #f2f2f2;float:left;height:920px;padding:10px 10px 22px 10px;width:960px;}
+#ambientes > ul > li {background-attachment:scroll;background-color:#FFFFFF;background-image:none;background-position:0 0;background-repeat:repeat repeat;border:1px solid #C0C0C0;float:left;margin:4px;padding:8px 0;text-align:center;width:230px;}
+#ambientes > ul > li.ambiente_top {position:relative;top:-69px;}
+#ambientes > ul > li.last {margin-right:0;}
+#ambientes .title {margin:15px 0;text-transform:uppercase;}
+#ambientes .title, #ambientes .title a {color:#333333;font-size:18px;font-family:androgyneregular;}
+#ambientes ul li ul li {padding:5px 0;}
+#ambientes ul li ul {margin:0 auto 10px;width:155px;}
+#ambientes ul li ul li, #ambientes ul li ul li a {border-bottom-color:#CCCCCC;border-bottom-style:solid;border-bottom-width:1px;color:#999999;font-size:14px;font-weight:bold;}
+.vitrine .pager {clear:both;overflow:auto;}
+.vitrine .pager ul {float:right;padding:2px 5px;}
+.vitrine .pager li {cursor:pointer;float:left;margin:0 5px;padding:1px 7px 2px;width:auto;}
+.pager .pages li {background-attachment:scroll;background-color:#333333;background-image:none;background-position:0 0;background-repeat:repeat repeat;border:medium none;color:#333333;font-size:14px;font-weight:bold;height:20px;padding:0;width:20px;}
+.pager .pages li.first, .pager .pages li.previous, .pager .pages li.next, .pager .pages li.last, .pager .pages li.pgCurrent {background-attachment:scroll;background-color:transparent;background-image:url(/arquivos/sprite_icons.png);background-position:0 0;background-repeat:no-repeat no-repeat;text-indent:-99999px;}
+.pager .pages li.pgCurrent.page-number {padding-top:2px;}
+.pager .pages li.pgCurrent {background-position:-324px -73px;text-indent:0;}
+.pager .pages li.first {background-position:-311px -97px;}
+.pager .pages li.first:hover {background-position:-311px -120px;}
+.pager .pages li.previous {background-position:-311px -21px;}
+.pager .pages li.previous:hover {background-position:-311px -47px;}
+.pager .pages li.next {background-position:-337px -21px;}
+.pager .pages li.next:hover {background-position:-337px -47px;}
+.pager .pages li.last {background-position:-337px -97px;}
+.pager .pages li.last:hover {background-position:-337px -120px;}
+.pager.top {left:0;position:absolute;top:-30px;}
+.pager.bottom {float:left;height:30px;text-align:center;width:780px;margin-top:8px;}
+.pager.bottom ul {float:none;height:22px;margin:0 auto;}
+.resultado-busca-filtro {margin:8px 0;overflow:hidden;}
+.resultado-busca-filtro fieldset, .resultado-busca-filtro fieldset, .resultado-busca-filtro p {float:right;margin-right:20px;}
 .categoria .resultado-busca-filtro fieldset{margin-right:0;}
-.btn-comparar {
-  margin-left:15px;
-}
-.resultado-busca-filtro label, .resultado-busca-filtro select {
-  color:#333333;
-  font-size:17px;
-}
-.resultado-busca-filtro label {
-  font-weight:bold;
-}
-.resultado-busca-filtro select {
-  background:#eeeeee;
-  border:none;
-}
-#collectionNavigation {
-  overflow:hidden;
-  padding-bottom:4px;
-}
-#collectionNavigation li {
-  float:left;
-}
-#collectionNavigation a {
-  background-attachment:scroll;
-  background-color:transparent;
-  background-image:url(http://develop-portcasa.vtexcommerce.com.br/arquivos/tabs-bg.gif);
-  background-position:100% 5px;
-  background-repeat:no-repeat no-repeat;
-  display:block;
-  font-size:15px;
-  padding:3px 9px;
-}
-#collectionNavigation .last a {
-  background-attachment:scroll;
-  background-color:transparent;
-  background-image:none;
-  background-position:0 0;
-  background-repeat:repeat repeat;
-}
-#history {
-  clear:both;
-  overflow:hidden;
-}
-#pLimparHistorico {
-  margin:15px 0 0 24px;
-}
-#ulUltimosProdutos {
-  margin:5px 0 0 24px;
-}
-#breadCrumbs {
-  margin:5px 0 9px;
-  overflow:hidden;
-}
-#breadCrumbs li {
-  background-position:100% -260px;
-  float:left;
-  margin-right:5px;
-  padding-right:20px;
-}
-#breadCrumbs li.last {
-  background-attachment:scroll;
-  background-color:transparent;
-  background-image:none;
-  background-position:0 0;
-  background-repeat:repeat repeat;
-}
-#breadCrumbs strong {
-  font-weight:normal;
-}
-#breadCrumbs a {
-  color:#353535;
-}
-#breadCrumbs {
-  margin-left:4px;
-}
-#specialStores li {
-  padding:9px 0;
-}
-#specialStores a {
-  background-attachment:scroll;
-  background-color:transparent;
-  background-image:url(http://develop-portcasa.vtexcommerce.com.br/arquivos/sprite-special-stores.jpg);
-  background-position:0 0;
-  background-repeat:repeat repeat;
-  display:block;
-}
-#storePrada a {
-  height:17px;
-  width:92px;
-}
-#storePuma a {
-  background-position:0 -40px;
-  height:32px;
-  width:63px;
-}
-#storeMonte a {
-  background-position:0 -80px;
-  height:29px;
-  width:51px;
-}
-#storeLouis a {
-  background-position:0 -120px;
-  height:11px;
-  width:98px;
-}
-#storeYves a {
-  background-position:0 -160px;
-  height:20px;
-  width:99px;
-}
-.footer {
-  clear:both;
-  float:left;
-  height:417px;
-  margin-top:30px;
-}
-#footerWrapper {
-  clear:both;
-  float:left;
-  width:100%;
-}
-#footer {
-  clear:both;
-  color:white;
-  font-size:13px;
-  font-weight:bold;
-  margin:10px auto 0;
-  overflow:hidden;
-  padding:0;
-  width:980px;
-}
-.home #footer {
-  padding-top:0;
-}
-#footer h2 {
-  background-position:0 -300px;
-  border-bottom-color:#195073;
-  border-bottom-style:solid;
-  border-bottom-width:1px;
-  font-size:15px;
-  padding:8px 0 8px 23px;
-}
-#footer h2 span {
-  display:none;
-}
-#footer h3 {
-  color:#FFFFFF;
-  font-size:16px;
-  font-weight:700;
-}
-#footer .itemGroup {
-  float:left;
-  margin:5px 0 0 24px;
-}
-#footerServices {
-  width:153px;
-}
-#footerInstitutional {
-  width:179px;
-}
-#footerVipClub {
-  width:145px;
-}
-#footerServicesAssociate a {
-  background-attachment:scroll;
-  background-color:#333333;
-  background-image:none;
-  background-position:0 0;
-  background-repeat:repeat repeat;
-  color:#FFFFFF;
-  float:left;
-  font-weight:700;
-  margin-top:18px;
-  padding:2px 3px;
-}
-#footerNews {
-  width:180px;
-}
-#footerNews h3 {
-  background-position:0 -100px;
-  height:29px;
-  margin-bottom:0;
-  width:144px;
-}
-#footerNews h4 {
-  font-weight:700;
-  margin-bottom:6px;
-  margin-top:8px;
-}
-#footerNews p {
-  line-height:1.1em;
-}
-#footerNews p a {
-  text-decoration:underline;
-}
-.department #footerNewsletter {
-  display:none;
-}
-.department #footerNews {
-  width:390px;
-}
-#network li {
-  float:left;
-}
-#network a {
-  display:block;
-  height:31px;
-  margin-right:5px;
-  width:30px;
-}
-#ntBlog {
-  background-position:0 -150px;
-}
-#ntTwitter {
-  background-position:-30px -150px;
-}
-#ntYoutube {
-  background-position:-60px -150px;
-}
-#ntFacebook {
-  background-position:-90px -150px;
-}
-#network #ntFacebook {
-  background-attachment:scroll;
-  background-color:transparent;
-  background-image:url(http://develop-portcasa.vtexcommerce.com.br/arquivos/sprite_icons.png);
-  background-position:-127px -18px;
-  background-repeat:no-repeat no-repeat;
-  display:block;
-  height:41px;
-  margin-right:5px;
-  text-indent:-9999px;
-  width:41px;
-}
-#network #ntFacebook:hover {
-  background-position:-127px -70px;
-}
-#network #ntTwitter {
-  background-attachment:scroll;
-  background-color:transparent;
-  background-image:url(http://develop-portcasa.vtexcommerce.com.br/arquivos/sprite_icons.png);
-  background-position:-179px -18px;
-  background-repeat:no-repeat no-repeat;
-  display:block;
-  height:41px;
-  margin-right:5px;
-  text-indent:-9999px;
-  width:41px;
-}
-#network #ntTwitter:hover {
-  background-position:-179px -70px;
-}
-#network #ntFeed {
-  background-attachment:scroll;
-  background-color:transparent;
-  background-image:url(http://develop-portcasa.vtexcommerce.com.br/arquivos/sprite_icons.png);
-  background-position:-234px -18px;
-  background-repeat:no-repeat no-repeat;
-  display:block;
-  height:41px;
-  margin-right:5px;
-  text-indent:-9999px;
-  width:41px;
-}
-#network #ntFeed:hover {
-  background-position:-234px -70px;
-}
-.imgRp {
-  display:block;
-  text-indent:-999em;
-}
-#footer #footerServices {
-  margin-right:35px;
-}
-#footer .columnList a {
-  line-height:1.8em;
-}
-#footer a {
-  color:white;
-  text-decoration:none;
-}
-#footer a:hover {
-  text-decoration:underline;
-}
-#footer .itemGroup {
-  display:inline;
-  float:left;
-}
-#footer .itemGroup {
-  display:inline;
-  float:left;
-  margin:30px 0 0 24px;
-}
-#footerInstitutional {
-  width:179px;
-}
-#newsWrapper {
-  clear:both;
-  float:left;
-  width:100%;
-  margin-top:10px;
-}
-#newsWrapper .newsletter {
-  background-attachment:scroll;
-  background-color:transparent;
-  background-image:url(http://develop-portcasa.vtexcommerce.com.br/arquivos/bg_news.png);
-  background-position:50% 0;
-  background-repeat:no-repeat no-repeat;
-  height:60px;
-  margin:0 auto;
-  position:relative;
-  width:980px;
-}
-#newsWrapper .bt-voltar.newsletter-button-back {
-  background-attachment:scroll;
-  background-color:transparent;
-  background-image:url(http://develop-portcasa.vtexcommerce.com.br/arquivos/btn_voltar.jpg);
-  background-position:50% 0;
-  background-repeat:no-repeat no-repeat;
-  border:medium none;
-  cursor:pointer;
-  height:30px;
-  position:absolute;
-  right:37px;
-  text-indent:-9999px;
-  top:15px;
-  width:111px;
-}
-#newsWrapper .newsletter fieldset.error {
-  background-attachment:scroll;
-  background-color:white;
-  background-image:none;
-  background-position:0 0;
-  background-repeat:repeat repeat;
-  font-size:14px;
-  left:215px;
-  width:610px;
-}
-#newsWrapper h3 {
-  display:none;
-}
-#newsWrapper .newsletter .newsletter-title, #newsWrapper .newsletter fieldset p {
-  display:none;
-}
-#newsWrapper .newsletter fieldset {
-  float:left;
-  height:30px;
-  left:281px;
-  position:relative;
-  top:16px;
-  width:660px;
-}
-#newsWrapper #newsletterClientName {
-  background-attachment:scroll;
-  background-color:transparent;
-  background-image:none;
-  background-position:0 0;
-  background-repeat:repeat repeat;
-  border:medium none;
-  font-size:14px;
-  height:26px;
-  left:0;
-  position:absolute;
-  width:218px;
-}
-#newsWrapper #newsletterClientEmail {
-  background-attachment:scroll;
-  background-color:transparent;
-  background-image:none;
-  background-position:0 0;
-  background-repeat:repeat repeat;
-  border:medium none;
-  font-size:14px;
-  height:26px;
-  left:306px;
-  position:absolute;
-  width:218px;
-}
-#newsWrapper #newsletterButtonOK {
-  background-attachment:scroll;
-  background-color:transparent;
-  background-image:none;
-  background-position:0 0;
-  background-repeat:repeat repeat;
-  border:medium none;
-  cursor:pointer;
-  display:block;
-  height:28px;
-  position:absolute;
-  right:0;
-  text-indent:-9999px;
-  width:107px;
-}
-#wrapperDual {
-  float:left;
-}
-#footer #wrapperDual div {
-  margin-left:0;
-}
-#footer .itemGroup {
-  display:inline;
-  float:left;
-}
-#footerVipClub {
-  clear:both;
-  width:145px;
-}
-#footer #wrapperDual div {
-  margin-left:0;
-}
-#footer #footerAtendimento {
-  clear:both;
-  margin-top:65px;
-}
-#footer #footerNews {
-  left:35px;
-  margin-left:0;
-  position:relative;
-  top:-13px;
-}
-#like_box {
-  background-attachment:scroll;
-  background-color:#FFFFFF;
-  background-image:none;
-  background-position:0 0;
-  background-repeat:repeat repeat;
-  float:right;
-  margin-bottom:0;
-  padding:5px;
-}
-#wrapperSelos {
-  border-top-color:#999999;
-  border-top-style:solid;
-  border-top-width:1px;
-  float:left;
-  margin-left:25px;
-  margin-top:30px;
-  padding-top:15px;
-  width:580px;
-}
-#wrapperSelos h3 {
-  font-size:13px !important;
-}
-#wrapperSelos #pagamentoParcelado {
-  background-attachment:scroll;
-  background-color:transparent;
-  background-image:url(http://develop-portcasa.vtexcommerce.com.br/arquivos/sprite_icons.png);
-  background-position:-5px -250px;
-  background-repeat:no-repeat no-repeat;
-  padding-bottom:28px;
-}
-#wrapperSelos #pagamentoAvista {
-  background-attachment:scroll;
-  background-color:transparent;
-  background-image:url(http://develop-portcasa.vtexcommerce.com.br/arquivos/sprite_icons.png);
-  background-position:-5px -310px;
-  background-repeat:no-repeat no-repeat;
-  padding-bottom:30px;
-  padding-right:85px;
-}
-#wrapperSelos div {
-  float:left;
-  margin-right:30px;
-}
-#footerCredits {
-  font-size:10px;
-  padding-top:15px;
-  text-align:center;
-  width:100%;
-}
-#footerCredits ul {
-  margin:0 5px;
-  overflow:hidden;
-  width:976px;
-}
-#footerCredits li {
-  border-right-style:solid;
-  border-right-width:1px;
-  display:inline;
-  float:left;
-}
-#footerCredits li a {
-  font-size:13px;
-  margin:0 4px;
-}
+.btn-comparar {margin-left:15px;}
+.resultado-busca-filtro label, .resultado-busca-filtro select {color:#333333;font-size:17px;}
+.resultado-busca-filtro label {font-weight:bold;}
+.resultado-busca-filtro select {background:#eeeeee;border:none;}
+#collectionNavigation {overflow:hidden;padding-bottom:4px;}
+#collectionNavigation li {float:left;}
+#collectionNavigation a {background-attachment:scroll;background-color:transparent;background-image:url(/arquivos/tabs-bg.gif);background-position:100% 5px;background-repeat:no-repeat no-repeat;display:block;font-size:15px;padding:3px 9px;}
+#collectionNavigation .last a {background-attachment:scroll;background-color:transparent;background-image:none;background-position:0 0;background-repeat:repeat repeat;}
+#history {clear:both;overflow:hidden;}
+#pLimparHistorico {margin:15px 0 0 24px;}
+#ulUltimosProdutos {margin:5px 0 0 24px;}
+#breadCrumbs {margin:5px 0 9px;overflow:hidden;}
+#breadCrumbs li {background-position:100% -260px;float:left;margin-right:5px;padding-right:20px;}
+#breadCrumbs li.last {background-attachment:scroll;background-color:transparent;background-image:none;background-position:0 0;background-repeat:repeat repeat;}
+#breadCrumbs strong {font-weight:normal;}
+#breadCrumbs a {color:#353535;}
+#breadCrumbs {margin-left:4px;}
+#specialStores li {padding:9px 0;}
+#specialStores a {background-attachment:scroll;background-color:transparent;background-image:url(/arquivos/sprite-special-stores.jpg);background-position:0 0;background-repeat:repeat repeat;display:block;}
+#storePrada a {height:17px;width:92px;}
+#storePuma a {background-position:0 -40px;height:32px;width:63px;}
+#storeMonte a {background-position:0 -80px;height:29px;width:51px;}
+#storeLouis a {background-position:0 -120px;height:11px;width:98px;}
+#storeYves a {background-position:0 -160px;height:20px;width:99px;}
+.footer {clear:both;/*float:left;*/height:417px;margin-top:30px;}
+#footerWrapper {clear:both;float:left;width:100%;}
+#footer {clear:both;color:white;font-size:13px;font-weight:bold;margin:10px auto 0;overflow:hidden;padding:0;width:980px;height:341px;}
+.home #footer {padding-top:0;}
+#footer h2 {background-position:0 -300px;border-bottom-color:#195073;border-bottom-style:solid;border-bottom-width:1px;font-size:15px;padding:8px 0 8px 23px;}
+#footer h2 span {display:none;}
+#footer h3 {color:#FFFFFF;font-size:16px;font-weight:700;}
+#footer .itemGroup {float:left;margin:5px 0 0 24px;}
+#footerServices {width:153px;}
+#footerInstitutional {width:179px;}
+#footerVipClub {width:145px;}
+#footerServicesAssociate a {background-attachment:scroll;background-color:#333333;background-image:none;background-position:0 0;background-repeat:repeat repeat;color:#FFFFFF;float:left;font-weight:700;margin-top:18px;padding:2px 3px;}
+#footerNews {width:180px;}
+#footerNews h3 {background-position:0 -100px;height:29px;margin-bottom:0;width:144px;}
+#footerNews h4 {font-weight:700;margin-bottom:6px;margin-top:8px;}
+#footerNews p {line-height:1.1em;}
+#footerNews p a {text-decoration:underline;}
+.department #footerNewsletter {display:none;}
+.department #footerNews {width:390px;}
+#network li {float:left;}
+#network a {display:block;height:31px;margin-right:5px;width:30px;}
+#ntBlog {background-position:0 -150px;}
+#ntTwitter {background-position:-30px -150px;}
+#ntYoutube {background-position:-60px -150px;}
+#ntFacebook {background-position:-90px -150px;}
+#network #ntFacebook {background-attachment:scroll;background-color:transparent;background-image:url(/arquivos/sprite_icons.png);background-position:-127px -18px;background-repeat:no-repeat no-repeat;display:block;height:41px;margin-right:5px;text-indent:-9999px;width:41px;}
+#network #ntFacebook:hover {background-position:-127px -70px;}
+#network #ntTwitter {background-attachment:scroll;background-color:transparent;background-image:url(/arquivos/sprite_icons.png);background-position:-179px -18px;background-repeat:no-repeat no-repeat;display:block;height:41px;margin-right:5px;text-indent:-9999px;width:41px;}
+#network #ntTwitter:hover {background-position:-179px -70px;}
+#network #ntFeed {background-attachment:scroll;background-color:transparent;background-image:url(/arquivos/sprite_icons.png);background-position:-234px -18px;background-repeat:no-repeat no-repeat;display:block;height:41px;margin-right:5px;text-indent:-9999px;width:41px;}
+#network #ntFeed:hover {background-position:-234px -70px;}
+.imgRp {display:block;text-indent:-999em;}
+#footer #footerServices {margin-right:35px;}
+#footer .columnList a {line-height:1.8em;}
+#footer a {color:white;text-decoration:none;}
+#footer a:hover {text-decoration:underline;}
+#footer .itemGroup {display:inline;float:left;}
+#footer .itemGroup {display:inline;float:left;margin:30px 0 0 24px;}
+#footerInstitutional {width:179px;}
+#newsWrapper {clear:both;/*float:left;*/width:100%;margin-top:10px;}
+#newsWrapper .newsletter {background-attachment:scroll;background-color:transparent;background-image:url(/arquivos/bg_news.png);background-position:50% 0;background-repeat:no-repeat no-repeat;height:60px;margin:0 auto; position:relative;width:980px;}
+#newsWrapper .bt-voltar.newsletter-button-back {background-attachment:scroll;background-color:transparent;background-image:url(/arquivos/btn_voltar.jpg);background-position:50% 0;background-repeat:no-repeat no-repeat;border:medium none;cursor:pointer;height:30px;position:absolute;right:37px;text-indent:-9999px;top:15px;width:111px;}
+#newsWrapper .newsletter fieldset.error {background-attachment:scroll;background-color:white;background-image:none;background-position:0 0;background-repeat:repeat repeat;font-size:14px;left:215px;width:610px;}
+#newsWrapper h3 {display:none;}
+#newsWrapper .newsletter .newsletter-title, #newsWrapper .newsletter fieldset p {display:none;}
+#newsWrapper .newsletter fieldset {float:left;height:30px;left:281px;position:relative;top:16px;width:660px;}
+#newsWrapper #newsletterClientName {background-attachment:scroll;background-color:transparent;background-image:none;background-position:0 0;background-repeat:repeat repeat;border:medium none;font-size:14px;height:26px;left:0;position:absolute;width:218px;}
+#newsWrapper #newsletterClientEmail {background-attachment:scroll;background-color:transparent;background-image:none;background-position:0 0;background-repeat:repeat repeat;border:medium none;font-size:14px;height:26px;left:306px;position:absolute;width:218px;}
+#newsWrapper #newsletterButtonOK {background-attachment:scroll;background-color:transparent;background-image:none;background-position:0 0;background-repeat:repeat repeat;border:medium none;cursor:pointer;display:block;height:28px;position:absolute;right:0;text-indent:-9999px;width:107px;}
+#wrapperDual {float:left;}
+#footer #wrapperDual div{margin-left:0;}
+#footer .itemGroup {display:inline;float:left;}
+#footerVipClub {clear:both;width:145px;}
+#footer #wrapperDual div {margin-left:0;}
+#footer #footerAtendimento {clear:both;margin-top:65px;}
+#footer #footerNews {left:35px;margin-left:0;position:relative;top:-13px;}
+#like_box {background-attachment:scroll;background-color:#FFFFFF;background-image:none;background-position:0 0;background-repeat:repeat repeat;float:right;margin-bottom:0;padding:5px;}
+#wrapperSelos {border-top-color:#999999;border-top-style:solid;border-top-width:1px;float:left;margin-left:25px;margin-top:30px;padding-top:15px;width:580px;}
+#wrapperSelos h3 {font-size:13px !important;}
+#wrapperSelos #pagamentoParcelado {background-attachment:scroll;background-color:transparent;background-image:url(/arquivos/sprite_icons.png);background-position:-5px -250px;background-repeat:no-repeat no-repeat;padding-bottom:28px;}
+#wrapperSelos #pagamentoAvista {background-attachment:scroll;background-color:transparent;background-image:url(/arquivos/sprite_icons.png);background-position:-5px -310px;background-repeat:no-repeat no-repeat;padding-bottom:30px;padding-right:85px;}
+#wrapperSelos div {float:left;margin-right:30px;}
+#footerCredits {font-size:10px;padding-top:15px;text-align:center;width:100%;}
+#footerCredits ul {margin:0 5px;overflow:hidden;width:976px;}
+#footerCredits li {border-right-style:solid;border-right-width:1px;display:inline;float:left;}
+#footerCredits li a {font-size:13px;margin:0 4px;}
 #footerCredits li a:hover {text-decoration:underline;}
-#logoBuscape {
-  width:110px;
-}
-#logoBondFaro {
-  background-position:-120px 50%;
-  width:96px;
-}
-#logoEbit {
-  background-position:-220px 50%;
-  width:42px;
-}
-#logoUndefined1 {
-  background-position:-270px 50%;
-  width:42px;
-}
-#logoUndefined2 {
-  background-position:-320px 50%;
-  width:38px;
-}
-#logoInternet {
-  background-position:-360px 50%;
-  width:68px;
-}
-#logoCamara {
-  background-position:-435px 50%;
-  width:118px;
-}
-#logoWebsolve {
-  background-position:-560px 50%;
-  width:84px;
-}
-#logoBlindado {
-  background-position:-655px 50%;
-  width:96px;
-}
-.login .content, .cadastro-cliente .content, .manutencao-conta .content {
-  background-color:#F2F2F2;
-  background-image:url(http://develop-portcasa.vtexcommerce.com.br/arquivos/finaliza_compra_fundo.jpg);
-  background-position:50% 100%;
-  background-repeat:no-repeat no-repeat;
-  color:#333333;
-  float:left;
-  padding:20px 20px 32px;
-  width:946px;
-}
-.login .content {
-  clear:both;
-}
-.listas .abas, .lstas .abas {
-  left:10px;
-  position:absolute;
-}
-.listas .abas li, .lstas .abas li {
-  background-image:url(http://develop-portcasa.vtexcommerce.com.br/arquivos/abas_fundo.png);
-  background-position:100% 50%;
-  background-repeat:no-repeat no-repeat;
-  float:left;
-  margin-right:10px;
-  padding:0 16px 0 0;
-}
-.listas .abas a, .lstas .abas a {
-  color:#000000;
-  cursor:pointer;
-  display:block;
-  font-family:androgyneregular;
-  font-size:15px;
-  padding:5px;
-}
-.listas .abas a:hover, .lstas .abas a:hover {
-  background-color:#95151B;
-  background-image:url(http://develop-portcasa.vtexcommerce.com.br/arquivos/btn_fundo_hover2.jpg);
-  background-position:50% 100%;
-  background-repeat:repeat no-repeat;
-  color:#FFFFFF !important;
-}
-.listas .abas li.ativo, .lstas .abas li.ativo {
-  background-color:#95151B;
-  background-image:url(http://develop-portcasa.vtexcommerce.com.br/arquivos/btn_fundo_hover2.jpg);
-  background-position:50% 100%;
-  background-repeat:repeat no-repeat;
-  color:#FFFFFF !important;
-  cursor:pointer;
-  display:block;
-  font-family:androgyneregular;
-  font-size:15px;
-  padding:5px;
-}
-.listas #tabela_login, .lstas #tabela_login {
-  margin-bottom:20px;
-}
-#tabela_login {
-  background-color:#F2F2F2;
-  background-image:url(http://develop-portcasa.vtexcommerce.com.br/arquivos/finaliza_compra_fundo.jpg);
-  background-position:50% 100%;
-  background-repeat:no-repeat no-repeat;
-  float:left;
-  padding:0 0 12px;
-  position:relative;
-  width:986px;
-}
-#tabela_login_conteudo {
-  background-attachment:scroll;
-  background-color:#F2F2F2;
-  background-image:url(http://develop-portcasa.vtexcommerce.com.br/arquivos/minha_conta_bg.jpg);
-  background-position:50% 0;
-  background-repeat:repeat no-repeat;
-  float:left;
-  padding:0 10px 10px;
-  width:966px;
-}
-.listas #sideBar, .lstas #sideBar {
-  background-color:#FFFFFF;
-  background-position:initial initial;
-  background-repeat:initial initial;
-  float:left;
-  margin-top:47px;
-  min-height:403px;
-  padding:0 10px 10px;
-  width:172px;
-}
-.listas #content, .lstas #content {
-  float:right;
-  padding-top:47px;
-  width:754px;
-}
-.listas #sideBar h2, .lstas #sideBar h2 {
-  color:#92151A;
-  font-size:15px;
-  font-weight:normal;
-  margin:10px 0;
-}
-.listas #sideBar ul, .lstas #sideBar ul {
-  padding-left:5px;
-}
-.listas #sideBar ul li, .lstas #sideBar ul li {
-  color:#000000;
-  font-size:13px;
-  margin:5px 0;
-}
-.listas #sideBar ul li a, .lstas #sideBar ul li a {
-  color:#000000;
-  font-size:13px;
-  margin:5px 0;
-}
-.listas #sideBar ul li a:hover, .lstas #sideBar ul li a:hover {
-  text-decoration:underline;
-}
-.listas .area-3-2-3 h3, .listas h2.titulo-sessao {
-  color:#000000;
-  display:block !important;
-  font-size:22px;
-  text-transform:capitalize;
-}
-.listas h2.giftlistsearch-title {
-  display:none;
-}
-.listas li.giftlistaddress input {
-  float:left;
-  margin-right:5px;
-}
-.listas address {
-  float:left;
-  width:122px;
-}
-.listas address h2 {
-  color:#000000;
-}
-.listas #topBar {
-  display:none;
-}
-.listas ul.giftlistsearchul li, .listas ul.giftlistul li {
-  clear:both;
-  float:left;
-  margin-top:10px;
-}
-.listas ul.giftlistsearchul span, .listas ul.giftlistul span {
-  float:left;
-  font-size:13px;
-  margin-right:10px;
-  margin-top:10px;
-  width:120px;
-}
-.listas ul.giftlistul li.giftlistphotoview span {
-  float:left;
-  margin-bottom:10px;
-  margin-left:7px;
-  margin-right:0;
-}
-.listas ul.giftlistsearchul .giftlistphoto span {
-  margin-top:0;
-}
-.listas ul.giftlistsearchul .giftlistsearchname input, .listas ul.giftlistsearchul .giftlistsearchgifeted input, .listas ul.giftlistsearchul .giftlistsearcheventdate input, .listas ul.giftlistsearchul .giftlistsearchcodigo input, .listas ul.giftlistul li.giftlisttype select, .listas ul.giftlistul li.giftlistname input, .listas ul.giftlistul li.giftlistgifeted input, .listas ul.giftlistul li.giftlisteventdate input, .listas ul.giftlistul li.giftlisturl input, .listas ul.giftlistul li.giftlistmessage input, .listas ul.giftlistul li.giftlistmessage textarea {
-  border: 1px solid #CCCCCC;
-  font-size:12px;
-  padding:8px 5px;
-  text-align:left;
-  width:340px;
-}
-.listas ul.giftlistsearchul .giftlistsearcheventdate input {
-  width:61px;
-}
-.listas ul.giftlistul li.giftlisttype select {
-  width:350px;
-}
-.listas ul.giftlistul li.giftlistmessage textarea {
-  height:110px;
-  resize:none;
-}
-.listas ul.giftlistsearchul li.giftlistsearchfind {
-  width:480px;
-}
-.listas ul.giftlistul #giftlistphoto {
-  margin:8px 20px 0 0;
-}
-.listas ul.giftlistul li.giftlistisactive {
-  display:none;
-}
-.listas ul.giftlistul li.giftlistphotoview div {
-}
-.listas ul.giftlistul li.giftlistphotoview img {
-  width:130px;
-}
-.listas ul.giftlistsearchul #giftlistsearchfind, .listas ul.giftlistul #giftlistupload, .listas ul.giftlistul #giftlistremovephoto, .listas #giftlistform #giftlistsave {
-  background-color:#95151B;
-  background-image:url(http://develop-portcasa.vtexcommerce.com.br/arquivos/btn_fundo_hover2.jpg);
-  background-position:50% 100%;
-  background-repeat:repeat no-repeat;
-  border:none;
-  color:#FFFFFF;
-  cursor:pointer;
-  float:right;
-  font-family:androgyneregular;
-  font-size:14px;
-  padding:5px 10px;
-}
-.listas #giftlistform #giftlistsave {
-  margin-right:274px;
-}
-.listas ul.giftlistul #giftlistremovephoto {
-  float:left;
-}
-.listas ul.address-list-select {
-  border-bottom-color:#999999;
-  border-bottom-style:dotted;
-  border-bottom-width:1px;
-  border-top-color:#999999;
-  border-top-style:dotted;
-  border-top-width:1px;
-  float:left;
-  margin-bottom:10px;
-  margin-top:10px;
-  padding-bottom:20px;
-  width:100%;
-}
-.listas ul.address-list-select li {
-  border-right-color:#999999;
-  border-right-style:dotted;
-  border-right-width:1px;
-  float:left;
-  font-size:13px;
-  margin:20px 20px 0 0;
-  padding-right:10px;
-  text-transform:uppercase;
-  width:140px;
-}
-.listas .address h2 {
-  color:#000000;
-}
-.lstas #topBar {
-  display:none;
-}
-.lstas ul.giftlist-action {
-  display:none;
-}
-.lstas #content h2.titulo-sessao {
-  color:#000000;
-  display:block !important;
-  font-size:22px;
-  text-transform:capitalize;
-}
-.lstas .giftlist-table {
-  margin-top:20px;
-}
-.lstas .giftlist-table th, .lstas .giftlist-table td {
-  border:1px solid #BCBCBC;
-  padding:3px 10px;
-}
-.lstas table.giftlist-table {
-  background-color:#F2F2F2;
-  background-position:initial initial;
-  background-repeat:initial initial;
-  border-collapse:collapse;
-  clear:both;
-  font-size:13px;
-  text-align:center;
-  width:100%;
-}
-.lstas table.giftlist-table thead {
-  background-color:#FFFFFF;
-  background-position:initial initial;
-  background-repeat:initial initial;
-  color:#696969;
-  font-size:14px;
-}
-.lstas table.giftlist-table thead th, .lstas table.giftlist-table thead tr {
-  border-top-color:#BCBCBC;
-  border-top-style:solid;
-  border-top-width:1px;
-  font-weight:normal;
-  padding:0 5px;
-  text-align:left;
-}
-.lstas table.giftlist-table thead th.giftlist-header-eventdate {
-  width:100px;
-}
-.lstas table.giftlist-table .giftlist-table {
-  border-right-color:#BCBCBC;
-  border-right-style:solid;
-  border-right-width:1px;
-  text-align:left;
-}
-.lstas table.giftlist-table tbody th, .lstas table.giftlist-table tbody td {
-  background-color:#F2F2F2;
-  background-position:initial initial;
-  background-repeat:initial initial;
-  border-top-color:#BCBCBC;
-  border-top-style:solid;
-  border-top-width:1px;
-}
-.lstas tfoot {
-  background-color:#FFFFFF;
-  background-position:initial initial;
-  background-repeat:initial initial;
-  border-bottom-color:#BCBCBC;
-  border-bottom-style:solid;
-  border-bottom-width:1px;
-  border-top-color:#BCBCBC;
-  border-top-style:solid;
-  border-top-width:1px;
-}
-.lstas tfoot .valor-total, .lstas tfoot .valor {
-  font-weight:bold;
-}
-.lstas table.giftlist-tabletbody th, .lstas table.giftlist-table tbody td {
-  border-top-color:#BCBCBC;
-  border-top-style:solid;
-  border-top-width:1px;
-  font-weight:normal;
-  padding:0 5px;
-  text-align:center;
-}
-.lstas table.giftlist-table tbody, .lstas tfoot {
-  color:#000000;
-}
-.lstas table.giftlist-table tfoot th, .lstas table.giftlist-table tfoot td, .lstas table.giftlist-table tbody th, .lstas table.giftlist-table tbody td {
-  padding-bottom:5px;
-  padding-top:5px;
-}
-.departamento #all {
-  width:980px;
-}
-.departamento #sideBar {
-  border-left-color:#000000;
-  border-left-style:solid;
-  border-left-width:1px;
-  border-right-color:#000000;
-  border-right-style:solid;
-  border-right-width:1px;
-  border-top-color:#000000;
-  border-top-style:solid;
-  border-top-width:1px;
-  float:left;
-  width:177px;
-  margin-bottom:20px;
-}
-.departamento #departmentNavigator > h3 {
-  background-attachment:scroll;
-  background-color:transparent;
-  background-image:url(http://develop-portcasa.vtexcommerce.com.br/arquivos/sprite_menu.png);
-  background-position:0 -480px;
-  background-repeat:no-repeat no-repeat;
-  border-bottom-color:black;
-  border-bottom-style:solid;
-  border-bottom-width:1px;
-  height:25px;
-  margin:0;
-  padding:0;
-  text-indent:-9999px;
-}
-.departamento #sideBar #departmentNavigator .menu-departamento h3 {
-  background-attachment:scroll;
-  background-color:transparent;
-  background-image:url(http://develop-portcasa.vtexcommerce.com.br/arquivos/sprite_menu.png);
-  background-position:-4px -517px;
-  background-repeat:no-repeat no-repeat;
-  font-weight:normal;
-  margin:0;
-  padding:15px 10px 5px 20px;
-  position:relative;
-  color:#000;
-}
-.departamento #sideBar #departmentNavigator .menu-departamento a {
-  color:#000000;
-  font-size:13px;
-  text-decoration:none;
-}
-.departamento #sideBar #departmentNavigator .menu-departamento a:hover {
-  color:#790A11;
-  text-decoration:underline;
-}
-.departamento #sideBar #departmentNavigator .menu-departamento ul {
-  border-bottom-color:#000000;
-  border-bottom-style:solid;
-  border-bottom-width:1px;
-  font-size:13px;
-  margin:0 5px 10px;
-  padding:0 0 5px 20px;
-}
-.departamento #sideBar #departmentNavigator .menu-departamento li {
-  margin:5px 0;
-}
-.departamento #sideBar #departmentNavigator .menu-departamento .brandFilter ul {
-  margin-bottom:0;
-}
-.departamento #sideBar #content #collections {
-  float:right;
-}
-.departamento #topBanners {
-  float:right;
-}
-.departamento #collections {
-  float:right;
-}
-.categoria #all {
-  width:980px;
-}
-.categoria #sideBar {
-  border-left-color:#000000;
-  border-left-style:solid;
-  border-left-width:1px;
-  border-right-color:#000000;
-  border-right-style:solid;
-  border-right-width:1px;
-  border-top-color:#000000;
-  border-top-style:solid;
-  border-top-width:1px;
-  float:left;
-  margin-bottom:20px;
-  width:177px;
-}
-.categoria #departmentNavigator > h3 {
-  background-attachment:scroll;
-  background-color:transparent;
-  background-image:url(http://develop-portcasa.vtexcommerce.com.br/arquivos/sprite_menu.png);
-  background-position:0 -480px;
-  background-repeat:no-repeat no-repeat;
-  border-bottom-color:black;
-  border-bottom-style:solid;
-  border-bottom-width:1px;
-  height:25px;
-  margin:0;
-  padding:0;
-  text-indent:-9999px;
-}
-.categoria #sideBar #departmentNavigator .menu-departamento h3 {
-  background-attachment:scroll;
-  background-color:transparent;
-  background-image:url(http://develop-portcasa.vtexcommerce.com.br/arquivos/sprite_menu.png);
-  background-position:-4px -517px;
-  background-repeat:no-repeat no-repeat;
-  font-weight:normal;
-  margin:0;
-  padding:15px 10px 5px 20px;
-  position:relative;
-}
-.categoria #sideBar #departmentNavigator .menu-departamento a {
-  color:#000000;
-  font-size:13px;
-  text-decoration:none;
-}
-.categoria #sideBar #departmentNavigator .menu-departamento a:hover {
-  color:#790A11;
-  text-decoration:underline;
-}
-.categoria #sideBar #departmentNavigator .menu-departamento ul {
-  border-bottom-color:#000000;
-  border-bottom-style:solid;
-  border-bottom-width:1px;
-  font-size:13px;
-  margin:0 5px 10px;
-  padding:0 0 5px 20px;
-}
-.categoria #sideBar #departmentNavigator .menu-departamento li {
-  margin:5px 0;
-}
-.categoria #sideBar #departmentNavigator .menu-departamento .brandFilter ul {
-  margin-bottom:0;
-}
-.categoria #sideBar #content #collections {
-  float:right;
-}
+#logoBuscape {width:110px;}
+#logoBondFaro {background-position:-120px 50%;width:96px;}
+#logoEbit {background-position:-220px 50%;width:42px;}
+#logoUndefined1 {background-position:-270px 50%;width:42px;}
+#logoUndefined2 {background-position:-320px 50%;width:38px;}
+#logoInternet {background-position:-360px 50%;width:68px;}
+#logoCamara {background-position:-435px 50%;width:118px;}
+#logoWebsolve {background-position:-560px 50%;width:84px;}
+#logoBlindado {background-position:-655px 50%;width:96px;}
+.login .content, .cadastro-cliente .content, .manutencao-conta .content {background-color:#F2F2F2;background-image:url(/arquivos/finaliza_compra_fundo.jpg);background-position:50% 100%;background-repeat:no-repeat no-repeat;color:#333333;float:left;padding:20px 20px 32px;width:946px;}
+.login .content {clear:both;}
+.listas ul.giftlistdetails, .listas ul.giftlistsku-action, .listas .giftlist-credit, .listas .giftlist-debit, .listas .giftlist-amount{clear:both;margin:10px 0;}
+.listas ul.giftlistsku-action li{margin: 10px 0;overflow: hidden;}
+.listas ul.giftlistsku-action a{background-color:#95151B;background-image:url(/arquivos/btn_fundo_hover2.jpg);background-position:50% 100%;background-repeat:repeat no-repeat;border:none;color:#FFFFFF;cursor:pointer;font-family:androgyneregular;font-size:14px;padding:5px 10px;float:left;}
+.listas span.titulo:after{content:" : "}
+.listas .giftlistsku-action-purchased{display:none;}
+.listas .abas, .lstas .abas {left:10px;position:absolute;}
+.listas .abas li, .lstas .abas li {background-image:url(/arquivos/abas_fundo.png);background-position:100% 50%;background-repeat:no-repeat no-repeat;float:left;margin-right:10px;padding:0 16px 0 0;}
+.listas .abas a, .lstas .abas a {color:#000000;cursor:pointer;display:block;font-family:androgyneregular;font-size:15px;padding:5px;}
+.listas .abas a:hover, .lstas .abas a:hover {background-color:#95151B;background-image:url(/arquivos/btn_fundo_hover2.jpg);background-position:50% 100%;background-repeat:repeat no-repeat;color:#FFFFFF !important;}
+.listas .abas li.ativo, .lstas .abas li.ativo {background-color:#95151B;background-image:url(/arquivos/btn_fundo_hover2.jpg);background-position:50% 100%;background-repeat:repeat no-repeat;color:#FFFFFF !important;cursor:pointer;display:block;font-family:androgyneregular;font-size:15px;padding:5px;}
+.listas #tabela_login, .lstas #tabela_login {margin-bottom:20px;}
+#tabela_login {background-color:#F2F2F2;background-image:url(/arquivos/finaliza_compra_fundo.jpg);background-position:50% 100%;background-repeat:no-repeat no-repeat;float:left;padding:0 0 12px;position:relative;width:986px;}
+#tabela_login_conteudo {background-attachment:scroll;background-color:#F2F2F2;background-image:url(/arquivos/minha_conta_bg.jpg);background-position:50% 0;background-repeat:repeat no-repeat;float:left;padding:0 10px 10px;width:966px;}
+.listas #sideBar, .lstas #sideBar {background-color:#FFFFFF;background-position:initial initial;background-repeat:initial initial;float:left;margin-top:47px;min-height:403px;padding:0 10px 10px;width:172px;}
+.listas #content, .lstas #content {float:right;padding-top:47px;width:754px;}
+.listas #sideBar h2, .lstas #sideBar h2 {color:#92151A;font-size:15px;font-weight:normal;margin:10px 0;}
+.listas #sideBar ul, .lstas #sideBar ul {padding-left:5px;}
+.listas #sideBar ul li, .lstas #sideBar ul li {color:#000000;font-size:13px;margin:5px 0;}
+.listas #sideBar ul li a, .lstas #sideBar ul li a {color:#000000;font-size:13px;margin:5px 0;}
+.listas #sideBar ul li a:hover, .lstas #sideBar ul li a:hover {text-decoration:underline;}
+.listas .area-3-2-3 h3, .listas h2.titulo-sessao {color:#000000;display:block !important;font-size:22px;text-transform:capitalize;}
+.listas h2.giftlistsearch-title {display:none;}
+.listas li.giftlistaddress input {float:left;margin-right:5px;}
+.listas address {float:left;width:122px;}
+.listas address h2 {color:#000000;}
+.listas #topBar {display:none;}
+.listas ul.giftlistsearchul li, .listas ul.giftlistul li {clear:both;float:left;margin-top:10px;}
+.listas ul.giftlistsearchul span, .listas ul.giftlistul span {float:left;font-size:13px;margin-right:10px;margin-top:10px;width:120px;}
+.listas ul.giftlistul li.giftlistphotoview span {float:left;margin-bottom:10px;margin-left:7px;margin-right:0;}
+.listas ul.giftlistsearchul .giftlistphoto span {margin-top:0;}
+.listas ul.giftlistsearchul .giftlistsearchname input, .listas ul.giftlistsearchul .giftlistsearchgifeted input, .listas ul.giftlistsearchul .giftlistsearcheventdate input, .listas ul.giftlistsearchul .giftlistsearchcodigo input, .listas ul.giftlistul li.giftlisttype select, .listas ul.giftlistul li.giftlistname input, .listas ul.giftlistul li.giftlistgifeted input, .listas ul.giftlistul li.giftlisteventdate input, .listas ul.giftlistul li.giftlisturl input, .listas ul.giftlistul li.giftlistmessage input, .listas ul.giftlistul li.giftlistmessage textarea {border: 1px solid #CCCCCC;font-size:12px;padding:8px 5px;text-align:left;width:340px;}
+.listas ul.giftlistsearchul .giftlistsearcheventdate input {width:61px;}
+.listas ul.giftlistul li.giftlisttype select {width:350px;}
+.listas ul.giftlistul li.giftlistmessage textarea {height:110px;resize:none;}
+.listas ul.giftlistsearchul li.giftlistsearchfind {width:480px;}
+.listas ul.giftlistul #giftlistphoto {margin:8px 20px 0 0;}
+.listas ul.giftlistul li.giftlistisactive {display:none;}
+.listas ul.giftlistul li.giftlistphotoview img {width:130px;}
+.listas ul.giftlistsearchul #giftlistsearchfind, .listas ul.giftlistul #giftlistupload, .listas ul.giftlistul #giftlistremovephoto, .listas #giftlistform #giftlistsave {background-color:#95151B;background-image:url(/arquivos/btn_fundo_hover2.jpg);background-position:50% 100%;background-repeat:repeat no-repeat;border:none;color:#FFFFFF;cursor:pointer;float:right;font-family:androgyneregular;font-size:14px;padding:5px 10px;}
+.listas #giftlistform #giftlistsave {margin-right:274px;}
+.listas ul.giftlistul #giftlistremovephoto {float:left;}
+.listas ul.address-list-select {border-bottom-color:#999999;border-bottom-style:dotted;border-bottom-width:1px;border-top-color:#999999;border-top-style:dotted;border-top-width:1px;float:left;margin-bottom:10px;margin-top:10px;padding-bottom:20px;width:100%;}
+.listas ul.address-list-select li {border-right-color:#999999;border-right-style:dotted;border-right-width:1px;float:left;font-size:13px;margin:20px 20px 0 0;padding-right:10px;text-transform:uppercase;width:140px;}
+.listas .address h2 {color:#000000;}
+.lstas #topBar {display:none;}
+.lstas ul.giftlist-action {display:none;}
+.lstas #content h2.titulo-sessao {color:#000000;display:block !important;font-size:22px;text-transform:capitalize;}
+.lstas .giftlist-table {margin-top:20px;}
+.lstas .giftlist-table th, .lstas .giftlist-table td {border:1px solid #BCBCBC;padding:3px 10px;}
+.listas .giftlistsearch-result{margin-top:10px;}
+.lstas table.giftlist-table, .listas table.giftlist-table {background-color:#F2F2F2;background-position:initial initial;background-repeat:initial initial;border-collapse:collapse;clear:both;font-size:13px;text-align:center;width:100%;}
+.lstas table.giftlist-table thead, .listas table.giftlist-table thead {background-color:#FFFFFF;background-position:initial initial;background-repeat:initial initial;color:#696969;font-size:14px;}
+.lstas table.giftlist-table thead th, .lstas table.giftlist-table thead tr, .listas table.giftlist-table thead th, .listas table.giftlist-table thead tr{border-top-color:#BCBCBC;border-top-style:solid;border-top-width:1px;font-weight:normal;padding:0 5px;text-align:left;}
+.lstas table.giftlist-table thead th.giftlist-header-eventdate {width:100px;}
+.lstas table.giftlist-table .giftlist-table, .listas table.giftlist-table .giftlist-table {border-right-color:#BCBCBC;border-right-style:solid;border-right-width:1px;text-align:left;}
+.lstas table.giftlist-table tbody th, .lstas table.giftlist-table tbody td, .listas table.giftlist-table tbody th, .listas table.giftlist-table tbody td {background-color:#F2F2F2;background-position:initial initial;background-repeat:initial initial;border-top-color:#BCBCBC;border-top-style:solid;border-top-width:1px;}
+.lstas tfoot {background-color:#FFFFFF;background-position:initial initial;background-repeat:initial initial;border-bottom-color:#BCBCBC;border-bottom-style:solid;border-bottom-width:1px;border-top-color:#BCBCBC;border-top-style:solid;border-top-width:1px;}
+.lstas tfoot .valor-total, .lstas tfoot .valor {font-weight:bold;}
+.lstas table.giftlist-tabletbody th, .lstas table.giftlist-table tbody td {border-top-color:#BCBCBC;border-top-style:solid;border-top-width:1px;font-weight:normal;padding:0 5px;text-align:center;}
+.lstas table.giftlist-table tbody, .lstas tfoot {color:#000000;}
+.lstas table.giftlist-table tfoot th, .lstas table.giftlist-table tfoot td, .lstas table.giftlist-table tbody th, .lstas table.giftlist-table tbody td {padding-bottom:5px;padding-top:5px;}
+.departamento #all {width:980px;}
+.departamento #sideBar {border-left-color:#000000;border-left-style:solid;border-left-width:1px;border-right-color:#000000;border-right-style:solid;border-right-width:1px;border-top-color:#000000;border-top-style:solid;border-top-width:1px;float:left;width:177px;margin-bottom:20px;}
+.departamento #departmentNavigator > h3 {background-attachment:scroll;background-color:transparent;background-image:url(/arquivos/sprite_menu.png);background-position:0 -480px;background-repeat:no-repeat no-repeat;border-bottom-color:black;border-bottom-style:solid;border-bottom-width:1px;height:25px;margin:0;padding:0;text-indent:-9999px;}
+.departamento #sideBar #departmentNavigator .menu-departamento h3 {background-attachment:scroll;background-color:transparent;background-image:url(/arquivos/sprite_menu.png);background-position:-4px -517px;background-repeat:no-repeat no-repeat;font-weight:normal;margin:0;padding:15px 10px 5px 20px;position:relative;color:#000;}
+.departamento #sideBar #departmentNavigator .menu-departamento a {color:#000000;font-size:13px;text-decoration:none;}
+.departamento #sideBar #departmentNavigator .menu-departamento a:hover {color:#790A11;text-decoration:underline;}
+.departamento #sideBar #departmentNavigator .menu-departamento ul {border-bottom-color:#000000;border-bottom-style:solid;border-bottom-width:1px;font-size:13px;margin:0 5px 10px;padding:0 0 5px 20px;}
+.departamento #sideBar #departmentNavigator .menu-departamento li {margin:5px 0;}
+.departamento #sideBar #departmentNavigator .menu-departamento .brandFilter ul {margin-bottom:0;}
+.departamento #sideBar #content #collections {float:right;}
+.departamento #topBanners {float:right;}
+.departamento #collections {float:right;}
+.sub{float:right;}
+.categoria #all {width:980px;}
+.categoria #sideBar {border-left-color:#000000;border-left-style:solid;border-left-width:1px;border-right-color:#000000;border-right-style:solid;border-right-width:1px;border-top-color:#000000;border-top-style:solid;border-top-width:1px;float:left;margin-bottom:20px;width:177px;}
+.categoria #departmentNavigator > h3 {background-attachment:scroll;background-color:transparent;background-image:url(/arquivos/sprite_menu.png);background-position:0 -480px;background-repeat:no-repeat no-repeat;border-bottom-color:black;border-bottom-style:solid;border-bottom-width:1px;height:25px;margin:0;padding:0;text-indent:-9999px;}
+.categoria #sideBar #departmentNavigator .menu-departamento h3 {background-attachment:scroll;background-color:transparent;background-image:url(/arquivos/sprite_menu.png);background-position:-4px -517px;background-repeat:no-repeat no-repeat;font-weight:normal;margin:0;padding:15px 10px 5px 20px;position:relative;}
+.categoria #sideBar #departmentNavigator .menu-departamento a {color:#000000;font-size:13px;text-decoration:none;}
+.categoria #sideBar #departmentNavigator .menu-departamento a:hover {color:#790A11;text-decoration:underline;}
+.categoria #sideBar #departmentNavigator .menu-departamento ul {border-bottom-color:#000000;border-bottom-style:solid;border-bottom-width:1px;font-size:13px;margin:0 5px 10px;padding:0 0 5px 20px;}
+.categoria #sideBar #departmentNavigator .menu-departamento li {margin:5px 0;}
+.categoria #sideBar #departmentNavigator .menu-departamento .brandFilter ul {margin-bottom:0;}
+.categoria #sideBar #content #collections {float:right;}
 .departamento #topBanners {float: right;height: 280px;overflow: hidden;width: 780px;position:relative;}
 .departamento #topBanners .topBanners_fundo{width:442px;height:280px;background:url(/arquivos/banner_departamento_fundo.png) no-repeat left top;position:absolute;top:0;left:0;z-index:50;}
 .departamento #topBanners .topBanners_titulo{font-size: 23px;top: 45px;left: 39px;position: absolute;width: 343px;font-style:italic;text-transform:uppercase;z-index:100;font-family:androgyneregular;text-shadow:-17px -22px 1px #999999, 18px 9px 1px #cccccc;-moz-text-shadow:-17px -22px 1px #999999, 18px 9px 1px #cccccc;-webkit-text-shadow:-17px -22px 1px #999999, 18px 9px 1px #cccccc;}
@@ -2135,179 +420,56 @@ h1.title {
 .departamento #topBanners .topBanners_menu .menu-departamento > h4 a{color: #FFFFFF;font-family: androgyneregular;font-weight: normal;text-decoration:none;}
 .departamento #topBanners .topBanners_menu .menu-departamento > h4 a:hover{text-decoration:underline;}
 
-.categoria #collections {
-  float:right;
-}
-.resultado-busca #all {
-  width:980px;
-}
-.resultado-busca #sideBar {
-  border-left-color:#000000;
-  border-left-style:solid;
-  border-left-width:1px;
-  border-right-color:#000000;
-  border-right-style:solid;
-  border-right-width:1px;
-  border-top-color:#000000;
-  border-top-style:solid;
-  border-top-width:1px;
-  float:left;
-  margin-bottom:20px;
-  width:177px;
-}
-.resultado-busca #departmentNavigator > h3 {
-  background-attachment:scroll;
-  background-color:transparent;
-  background-image:url(http://develop-portcasa.vtexcommerce.com.br/arquivos/sprite_menu.png);
-  background-position:0 -480px;
-  background-repeat:no-repeat no-repeat;
-  border-bottom-color:black;
-  border-bottom-style:solid;
-  border-bottom-width:1px;
-  height:25px;
-  margin:0;
-  padding:0;
-  text-indent:-9999px;
-}
-.resultado-busca #sideBar #departmentNavigator .menu-departamento h3 {
-  background-attachment:scroll;
-  background-color:transparent;
-  background-image:url(http://develop-portcasa.vtexcommerce.com.br/arquivos/sprite_menu.png);
-  background-position:-4px -517px;
-  background-repeat:no-repeat no-repeat;
-  font-weight:normal;
-  margin:0;
-  padding:15px 10px 5px 20px;
-  position:relative;
-}
-.resultado-busca #sideBar #departmentNavigator .menu-departamento a {
-  color:#000000;
-  font-size:13px;
-  text-decoration:none;
-}
-.resultado-busca #sideBar #departmentNavigator .menu-departamento a:hover {
-  color:#790A11;
-  text-decoration:underline;
-}
-.resultado-busca #sideBar #departmentNavigator .menu-departamento ul {
-  border-bottom-color:#000000;
-  border-bottom-style:solid;
-  border-bottom-width:1px;
-  font-size:13px;
-  margin:0 5px 10px;
-  padding:0 0 5px 20px;
-}
-.resultado-busca #sideBar #departmentNavigator .menu-departamento li {
-  margin:5px 0;
-}
-.resultado-busca #sideBar #departmentNavigator .menu-departamento .brandFilter ul {
-  margin-bottom:0;
-}
-.resultado-busca #sideBar #content #collections {
-  float:right;
-}
-.resultado-busca #topBanners {
-  float:right;
-}
-.resultado-busca #collections {
-  float:right;
-}
-.resultado-busca .busca-vazio {
-  background-color:#F3F3F3;
-  background-position:initial initial;
-  background-repeat:initial initial;
-  font-family:androgyneregular;
-  font-size:14px;
-  font-weight:normal;
-  padding:15px;
-  text-align:center;
-  width:750px;
-}
-.login h2 {
-  display:none;
-}
-#topBanners #menu-topBanners {
-  background-image:-webkit-gradient(linear, 0 0%, 0 100%, from(#95151B), to(#610E15));
-  background-position:initial initial;
-  background-repeat:initial initial;
-  bottom:0;
-  height:auto;
-  left:0;
-  margin:0 20px;
-  overflow:hidden;
-  position:absolute;
-  width:741px;
-}
-#topBanners #menu-topBanners ul, #topBanners #menu-topBanners li, #topBanners #menu-topBanners a {
-  display:block;
-  height:auto;
-  overflow:hidden;
-  width:auto;
-}
-#topBanners #menu-topBanners li {
-  float:left;
-}
-#topBanners #menu-topBanners a {
-  color:#FFFFFF;
-  font-family:androgyneregular;
-  font-size:18px;
-  padding:21px 25px;
-}
-#topBanners #menu-topBanners a:hover {
-  text-decoration:underline;
-}
+.categoria #collections {float:right;}
+.resultado-busca #all {width:980px;}
+.resultado-busca #sideBar {border-left-color:#000000;border-left-style:solid;border-left-width:1px;border-right-color:#000000;border-right-style:solid;border-right-width:1px;border-top-color:#000000;border-top-style:solid;border-top-width:1px;float:left;margin-bottom:20px;width:177px;}
+.resultado-busca #departmentNavigator > h3 {background-attachment:scroll;background-color:transparent;background-image:url(/arquivos/sprite_menu.png);background-position:0 -480px;background-repeat:no-repeat no-repeat;border-bottom-color:black;border-bottom-style:solid;border-bottom-width:1px;height:25px;margin:0;padding:0;text-indent:-9999px;}
+.resultado-busca #sideBar #departmentNavigator .menu-departamento h3 {background-attachment:scroll;background-color:transparent;background-image:url(/arquivos/sprite_menu.png);background-position:-4px -517px;background-repeat:no-repeat no-repeat;font-weight:normal;margin:0;padding:15px 10px 5px 20px;position:relative;}
+.resultado-busca #sideBar #departmentNavigator .menu-departamento a {color:#000000;font-size:13px;text-decoration:none;}
+.resultado-busca #sideBar #departmentNavigator .menu-departamento a:hover {color:#790A11;text-decoration:underline;}
+.resultado-busca #sideBar #departmentNavigator .menu-departamento ul {border-bottom-color:#000000;border-bottom-style:solid;border-bottom-width:1px;font-size:13px;margin:0 5px 10px;padding:0 0 5px 20px;}
+.resultado-busca #sideBar #departmentNavigator .menu-departamento li {margin:5px 0;}
+.resultado-busca #sideBar #departmentNavigator .menu-departamento .brandFilter ul {margin-bottom:0;}
+.resultado-busca #sideBar #content #collections {float:right;}
+.resultado-busca #topBanners {float:right;}
+.resultado-busca #collections {float:right;}
+.resultado-busca .busca-vazio {background-color:#F3F3F3;background-position:initial initial;background-repeat:initial initial;font-family:androgyneregular;font-size:14px;font-weight:normal;padding:15px;text-align:center;width:750px;}
+.login h2 {display:none;}
+#topBanners #menu-topBanners {background-image:-webkit-gradient(linear, 0 0%, 0 100%, from(#95151B), to(#610E15));background-position:initial initial;background-repeat:initial initial;bottom:0;height:auto;left:0;margin:0 20px;overflow:hidden;position:absolute;width:741px;}
+#topBanners #menu-topBanners ul, #topBanners #menu-topBanners li, #topBanners #menu-topBanners a {display:block;height:auto;overflow:hidden;width:auto;}
+#topBanners #menu-topBanners li {float:left;}
+#topBanners #menu-topBanners a {color:#FFFFFF;font-family:androgyneregular;font-size:18px;padding:21px 25px;}
+#topBanners #menu-topBanners a:hover {text-decoration:underline;}
 
-.bread-crumb{
-  padding: 5px 20px;
-  margin-bottom: 5px;
-  overflow:hidden;
-  background: #efefef;
-  float: left;
-}
+.bread-crumb{padding: 5px 20px;margin-bottom: 5px;overflow:hidden;background: #efefef;float: left;}
+.bread-crumb li{padding: 0 5px 0 0;float: left;font-size: 16px;}
+.bread-crumb li:after{content: "|";}
+.bread-crumb .last:after{content: "";}
+.bread-crumb li a{margin-right: 5px;font-family: "Trebuchet MS";}
 
-.bread-crumb li{
-  padding: 0 5px 0 0;
-  float: left;
+#menu li a{font-family: tahoma;}
 
-  font-size: 16px;
-}
+.confirmacao-compra h2{border-bottom: 1px dotted #ccc;}
 
-.bread-crumb li:after{
-  content: "|";
-}
+.confirmacao-compra .confirmar-pedido.top{display: none;}
 
-.bread-crumb .last:after{
-  content: "";
-}
+.forma-pagamento .dados-pagamento{margin: 10px 0 !important;background: #fff !important;}
 
-.bread-crumb li a{
-  margin-right: 5px;
-  font-family: "Trebuchet MS";
-}
+#ajaxBusy {position: fixed;top: 0;left: 20px;border: solid 2px #000;background: #fff;color:#000;padding: 7px 20px;}
 
-#menu li a{
-  font-family: tahoma;
-}
 
-.confirmacao-compra h2{
-  border-bottom: 1px dotted #ccc;
-}
+/********** INSTITUCIONAL ************/
 
-.confirmacao-compra .confirmar-pedido.top{
-  display: none;
-}
+.institucional #sideBar {border-left-color:#000000;border-left-style:solid;border-left-width:1px;border-right-color:#000000;border-right-style:solid;border-right-width:1px;border-top-color:#000000;border-top-style:solid;border-top-width:1px;float:left;width:177px;margin-bottom:20px;}
+.institucional #departmentNavigator > h3 {background-attachment:scroll;background-color:transparent;background-image:url(/arquivos/sprite_menu.png);background-position:0 -480px;background-repeat:no-repeat no-repeat;border-bottom-color:black;border-bottom-style:solid;border-bottom-width:1px;height:25px;margin:0;padding:0;text-indent:-9999px;}
+.institucional #sideBar #departmentNavigator .menu-departamento h3 {background-attachment:scroll;background-color:transparent;background-image:url(/arquivos/sprite_menu.png);background-position:-4px -517px;background-repeat:no-repeat no-repeat;font-weight:normal;margin:0;padding:15px 10px 5px 20px;position:relative;color:#000;}
+.institucional #sideBar #departmentNavigator .menu-departamento a {color:#000000;font-size:13px;text-decoration:none;}
+.institucional #sideBar #departmentNavigator .menu-departamento a:hover {color:#790A11;text-decoration:underline;}
+.institucional #sideBar #departmentNavigator .menu-departamento ul {border-bottom-color:#000000;border-bottom-style:solid;border-bottom-width:1px;font-size:13px;margin:0 5px 10px;padding:0 0 5px 20px;}
+.institucional #sideBar #departmentNavigator .menu-departamento li {margin:5px 0;}
+.institucional #sideBar #departmentNavigator .menu-departamento .brandFilter ul {margin-bottom:0;}
+.institucional #sideBar #content #collections {float:right;}
 
-.forma-pagamento .dados-pagamento{
-  margin: 10px 0 !important;
-  background: #fff !important;
-}
-
-#ajaxBusy {
-	position: fixed;
-	top: 0;
-	left: 20px;
-	border: solid 2px #000;
-	background: #fff;
-	color:#000;
-	padding: 7px 20px;
-}
+.institucional #content {float: left;width: 750px;padding: 0 20px;}
+.institucional #content h2 {margin-bottom: 20px;}
+.institucional #content h3 {margin: 20px 0 5px;}
